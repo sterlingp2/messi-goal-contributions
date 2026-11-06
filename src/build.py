@@ -284,6 +284,33 @@ for d in sorted(set(tmll)|{r['date'] for r in rows if r['kind']=='Assist' and r[
             ll_inferred+=1
     else: ll_unresolved.append((d,tmll[d],len(have)))
 print('La Liga: inferred from StatsBomb',ll_inferred,'removed by report',ll_removed,'unresolved',ll_unresolved,file=sys.stderr)
+# ---- Transfermarkt "All goals" page, Friendlies filter: minutes of Argentina friendly goals ----
+from transfermarkt_goals import parse as _parse_goals
+_pages=[f for f in sorted(_g.glob(RAW+'*.html'))
+        if re.search(r'og:url" content="[^"]*/alletore/[^"]*wettbewerb=FS', open(f,encoding='utf-8',errors='replace').read(30000))]
+if not _pages:
+    sys.exit('ERROR: no saved Transfermarkt "All goals" page with the Friendlies filter in '+RAW+
+             '. It supplies the minute of Argentina friendly goals. See README, "Rebuilding the data".')
+fs_goals=[g for g in _parse_goals(_pages[0]) if g['team']=='Argentina' and '2004-10-16'<=g['date']<='2021-05-16']
+if not fs_goals:
+    sys.exit('ERROR: '+os.path.basename(_pages[0])+' has no senior Argentina goals. Save it again with the Friendlies filter on.')
+fs_filled=[]; fs_partner=[]; fs_conflicts=[]; fs_unmatched=[]
+for g_ in [r for r in rows if r['team']=='Argentina' and r['kind']=='Goal' and r['comp']=='International Friendly']:
+    d0=_dt.date.fromisoformat(g_['date'])
+    cands_=[t for t in fs_goals if abs((_dt.date.fromisoformat(t['date'])-d0).days)<=1
+            and strip(t['opp'].replace(' ',''))[:5]==strip(g_['opp'].replace(' ',''))[:5]]
+    def arg_first(t):  # Transfermarkt prints home:away
+        a,b=t['at_score'].split(':'); return f"{a}–{b}" if t['venue']=='H' else f"{b}–{a}"
+    hit=[t for t in cands_ if arg_first(t)==g_['score_after']]
+    if len(hit)!=1: fs_unmatched.append((g_['date'],g_['opp'],g_['score_after'],len(hit))); continue
+    t=hit[0]
+    if not g_['minute']: g_['minute']=t['minute']; fs_filled.append(g_['date'])
+    elif g_['minute']!=t['minute']: fs_conflicts.append((g_['date'],g_['opp'],'minute',g_['minute'],t['minute']))
+    if (t['type']=='Penalty')!=(g_['gtype']=='Penalty'): fs_conflicts.append((g_['date'],g_['opp'],'penalty',g_['gtype'],t['type']))
+    if t['assist'] and t['type']!='Penalty':
+        if not g_['partner']: g_['partner']=t['assist']; fs_partner.append((g_['date'],t['assist']))
+        elif strip(g_['partner'])[-5:]!=strip(t['assist'])[-5:]: fs_conflicts.append((g_['date'],g_['opp'],'assist',g_['partner'],t['assist']))
+print('friendlies page: minutes filled',len(fs_filled),'assisters added',fs_partner,'conflicts',fs_conflicts,'unmatched',fs_unmatched,file=sys.stderr)
 TMOPP={'Athletic Bilbao':'Athletic Club','Atlético de Madrid':'Atlético Madrid','CA Osasuna':'Osasuna','Granada CF':'Granada','Levante UD':'Levante',
  'RCD Espanyol Barcelona':'Espanyol','Sevilla FC':'Sevilla','Valencia CF':'Valencia','Villarreal CF':'Villarreal','Ferencvarosi TC':'Ferencváros',
  'Panathinaikos Athens':'Panathinaikos','SV Werder Bremen':'Werder Bremen','CD Numancia de Soria':'Numancia','Club Atletico de Ceuta':'AD Ceuta',

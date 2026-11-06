@@ -29,7 +29,7 @@ Files: [`data/messi_contributions.csv`](data/messi_contributions.csv) and [`data
 | `venue` | `H` home, `A` away, `N` neutral |
 | `score` | Final score, Messi's team first (`3–1`) |
 | `result` | `W`, `D` or `L` for Messi's team |
-| `minute` | Minute of the goal; stoppage time as `45+2`. Empty for 21 Argentina friendly goals |
+| `minute` | Minute of the goal; stoppage time as `45+2` |
 | `body` | Body part of the finish: `Left Foot`, `Right Foot`, `Head`, `Other`. For assists, the teammate's finish |
 | `gtype` | `Open Play`, `Penalty` or `Free Kick` (direct) |
 | `technique` | Finishing technique where StatsBomb or the video log records one (`Lob`, `Volley`, `tap-in`) |
@@ -49,7 +49,7 @@ Files: [`data/messi_contributions.csv`](data/messi_contributions.csv) and [`data
 ## Sources and credits
 
 - **StatsBomb open data** (https://github.com/statsbomb/open-data): every La Liga match Messi played from 2004/05 to 2020/21, the 2009, 2011 and 2015 Champions League finals, and the 2018 World Cup. Supplies shot and pass coordinates, body part, xG and most La Liga assists. Data provided by StatsBomb; use is subject to StatsBomb's open data terms in that repository.
-- **Transfermarkt** (https://www.transfermarkt.com): per-match goal and assist counts for every season and for Argentina, and from match reports the scorer, minute and assist type of each assist that StatsBomb does not cover. The pages were saved by hand from a browser. **The raw Transfermarkt pages are not redistributed in this repository**; only facts extracted from them (who assisted whom, when, in which match) appear in `data/`. This project is not affiliated with Transfermarkt.
+- **Transfermarkt** (https://www.transfermarkt.com): per-match goal and assist counts for every season and for Argentina; from match reports, the scorer, minute and assist type of each assist that StatsBomb does not cover; and from Messi's goal list, the minute of each Argentina friendly goal. The pages were saved by hand from a browser. **The raw Transfermarkt pages are not redistributed in this repository**; only facts extracted from them (who assisted whom, when, in which match) appear in `data/`. This project is not affiliated with Transfermarkt.
 - **Wikipedia** (English): Argentina final scores, home/away/neutral venues, and the minute of every competitive Argentina goal, from the list of Messi's international goals and the tournament match records.
 - **Club goal log** derived from Transfermarkt by [avishek-choudhary/Lionel-Messi-Club-Career-Goals-Analysis](https://github.com/avishek-choudhary/Lionel-Messi-Club-Career-Goals-Analysis): minute, final score and assister of each Barcelona goal.
 - **Video-transcribed goal log** by [raym26/messi-800-goals-dataset](https://github.com/raym26/messi-800-goals-dataset): location and body part of goals outside StatsBomb's coverage.
@@ -73,12 +73,12 @@ Requires Python 3.9+ and git; no third-party Python packages.
    - **Stats pages** (one per season, plus the national-team page). The table of matches on these pages loads only when you scroll to it, so a page saved straight away holds an empty frame. For each page: open it, **scroll down until the table of matches appears**, then **Save Page As → Webpage, Complete**. The browser also writes a `_files` folder next to each page; it can stay in `raw/transfermarkt/` or be deleted, as the build reads only the `.html` file.
      - Messi's detailed stats page for each season, 2004/05 to 2020/21: `https://www.transfermarkt.com/lionel-messi/leistungsdatendetails/spieler/28003/saison/YEAR/plus/1` with `YEAR` = 2004 … 2020.
      - Messi's national-team page, detailed view: `https://www.transfermarkt.com/lionel-messi/nationalmannschaft/spieler/28003/verein/3437/plus/1`.
+   - **Messi's goal list, friendlies only.** Open `https://www.transfermarkt.com/lionel-messi/alletore/spieler/28003/plus/1` (the detailed view) and set the competition filter to **Friendlies**; the address then contains `wettbewerb=FS`. This page is rendered by the server, so **Save Page As → Webpage, HTML only** is enough. It supplies the minute of each Argentina friendly goal.
    - **Match reports** load fully without scrolling, so **Save Page As → Webpage, HTML only** is enough. You need the report of every match outside La Liga in which he has an assist, and of the La Liga matches the build reports as unresolved. Report links are on the stats pages (click the score).
 2. Run `./run.sh`. It downloads StatsBomb data, the pinned Wikipedia revisions and the two goal logs into `work/` (also git-ignored), then writes `data/`.
 
-The build stops with an error naming the file if a stats page has no table of matches (saved before the table loaded) or if a season's page is missing. It then prints a reconciliation summary; any La Liga match it cannot settle from StatsBomb's events is listed as unresolved and needs its match report.
+The build stops with an error naming the file if a stats page has no table of matches (saved before the table loaded), if a season's page is missing, or if the friendlies goal list is missing. It then prints a reconciliation summary; any La Liga match it cannot settle from StatsBomb's events is listed as unresolved and needs its match report.
 
 ## Known gaps
 
 - No pitch location for the 141 assists outside La Liga.
-- No minute for 21 Argentina friendly goals.

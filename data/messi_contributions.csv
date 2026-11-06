@@ -35,8 +35,8 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 34,2007-05-20,2006/07,Goal,Barcelona,La Liga,Atlético Madrid,A,6–0,W,39,Left Foot,Open Play,,Samuel Eto'o,,90.6,44.4,,,0.175,statsbomb
 35,2007-05-20,2006/07,Goal,Barcelona,La Liga,Atlético Madrid,A,6–0,W,80,Left Foot,Open Play,Lob,Giovanni van Bronckhorst,,90.6,37.1,,,0.322,statsbomb
 36,2007-06-01,2006/07,Assist,Argentina,International Friendly,Switzerland,A,1–1,D,49,,Open Play,,Carlos Tevez,Pass,,,,,,
-37,2007-06-05,2006/07,Goal,Argentina,International Friendly,Algeria,N,4–3,W,,Left Foot,Penalty,,,,89,50,,,,video
-38,2007-06-05,2006/07,Goal,Argentina,International Friendly,Algeria,N,4–3,W,,Left Foot,Open Play,,,,91,52,,,,video
+37,2007-06-05,2006/07,Goal,Argentina,International Friendly,Algeria,N,4–3,W,55,Left Foot,Penalty,,,,89,50,,,,video
+38,2007-06-05,2006/07,Goal,Argentina,International Friendly,Algeria,N,4–3,W,74,Left Foot,Open Play,,Pablo Aimar,,91,52,,,,video
 39,2007-06-09,2006/07,Goal,Barcelona,La Liga,Espanyol,H,2–2,D,43,Head,Open Play,,Gianluca Zambrotta,,96.4,52.5,,,0.501,statsbomb
 40,2007-06-09,2006/07,Goal,Barcelona,La Liga,Espanyol,H,2–2,D,57,Right Foot,Open Play,,Deco,,94.3,63.5,,,0.192,statsbomb
 41,2007-06-17,2006/07,Assist,Barcelona,La Liga,Gimnàstic Tarragona,A,5–1,W,20,Left Foot,Open Play,,Carles Puyol,Pass,94.7,52.2,94.6,68.6,0.668,statsbomb
@@ -124,7 +124,7 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 123,2009-02-01,2008/09,Goal,Barcelona,La Liga,Racing Santander,A,2–1,W,81,Right Foot,Open Play,Half Volley,,,91.8,63.6,,,0.056,statsbomb
 124,2009-02-08,2008/09,Assist,Barcelona,La Liga,Sporting Gijón,H,3–1,W,40,Right Foot,Open Play,,Samuel Eto'o,Pass,95.1,60.6,81.9,71.8,0.238,statsbomb
 125,2009-02-08,2008/09,Assist,Barcelona,La Liga,Sporting Gijón,H,3–1,W,65,Right Foot,Open Play,,Dani Alves,Pass,93.3,63.5,90.9,71.1,0.078,statsbomb
-126,2009-02-11,2008/09,Goal,Argentina,International Friendly,France,A,2–0,W,,Left Foot,Open Play,,Carlos Tevez,,87,33,,,,video
+126,2009-02-11,2008/09,Goal,Argentina,International Friendly,France,A,2–0,W,83,Left Foot,Open Play,,Carlos Tevez,,87,33,,,,video
 127,2009-03-01,2008/09,Goal,Barcelona,La Liga,Atlético Madrid,A,3–4,L,30,Left Foot,Open Play,,Thierry Henry,,91.5,38.4,,,0.2,statsbomb
 128,2009-03-04,2008/09,Goal,Barcelona,Copa del Rey,Mallorca,A,1–1,D,81,Left Foot,Open Play,chip,Gerard Pique,,87,54,,,,video
 129,2009-03-07,2008/09,Goal,Barcelona,La Liga,Athletic Club,H,2–0,W,31,Left Foot,Penalty,,,,89.9,50.1,,,0.783,statsbomb
@@ -161,7 +161,7 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 160,2009-10-25,2009/10,Goal,Barcelona,La Liga,Real Zaragoza,H,6–1,W,80,Left Foot,Open Play,Lob,Andrés Iniesta,,89.9,54.9,,,0.394,statsbomb
 161,2009-11-07,2009/10,Goal,Barcelona,La Liga,Mallorca,H,4–2,W,86,Left Foot,Penalty,,,,90.2,49.9,,,0.783,statsbomb
 162,2009-11-10,2009/10,Goal,Barcelona,Copa del Rey,Cultural Leonesa,H,5–0,W,64,Left Foot,Open Play,,Pedro,,86,41,,,,video
-163,2009-11-14,2009/10,Goal,Argentina,International Friendly,Spain,A,1–2,L,,Left Foot,Penalty,,,,89,50,,,,video
+163,2009-11-14,2009/10,Goal,Argentina,International Friendly,Spain,A,1–2,L,61,Left Foot,Penalty,,,,89,50,,,,video
 164,2009-12-02,2009/10,Assist,Barcelona,La Liga,Xerez,A,2–0,W,90+3,Right Foot,Open Play,Lob,Zlatan Ibrahimovic,Pass,82.8,54.8,71.0,60.0,0.296,statsbomb
 165,2009-12-05,2009/10,Goal,Barcelona,La Liga,Deportivo La Coruña,A,3–1,W,26,Left Foot,Open Play,,Dani Alves,,83.7,57.2,,,0.06,statsbomb
 166,2009-12-05,2009/10,Goal,Barcelona,La Liga,Deportivo La Coruña,A,3–1,W,80,Head,Open Play,,Pedro,,91.8,52.8,,,0.149,statsbomb
@@ -210,7 +210,7 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 209,2010-08-21,2010/11,Goal,Barcelona,Supercopa de España,Sevilla,H,4–0,W,43,Right Foot,Open Play,,Dani Alves,,94,64,,,,video
 210,2010-08-21,2010/11,Goal,Barcelona,Supercopa de España,Sevilla,H,4–0,W,90+1,Left Foot,Open Play,,Andrés Iniesta,,91,45,,,,video
 211,2010-08-29,2010/11,Goal,Barcelona,La Liga,Racing Santander,A,3–0,W,3,Right Foot,Open Play,Lob,Andrés Iniesta,,87.2,63.1,,,0.252,statsbomb
-212,2010-09-07,2010/11,Goal,Argentina,International Friendly,Spain,H,4–1,W,,Left Foot,Open Play,chip,Carlos Tevez,,96,39,,,,video
+212,2010-09-07,2010/11,Goal,Argentina,International Friendly,Spain,H,4–1,W,11,Left Foot,Open Play,chip,Carlos Tevez,,96,39,,,,video
 213,2010-09-14,2010/11,Assist,Barcelona,Champions League,Panathinaikos,H,5–1,W,77,,Open Play,,Pedro,Shot on goal,,,,,,
 214,2010-09-14,2010/11,Assist,Barcelona,Champions League,Panathinaikos,H,5–1,W,90+2,Head,Open Play,,Dani Alves,Pass,,,,,,
 215,2010-09-14,2010/11,Goal,Barcelona,Champions League,Panathinaikos,H,5–1,W,22,Left Foot,Open Play,,Xavi,,91,64,,,,video
@@ -232,7 +232,7 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 231,2010-11-10,2010/11,Goal,Barcelona,Copa del Rey,AD Ceuta,H,5–1,W,67,Left Foot,Open Play,,Thiago Alcântara,,88,52,,,,video
 232,2010-11-13,2010/11,Goal,Barcelona,La Liga,Villarreal,H,3–1,W,58,Right Foot,Open Play,Lob,Pedro,,96.2,62.8,,,0.143,statsbomb
 233,2010-11-13,2010/11,Goal,Barcelona,La Liga,Villarreal,H,3–1,W,83,Left Foot,Open Play,Volley,Pedro,,95.1,53.2,,,0.544,statsbomb
-234,2010-11-17,2010/11,Goal,Argentina,International Friendly,Brazil,N,1–0,W,,Left Foot,Open Play,,Ezequiel Lavezzi,,85,45,,,,video
+234,2010-11-17,2010/11,Goal,Argentina,International Friendly,Brazil,N,1–0,W,90+2,Left Foot,Open Play,,Ezequiel Lavezzi,,85,45,,,,video
 235,2010-11-20,2010/11,Assist,Barcelona,La Liga,Almería,A,8–0,W,62,Right Foot,Open Play,,Bojan Krkić,Pass,94.2,46.5,83.6,51.1,0.23,statsbomb
 236,2010-11-20,2010/11,Assist,Barcelona,La Liga,Almería,A,8–0,W,73,Right Foot,Open Play,,Bojan Krkić,Pass,90.2,48.4,76.8,54.8,0.429,statsbomb
 237,2010-11-20,2010/11,Goal,Barcelona,La Liga,Almería,A,8–0,W,16,Left Foot,Open Play,,David Villa,,81.4,44.0,,,0.074,statsbomb
@@ -366,9 +366,9 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 365,2012-02-19,2011/12,Goal,Barcelona,La Liga,Valencia,H,5–1,W,75,Left Foot,Open Play,,Cristian Tello,,90.8,43.1,,,0.068,statsbomb
 366,2012-02-19,2011/12,Goal,Barcelona,La Liga,Valencia,H,5–1,W,84,Left Foot,Open Play,Lob,Sergio Busquets,,88.2,47.6,,,0.583,statsbomb
 367,2012-02-26,2011/12,Goal,Barcelona,La Liga,Atlético Madrid,A,2–1,W,79,Left Foot,Free Kick,,,,81.0,22.5,,,0.01,statsbomb
-368,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,,Left Foot,Open Play,,Sergio Agüero,,84,48,,,,video
-369,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,,Left Foot,Open Play,,Sergio Agüero,,84,48,,,,video
-370,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,,Left Foot,Penalty,,,,89,50,,,,video
+368,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,20,Left Foot,Open Play,,Sergio Agüero,,84,48,,,,video
+369,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,88,Left Foot,Open Play,,Sergio Agüero,,84,48,,,,video
+370,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,90+3,Left Foot,Penalty,,,,89,50,,,,video
 371,2012-03-07,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,H,7–1,W,25,Left Foot,Open Play,Chip,Xavi,,90,37,,,,video
 372,2012-03-07,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,H,7–1,W,42,Left Foot,Open Play,,Andrés Iniesta,,90,54,,,,video
 373,2012-03-07,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,H,7–1,W,50,Right Foot,Open Play,Chip,Cesc Fàbregas,,89,63,,,,video
@@ -411,10 +411,10 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 410,2012-05-25,2011/12,Goal,Barcelona,Copa del Rey,Athletic Club,H,3–0,W,20,Right Foot,Open Play,,Andrés Iniesta,,96,65,,,,video
 411,2012-06-02,2011/12,Assist,Argentina,World Cup Qualifier,Ecuador,H,4–0,W,29,Right Foot,Open Play,,Gonzalo Higuaín,Pass,,,,,,
 412,2012-06-02,2011/12,Goal,Argentina,World Cup Qualifier,Ecuador,H,4–0,W,31,Left Foot,Open Play,,Gonzalo Higuaín,,87,49,,,,video
-413,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,,Left Foot,Open Play,,Gonzalo Higuaín,,85,55,,,,video
-414,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,,Left Foot,Open Play,,Ángel Di María,,92,38,,,,video
-415,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,,Left Foot,Open Play,,Fernandez,,80,61,,,,video
-416,2012-08-15,2012/13,Goal,Argentina,International Friendly,Germany,A,3–1,W,,Left Foot,Open Play,,Gonzalo Higuaín,,85,39,,,,video
+413,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,31,Left Foot,Open Play,,Gonzalo Higuaín,,85,55,,,,video
+414,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,34,Left Foot,Open Play,,Ángel Di María,,92,38,,,,video
+415,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,85,Left Foot,Open Play,,Fernandez,,80,61,,,,video
+416,2012-08-15,2012/13,Goal,Argentina,International Friendly,Germany,A,3–1,W,52,Left Foot,Open Play,,Gonzalo Higuaín,,85,39,,,,video
 417,2012-08-19,2012/13,Goal,Barcelona,La Liga,Real Sociedad,H,5–1,W,10,Left Foot,Open Play,,Pedro,,87.0,54.9,,,0.079,statsbomb
 418,2012-08-19,2012/13,Goal,Barcelona,La Liga,Real Sociedad,H,5–1,W,15,Left Foot,Open Play,Half Volley,Cristian Tello,,92.6,42.6,,,0.119,statsbomb
 419,2012-08-23,2012/13,Goal,Barcelona,Supercopa de España,Real Madrid,H,3–2,W,60,Left Foot,Penalty,,,,89,50,,,,video
@@ -562,7 +562,7 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 561,2014-05-03,2013/14,Goal,Barcelona,La Liga,Getafe,H,2–2,D,23,Left Foot,Open Play,,Dani Alves,,89.1,48.4,,,0.105,statsbomb
 562,2014-05-17,2013/14,Assist,Barcelona,La Liga,Atlético Madrid,H,1–1,D,34,Right Foot,Open Play,Half Volley,Alexis Sánchez,Pass,92.7,74.0,90.8,58.5,0.008,statsbomb
 563,2014-06-04,2013/14,Assist,Argentina,International Friendly,Trinidad and Tobago,H,3–0,W,51,,Open Play,,Javier Mascherano,Shot on goal,,,,,,
-564,2014-06-07,2013/14,Goal,Argentina,International Friendly,Slovenia,H,2–0,W,,Left Foot,Open Play,,Sergio Agüero,,93,54,,,,video
+564,2014-06-07,2013/14,Goal,Argentina,International Friendly,Slovenia,H,2–0,W,76,Left Foot,Open Play,,Sergio Agüero,,93,54,,,,video
 565,2014-06-15,2013/14,Goal,Argentina,World Cup,Bosnia and Herzegovina,N,2–1,W,65,Left Foot,Open Play,,Gonzalo Higuaín,,83,50,,,,video
 566,2014-06-21,2013/14,Goal,Argentina,World Cup,Iran,N,1–0,W,90+1,Left Foot,Open Play,,Ezequiel Lavezzi,,81,68,,,,video
 567,2014-06-25,2013/14,Goal,Argentina,World Cup,Nigeria,N,3–2,W,3,Left Foot,Open Play,,Ángel Di María,,92,45,,,,video
@@ -592,7 +592,7 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 591,2014-10-21,2014/15,Goal,Barcelona,Champions League,Ajax Amsterdam,H,3–1,W,24,Left Foot,Open Play,,Andrés Iniesta,,91,52,,,,video
 592,2014-11-05,2014/15,Goal,Barcelona,Champions League,Ajax Amsterdam,A,2–0,W,36,Head,Open Play,,Marc Bartra,,91,54,,,,video
 593,2014-11-05,2014/15,Goal,Barcelona,Champions League,Ajax Amsterdam,A,2–0,W,76,Left Foot,Open Play,,Pedro,,95,49,,,,video
-594,2014-11-12,2014/15,Goal,Argentina,International Friendly,Croatia,N,2–1,W,,Left Foot,Penalty,,,,89,50,,,,video
+594,2014-11-12,2014/15,Goal,Argentina,International Friendly,Croatia,N,2–1,W,57,Left Foot,Penalty,,,,89,50,,,,video
 595,2014-11-22,2014/15,Goal,Barcelona,La Liga,Sevilla,H,5–1,W,21,Left Foot,Free Kick,,,,80.0,45.2,,,0.078,statsbomb
 596,2014-11-22,2014/15,Goal,Barcelona,La Liga,Sevilla,H,5–1,W,73,Right Foot,Open Play,,Neymar,,97.7,53.8,,,0.858,statsbomb
 597,2014-11-22,2014/15,Goal,Barcelona,La Liga,Sevilla,H,5–1,W,78,Left Foot,Open Play,,Neymar,,85.7,45.4,,,0.087,statsbomb
@@ -669,9 +669,9 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 668,2015-08-11,2015/16,Goal,Barcelona,UEFA Super Cup,Sevilla,H,5–4,W,7,Left Foot,Free Kick,,,,82,60,,,,video
 669,2015-08-11,2015/16,Goal,Barcelona,UEFA Super Cup,Sevilla,H,5–4,W,16,Left Foot,Free Kick,,,,77,48,,,,video
 670,2015-08-17,2015/16,Goal,Barcelona,Supercopa de España,Athletic Club,H,1–1,D,43,Left Foot,Open Play,,Luis Suárez,,96,48,,,,video
-671,2015-09-04,2015/16,Goal,Argentina,International Friendly,Bolivia,N,7–0,W,,Head,Open Play,,Milton Casco,,92,48,,,,video
-672,2015-09-04,2015/16,Goal,Argentina,International Friendly,Bolivia,N,7–0,W,,Left Foot,Open Play,,Sergio Agüero,,95,46,,,,video
-673,2015-09-08,2015/16,Goal,Argentina,International Friendly,Mexico,N,2–2,D,,Left Foot,Open Play,,Sergio Agüero,,93,40,,,,video
+671,2015-09-04,2015/16,Goal,Argentina,International Friendly,Bolivia,N,7–0,W,67,Head,Open Play,,Milton Casco,,92,48,,,,video
+672,2015-09-04,2015/16,Goal,Argentina,International Friendly,Bolivia,N,7–0,W,75,Left Foot,Open Play,,Sergio Agüero,,95,46,,,,video
+673,2015-09-08,2015/16,Goal,Argentina,International Friendly,Mexico,N,2–2,D,89,Left Foot,Open Play,,Sergio Agüero,,93,40,,,,video
 674,2015-09-12,2015/16,Goal,Barcelona,La Liga,Atlético Madrid,A,2–1,W,77,Left Foot,Open Play,,Luis Suárez,,92.3,40.6,,,0.202,statsbomb
 675,2015-09-20,2015/16,Assist,Barcelona,La Liga,Levante,H,4–1,W,50,Right Foot,Open Play,,Marc Bartra,Pass,95.2,44.5,86.8,73.6,0.241,statsbomb
 676,2015-09-20,2015/16,Goal,Barcelona,La Liga,Levante,H,4–1,W,61,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
@@ -970,8 +970,8 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 969,2019-05-19,2018/19,Goal,Barcelona,La Liga,Eibar,A,2–2,D,31,Left Foot,Open Play,,Arturo Vidal,,94.9,37.8,,,0.216,statsbomb
 970,2019-05-19,2018/19,Goal,Barcelona,La Liga,Eibar,A,2–2,D,32,Left Foot,Open Play,Lob,Ivan Rakitić,,87.6,38.8,,,0.205,statsbomb
 971,2019-05-25,2018/19,Goal,Barcelona,Copa del Rey,Valencia,H,1–2,L,73,Left Foot,Open Play,,Clement Lenglet,,97,55,,,,video
-972,2019-06-07,2018/19,Goal,Argentina,International Friendly,Nicaragua,H,5–1,W,,Left Foot,Open Play,,Giovani Lo Celso,,88,48,,,,video
-973,2019-06-07,2018/19,Goal,Argentina,International Friendly,Nicaragua,H,5–1,W,,Left Foot,Open Play,,,,97,56,,,,video
+972,2019-06-07,2018/19,Goal,Argentina,International Friendly,Nicaragua,H,5–1,W,37,Left Foot,Open Play,,Giovani Lo Celso,,88,48,,,,video
+973,2019-06-07,2018/19,Goal,Argentina,International Friendly,Nicaragua,H,5–1,W,38,Left Foot,Open Play,,,,97,56,,,,video
 974,2019-06-19,2018/19,Goal,Argentina,Copa América,Paraguay,N,1–1,D,57,Left Foot,Penalty,,,,97,56,,,,video
 975,2019-07-06,2019/20,Assist,Argentina,Copa América,Chile,N,2–1,W,12,Right Foot,Open Play,,Sergio Agüero,Free kick,,,,,,
 976,2019-09-24,2019/20,Assist,Barcelona,La Liga,Villarreal,H,2–1,W,6,Head,Open Play,,Antoine Griezmann,Pass,98.2,60.5,100.0,100.0,0.071,statsbomb
@@ -988,7 +988,7 @@ id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique
 987,2019-11-09,2019/20,Goal,Barcelona,La Liga,Celta Vigo,H,4–1,W,23,Left Foot,Penalty,,,,89.9,50.0,,,0.783,statsbomb
 988,2019-11-09,2019/20,Goal,Barcelona,La Liga,Celta Vigo,H,4–1,W,45+1,Left Foot,Free Kick,,,,77.9,54.2,,,0.07,statsbomb
 989,2019-11-09,2019/20,Goal,Barcelona,La Liga,Celta Vigo,H,4–1,W,48,Left Foot,Free Kick,,,,79.5,53.9,,,0.078,statsbomb
-990,2019-11-15,2019/20,Goal,Argentina,International Friendly,Brazil,N,1–0,W,,Left Foot,Open Play,rebound on penalty save,,,97,51,,,,video
+990,2019-11-15,2019/20,Goal,Argentina,International Friendly,Brazil,N,1–0,W,13,Left Foot,Open Play,rebound on penalty save,,,97,51,,,,video
 991,2019-11-18,2019/20,Assist,Argentina,International Friendly,Uruguay,N,2–2,D,63,Head,Open Play,,Sergio Agüero,Free kick,,,,,,
 992,2019-11-18,2019/20,Goal,Argentina,International Friendly,Uruguay,N,2–2,D,90+2,Left Foot,Penalty,,,,89,50,,,,video
 993,2019-11-23,2019/20,Assist,Barcelona,La Liga,Leganés,A,2–1,W,53,Head,Open Play,,Luis Suárez,Pass,92.6,50.5,71.3,32.9,0.137,statsbomb
