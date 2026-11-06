@@ -11,7 +11,7 @@ Every goal and assist Lionel Messi recorded in official matches for FC Barcelona
 
 Every match's goal and assist count agrees with Transfermarkt.
 
-**Interactive dashboard:** https://claude.ai/artifact/RRWasdybTgoi88fiqQ3m9h — filter by competition, season, opponent, teammate, body part or situation; see every contribution on a pitch map; and browse the full table.
+**Interactive dashboard:** https://claude.ai/artifact/RRWasdybTgoi88fiqQ3m9h — filter by competition, season, opponent, teammate, body part or situation; see every goal and every La Liga assist on a pitch map; and browse the full table.
 
 Files: [`data/messi_contributions.csv`](data/messi_contributions.csv) and [`data/messi_contributions.json`](data/messi_contributions.json) hold the same rows.
 
