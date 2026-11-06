@@ -1,0 +1,1090 @@
+id,date,season,kind,team,comp,opp,venue,score,result,minute,body,gtype,technique,partner,assist_type,x,y,px,py,xg,locsrc
+1,2005-05-01,2004/05,Goal,Barcelona,La Liga,Albacete,H,2–0,W,90+1,Left Foot,Open Play,Lob,Ronaldinho,,88.3,36.6,,,0.145,statsbomb
+2,2005-09-14,2005/06,Assist,Barcelona,Champions League,Werder Bremen,A,2–0,W,77,,Penalty,,Ronaldinho,Won penalty,,,,,,
+3,2005-10-08,2005/06,Assist,Argentina,World Cup Qualifier,Peru,H,2–0,W,81,,Penalty,,Juan Román Riquelme,Won penalty,,,,,,
+4,2005-11-02,2005/06,Assist,Barcelona,Champions League,Panathinaikos,H,5–0,W,65,Right Foot,Open Play,,Samuel Eto'o,Pass,,,,,,
+5,2005-11-02,2005/06,Goal,Barcelona,Champions League,Panathinaikos,H,5–0,W,34,Left Foot,Open Play,tap-in,,,98,58,,,,video
+6,2005-11-16,2005/06,Assist,Argentina,International Friendly,Qatar,A,3–0,W,71,,Open Play,,Juan Román Riquelme,Pass,,,,,,
+7,2005-11-19,2005/06,Assist,Barcelona,La Liga,Real Madrid,A,3–0,W,15,Right Foot,Open Play,,Samuel Eto'o,Pass,,,,,,
+8,2005-11-27,2005/06,Goal,Barcelona,La Liga,Racing Santander,H,4–1,W,51,Left Foot,Open Play,,Samuel Eto'o,,87.4,55.9,,,0.153,statsbomb
+9,2005-12-17,2005/06,Assist,Barcelona,La Liga,Cádiz,A,3–1,W,49,Right Foot,Open Play,,Samuel Eto'o,Pass,94.3,58.2,97.8,65.1,0.167,statsbomb
+10,2006-01-15,2005/06,Goal,Barcelona,La Liga,Athletic Club,H,2–1,W,50,Left Foot,Open Play,tap-in,Mark van Bommel,,96.8,41.0,,,0.523,statsbomb
+11,2006-01-22,2005/06,Goal,Barcelona,La Liga,Deportivo Alavés,H,2–0,W,82,Left Foot,Open Play,tap-in,Ronaldinho,,96.3,43.9,,,0.474,statsbomb
+12,2006-01-25,2005/06,Assist,Barcelona,Copa del Rey,Real Zaragoza,A,2–4,L,61,,Penalty,,Ronaldinho,Won penalty,,,,,,
+13,2006-01-29,2005/06,Goal,Barcelona,La Liga,Mallorca,A,3–0,W,75,Right Foot,Open Play,,Sylvinho,,89.6,44.2,,,0.131,statsbomb
+14,2006-01-29,2005/06,Goal,Barcelona,La Liga,Mallorca,A,3–0,W,83,Left Foot,Open Play,Lob,Ronaldinho,,91.5,33.9,,,0.146,statsbomb
+15,2006-02-01,2005/06,Goal,Barcelona,Copa del Rey,Real Zaragoza,H,2–1,W,42,Head,Open Play,header,Ludovic Giuly,,93,43,,,,video
+16,2006-02-18,2005/06,Goal,Barcelona,La Liga,Real Betis,H,5–1,W,84,Left Foot,Open Play,self rebound,,,97.7,40.9,,,0.281,statsbomb
+17,2006-03-01,2005/06,Assist,Argentina,International Friendly,Croatia,N,2–3,L,4,,Open Play,,Carlos Tevez,Pass,,,,,,
+18,2006-03-01,2005/06,Goal,Argentina,International Friendly,Croatia,N,2–3,L,6,Left Foot,Open Play,solo,,,80,64,,,,video
+19,2006-06-16,2005/06,Assist,Argentina,World Cup,Serbia and Montenegro,N,6–0,W,78,,Open Play,,Hernán Crespo,Pass,,,,,,
+20,2006-06-16,2005/06,Goal,Argentina,World Cup,Serbia and Montenegro,N,6–0,W,88,Right Foot,Open Play,,Carlos Tevez,,90,64,,,,video
+21,2006-08-28,2006/07,Assist,Barcelona,La Liga,Celta Vigo,A,3–2,W,56,Right Foot,Open Play,,Samuel Eto'o,Pass,93.2,40.2,83.6,47.8,0.31,statsbomb
+22,2006-08-28,2006/07,Goal,Barcelona,La Liga,Celta Vigo,A,3–2,W,59,Left Foot,Open Play,,Andrés Iniesta,,86.7,45.1,,,0.136,statsbomb
+23,2006-09-09,2006/07,Goal,Barcelona,La Liga,Osasuna,H,3–0,W,36,Left Foot,Open Play,,Samuel Eto'o,,91.8,59.1,,,0.194,statsbomb
+24,2006-09-27,2006/07,Goal,Barcelona,Champions League,Werder Bremen,A,1–1,D,89,Left Foot,Open Play,,Deco,,89,62,,,,video
+25,2006-10-15,2006/07,Goal,Barcelona,La Liga,Sevilla,H,3–1,W,80,Right Foot,Open Play,,Xavi,,92.2,62.8,,,0.133,statsbomb
+26,2007-03-10,2006/07,Goal,Barcelona,La Liga,Real Madrid,H,3–3,D,11,Left Foot,Open Play,,Samuel Eto'o,,90.8,60.5,,,0.371,statsbomb
+27,2007-03-10,2006/07,Goal,Barcelona,La Liga,Real Madrid,H,3–3,D,28,Left Foot,Open Play,Half Volley,,,92.5,52.6,,,0.305,statsbomb
+28,2007-03-10,2006/07,Goal,Barcelona,La Liga,Real Madrid,H,3–3,D,90+1,Left Foot,Open Play,,Ronaldinho,,89.2,34.2,,,0.102,statsbomb
+29,2007-03-17,2006/07,Goal,Barcelona,La Liga,Recreativo,A,4–0,W,86,Left Foot,Open Play,,,,85.2,43.1,,,0.147,statsbomb
+30,2007-03-31,2006/07,Goal,Barcelona,La Liga,Deportivo La Coruña,H,2–1,W,45,Left Foot,Open Play,,Ronaldinho,,92.8,45.5,,,0.424,statsbomb
+31,2007-04-18,2006/07,Assist,Barcelona,Copa del Rey,Getafe,H,5–2,W,18,Right Foot,Open Play,,Xavi,Pass,,,,,,
+32,2007-04-18,2006/07,Goal,Barcelona,Copa del Rey,Getafe,H,5–2,W,29,Right Foot,Open Play,solo,Xavi,,98,61,,,,video
+33,2007-04-18,2006/07,Goal,Barcelona,Copa del Rey,Getafe,H,5–2,W,45,Left Foot,Open Play,,Deco,,90,45,,,,video
+34,2007-05-20,2006/07,Goal,Barcelona,La Liga,Atlético Madrid,A,6–0,W,39,Left Foot,Open Play,,Samuel Eto'o,,90.6,44.4,,,0.175,statsbomb
+35,2007-05-20,2006/07,Goal,Barcelona,La Liga,Atlético Madrid,A,6–0,W,80,Left Foot,Open Play,Lob,Giovanni van Bronckhorst,,90.6,37.1,,,0.322,statsbomb
+36,2007-06-01,2006/07,Assist,Argentina,International Friendly,Switzerland,A,1–1,D,49,,Open Play,,Carlos Tevez,Pass,,,,,,
+37,2007-06-05,2006/07,Goal,Argentina,International Friendly,Algeria,N,4–3,W,,Left Foot,Penalty,,,,89,50,,,,video
+38,2007-06-05,2006/07,Goal,Argentina,International Friendly,Algeria,N,4–3,W,,Left Foot,Open Play,,,,91,52,,,,video
+39,2007-06-09,2006/07,Goal,Barcelona,La Liga,Espanyol,H,2–2,D,43,Head,Open Play,,Gianluca Zambrotta,,96.4,52.5,,,0.501,statsbomb
+40,2007-06-09,2006/07,Goal,Barcelona,La Liga,Espanyol,H,2–2,D,57,Right Foot,Open Play,,Deco,,94.3,63.5,,,0.192,statsbomb
+41,2007-06-17,2006/07,Assist,Barcelona,La Liga,Gimnàstic Tarragona,A,5–1,W,20,Left Foot,Open Play,,Carles Puyol,Pass,94.7,52.2,94.6,68.6,0.668,statsbomb
+42,2007-06-17,2006/07,Goal,Barcelona,La Liga,Gimnàstic Tarragona,A,5–1,W,34,Left Foot,Open Play,,Deco,,83.9,64.4,,,0.052,statsbomb
+43,2007-06-17,2006/07,Goal,Barcelona,La Liga,Gimnàstic Tarragona,A,5–1,W,51,Left Foot,Open Play,,Deco,,99.2,48.4,,,0.937,statsbomb
+44,2007-06-28,2006/07,Assist,Argentina,Copa América,United States,N,4–1,W,64,Right Foot,Open Play,,Hernán Crespo,Pass,,,,,,
+45,2007-07-08,2007/08,Goal,Argentina,Copa América,Peru,N,4–0,W,61,Left Foot,Open Play,,Juan Román Riquelme,,93,62,,,,video
+46,2007-07-11,2007/08,Goal,Argentina,Copa América,Mexico,N,3–0,W,61,Left Foot,Open Play,chip,Juan Román Riquelme,,89,66,,,,video
+47,2007-09-11,2007/08,Assist,Argentina,International Friendly,Australia,A,1–0,W,49,Head,Open Play,,Martín Demichelis,Free kick,,,,,,
+48,2007-09-19,2007/08,Assist,Barcelona,Champions League,Olympique Lyon,H,3–0,W,20,,Open Play,,François Clerc,Shot on goal,,,,,,
+49,2007-09-19,2007/08,Goal,Barcelona,Champions League,Olympique Lyon,H,3–0,W,82,Left Foot,Open Play,,Andrés Iniesta,,87,58,,,,video
+50,2007-09-22,2007/08,Goal,Barcelona,La Liga,Sevilla,H,2–1,W,72,Left Foot,Open Play,Half Volley,Thierry Henry,,91.2,50.8,,,0.181,statsbomb
+51,2007-09-22,2007/08,Goal,Barcelona,La Liga,Sevilla,H,2–1,W,79,Left Foot,Penalty,,,,90.0,49.9,,,0.783,statsbomb
+52,2007-09-26,2007/08,Goal,Barcelona,La Liga,Real Zaragoza,H,4–1,W,5,Left Foot,Open Play,,Thierry Henry,,82,55,,,,video
+53,2007-09-26,2007/08,Goal,Barcelona,La Liga,Real Zaragoza,H,4–1,W,10,Left Foot,Open Play,,Deco,,87,54,,,,video
+54,2007-09-29,2007/08,Assist,Barcelona,La Liga,Levante,A,4–1,W,24,Right Foot,Open Play,,Thierry Henry,Pass,88.7,39.5,67.8,43.2,0.38,statsbomb
+55,2007-09-29,2007/08,Assist,Barcelona,La Liga,Levante,A,4–1,W,17,Right Foot,Open Play,,Thierry Henry,Shot on goal,94.7,45.6,93.5,59.9,0.632,statsbomb
+56,2007-09-29,2007/08,Goal,Barcelona,La Liga,Levante,A,4–1,W,50,Left Foot,Open Play,,Deco,,95.9,62.8,,,0.157,statsbomb
+57,2007-10-02,2007/08,Goal,Barcelona,Champions League,VfB Stuttgart,A,2–0,W,66,Right Foot,Open Play,,Thierry Henry,,92,55,,,,video
+58,2007-10-07,2007/08,Assist,Barcelona,La Liga,Atlético Madrid,H,3–0,W,16,Right Foot,Open Play,,Anderson Luís de Souza,Pass,95.5,54.0,92.3,86.8,0.589,statsbomb
+59,2007-10-07,2007/08,Goal,Barcelona,La Liga,Atlético Madrid,H,3–0,W,19,Left Foot,Open Play,,Ronaldinho,,89.8,33.0,,,0.069,statsbomb
+60,2007-10-16,2007/08,Goal,Argentina,World Cup Qualifier,Venezuela,A,2–0,W,43,Left Foot,Open Play,,Carlos Tevez,,81,61,,,,video
+61,2007-10-20,2007/08,Assist,Barcelona,La Liga,Villarreal,A,1–3,L,25,Right Foot,Open Play,,Bojan Krkić,Pass,89.4,45.1,69.2,50.6,0.423,statsbomb
+62,2007-10-28,2007/08,Goal,Barcelona,La Liga,Almería,H,2–0,W,80,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+63,2007-11-07,2007/08,Assist,Barcelona,Champions League,Rangers FC,H,2–0,W,5,,Open Play,,Thierry Henry,Header,,,,,,
+64,2007-11-07,2007/08,Goal,Barcelona,Champions League,Rangers FC,H,2–0,W,41,Left Foot,Open Play,,Ronaldinho,,91,43,,,,video
+65,2007-11-17,2007/08,Assist,Argentina,World Cup Qualifier,Bolivia,H,3–0,W,74,Right Foot,Open Play,,Juan Román Riquelme,Pass,,,,,,
+66,2007-11-20,2007/08,Goal,Argentina,World Cup Qualifier,Colombia,A,1–2,L,36,Left Foot,Open Play,,,,92,37,,,,video
+67,2007-11-24,2007/08,Goal,Barcelona,La Liga,Recreativo,H,3–0,W,81,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+68,2007-11-27,2007/08,Goal,Barcelona,Champions League,Olympique Lyon,A,2–2,D,58,Left Foot,Penalty,,,,89,50,,,,video
+69,2007-12-01,2007/08,Assist,Barcelona,La Liga,Espanyol,A,1–1,D,6,Right Foot,Open Play,,Andrés Iniesta,Pass,93.8,43.9,96.9,65.6,0.422,statsbomb
+70,2007-12-15,2007/08,Assist,Barcelona,La Liga,Valencia,A,3–0,W,13,Left Foot,Open Play,,Samuel Eto'o,Pass,87.4,53.1,80.4,74.2,0.174,statsbomb
+71,2007-12-15,2007/08,Assist,Barcelona,La Liga,Valencia,A,3–0,W,27,Right Foot,Open Play,,Samuel Eto'o,Pass,87.4,62.0,77.3,65.4,0.087,statsbomb
+72,2008-02-09,2007/08,Assist,Barcelona,La Liga,Sevilla,A,1–1,D,76,Right Foot,Open Play,,Xavi,Pass,86.5,56.8,76.5,79.9,0.129,statsbomb
+73,2008-02-20,2007/08,Goal,Barcelona,Champions League,Celtic FC,A,3–2,W,18,Left Foot,Open Play,,Deco,,92,65,,,,video
+74,2008-02-20,2007/08,Goal,Barcelona,Champions League,Celtic FC,A,3–2,W,79,Left Foot,Open Play,,,,92,57,,,,video
+75,2008-02-24,2007/08,Assist,Barcelona,La Liga,Levante,H,5–1,W,56,Left Foot,Open Play,,Samuel Eto'o,Pass,96.6,36.4,75.3,28.4,0.207,statsbomb
+76,2008-02-24,2007/08,Assist,Barcelona,La Liga,Levante,H,5–1,W,62,Right Foot,Open Play,,Samuel Eto'o,Pass,95.4,48.4,89.2,71.0,0.806,statsbomb
+77,2008-02-24,2007/08,Goal,Barcelona,La Liga,Levante,H,5–1,W,44,Left Foot,Open Play,,Xavi,,86.2,59.9,,,0.064,statsbomb
+78,2008-05-04,2007/08,Assist,Barcelona,La Liga,Valencia,H,6–0,W,58,Right Foot,Open Play,,Thierry Henry,Pass,84.0,32.8,79.2,43.1,0.032,statsbomb
+79,2008-05-04,2007/08,Goal,Barcelona,La Liga,Valencia,H,6–0,W,5,Left Foot,Penalty,,,,89.9,50.0,,,0.783,statsbomb
+80,2008-05-07,2007/08,Assist,Barcelona,La Liga,Real Madrid,A,1–4,L,87,Right Foot,Open Play,,Thierry Henry,Pass,80.4,41.6,57.2,63.4,0.2,statsbomb
+81,2008-05-17,2007/08,Assist,Barcelona,La Liga,Real Murcia,A,5–3,W,52,Left Foot,Open Play,Lob,Giovani dos Santos,Pass,84.9,42.9,84.9,47.6,0.163,statsbomb
+82,2008-05-17,2007/08,Assist,Barcelona,La Liga,Real Murcia,A,5–3,W,66,Left Foot,Open Play,,Giovani dos Santos,Pass,84.2,46.5,87.2,45.8,0.096,statsbomb
+83,2008-06-04,2007/08,Assist,Argentina,International Friendly,Mexico,N,4–1,W,70,Right Foot,Open Play,,Sergio Agüero,Pass,,,,,,
+84,2008-06-04,2007/08,Goal,Argentina,International Friendly,Mexico,N,4–1,W,17,Left Foot,Open Play,,Julio Cruz,,91,51,,,,video
+85,2008-09-06,2008/09,Assist,Argentina,World Cup Qualifier,Paraguay,H,1–1,D,60,Left Foot,Open Play,,Sergio Agüero,Pass,,,,,,
+86,2008-09-13,2008/09,Goal,Barcelona,La Liga,Racing Santander,H,1–1,D,70,Left Foot,Penalty,,,,90.2,50.1,,,0.783,statsbomb
+87,2008-09-21,2008/09,Assist,Barcelona,La Liga,Sporting Gijón,A,6–1,W,70,Right Foot,Open Play,,Andrés Iniesta,Pass,95.0,62.2,80.0,70.2,0.229,statsbomb
+88,2008-09-21,2008/09,Goal,Barcelona,La Liga,Sporting Gijón,A,6–1,W,85,Left Foot,Open Play,Volley,Andrés Iniesta,,93.3,58.5,,,0.177,statsbomb
+89,2008-09-21,2008/09,Goal,Barcelona,La Liga,Sporting Gijón,A,6–1,W,89,Head,Open Play,,Xavi,,91.3,48.6,,,0.183,statsbomb
+90,2008-09-24,2008/09,Assist,Barcelona,La Liga,Real Betis,H,3–2,W,17,Right Foot,Open Play,,Samuel Eto'o,Pass,87.0,61.0,72.1,75.0,0.14,statsbomb
+91,2008-09-24,2008/09,Assist,Barcelona,La Liga,Real Betis,H,3–2,W,23,Right Foot,Open Play,,Samuel Eto'o,Pass,97.5,54.9,97.9,68.1,0.548,statsbomb
+92,2008-09-27,2008/09,Goal,Barcelona,La Liga,Espanyol,A,2–1,W,90,Left Foot,Penalty,,,,90.0,49.9,,,0.783,statsbomb
+93,2008-10-01,2008/09,Goal,Barcelona,Champions League,Shakhtar Donetsk,A,2–1,W,87,Right Foot,Open Play,tap-in,Bojan Krkić,,97,49,,,,video
+94,2008-10-01,2008/09,Goal,Barcelona,Champions League,Shakhtar Donetsk,A,2–1,W,90+2,Left Foot,Open Play,,Xavi,,93,35,,,,video
+95,2008-10-04,2008/09,Assist,Barcelona,La Liga,Atlético Madrid,H,6–1,W,5,,Penalty,,Samuel Eto'o,Won penalty,,,,,,
+96,2008-10-04,2008/09,Goal,Barcelona,La Liga,Atlético Madrid,H,6–1,W,8,Left Foot,Free Kick,,,,78.1,70.2,,,0.015,statsbomb
+97,2008-10-11,2008/09,Goal,Argentina,World Cup Qualifier,Uruguay,H,2–1,W,6,Head,Open Play,,Juan Román Riquelme,,93,54,,,,video
+98,2008-10-22,2008/09,Assist,Barcelona,Champions League,FC Basel 1893,A,5–0,W,22,Right Foot,Open Play,,Bojan Krkić,Pass,,,,,,
+99,2008-10-22,2008/09,Assist,Barcelona,Champions League,FC Basel 1893,A,5–0,W,48,Right Foot,Open Play,,Xavi,Pass,,,,,,
+100,2008-10-22,2008/09,Goal,Barcelona,Champions League,FC Basel 1893,A,5–0,W,4,Left Foot,Open Play,,Dani Alves,,96,42,,,,video
+101,2008-10-25,2008/09,Assist,Barcelona,La Liga,Almería,H,5–0,W,14,Right Foot,Open Play,,Thierry Henry,Pass,96.7,47.0,93.6,59.9,0.742,statsbomb
+102,2008-10-25,2008/09,Assist,Barcelona,La Liga,Almería,H,5–0,W,24,Right Foot,Open Play,Backheel,Samuel Eto'o,Pass,98.2,53.6,98.3,58.1,0.255,statsbomb
+103,2008-11-01,2008/09,Goal,Barcelona,La Liga,Málaga,A,4–1,W,19,Left Foot,Open Play,,,,93.9,64.9,,,0.05,statsbomb
+104,2008-11-04,2008/09,Goal,Barcelona,Champions League,FC Basel 1893,H,1–1,D,61,Left Foot,Open Play,,Thierry Henry,,83,43,,,,video
+105,2008-11-08,2008/09,Assist,Barcelona,La Liga,Real Valladolid,H,6–0,W,43,Right Foot,Open Play,,Samuel Eto'o,Pass,96.1,62.8,82.2,73.1,0.281,statsbomb
+106,2008-11-12,2008/09,Goal,Barcelona,Copa del Rey,Benidorm,H,1–0,W,86,Left Foot,Open Play,,,,98,48,,,,video
+107,2008-11-16,2008/09,Goal,Barcelona,La Liga,Recreativo,A,2–0,W,51,Left Foot,Open Play,,Dani Alves,,91.0,38.2,,,0.231,statsbomb
+108,2008-11-26,2008/09,Assist,Barcelona,Champions League,Sporting CP,A,5–2,W,13,Right Foot,Open Play,,Thierry Henry,Pass,,,,,,
+109,2008-11-26,2008/09,Goal,Barcelona,Champions League,Sporting CP,A,5–2,W,49,Left Foot,Open Play,,Dani Alves,,87,61,,,,video
+110,2008-11-29,2008/09,Goal,Barcelona,La Liga,Sevilla,A,3–0,W,78,Left Foot,Open Play,Half Volley,Xavi,,82.2,44.1,,,0.055,statsbomb
+111,2008-11-29,2008/09,Goal,Barcelona,La Liga,Sevilla,A,3–0,W,90+2,Left Foot,Open Play,,Aleksandr Hleb,,87.1,22.4,,,0.045,statsbomb
+112,2008-12-13,2008/09,Goal,Barcelona,La Liga,Real Madrid,H,2–0,W,89,Left Foot,Open Play,Lob,Thierry Henry,,92.2,35.6,,,0.175,statsbomb
+113,2009-01-06,2008/09,Goal,Barcelona,Copa del Rey,Atlético Madrid,A,3–1,W,11,Left Foot,Open Play,,Dani Alves,,91,67,,,,video
+114,2009-01-06,2008/09,Goal,Barcelona,Copa del Rey,Atlético Madrid,A,3–1,W,57,Left Foot,Penalty,,,,89,50,,,,video
+115,2009-01-06,2008/09,Goal,Barcelona,Copa del Rey,Atlético Madrid,A,3–1,W,79,Right Foot,Open Play,,Andrés Iniesta,,92,58,,,,video
+116,2009-01-11,2008/09,Assist,Barcelona,La Liga,Osasuna,A,3–2,W,45,Right Foot,Open Play,,Samuel Eto'o,Pass,82.2,52.9,77.3,33.9,0.074,statsbomb
+117,2009-01-11,2008/09,Goal,Barcelona,La Liga,Osasuna,A,3–2,W,84,Left Foot,Open Play,,Dani Alves,,80.5,61.3,,,0.033,statsbomb
+118,2009-01-17,2008/09,Goal,Barcelona,La Liga,Deportivo La Coruña,H,5–0,W,21,Left Foot,Open Play,,Xavi,,86.4,43.2,,,0.24,statsbomb
+119,2009-01-24,2008/09,Assist,Barcelona,La Liga,Numancia,H,4–1,W,71,Right Foot,Open Play,,Thierry Henry,Pass,88.2,41.8,86.8,36.4,0.066,statsbomb
+120,2009-01-24,2008/09,Goal,Barcelona,La Liga,Numancia,H,4–1,W,49,Left Foot,Open Play,Volley,Dani Alves,,96.9,56.4,,,0.196,statsbomb
+121,2009-01-24,2008/09,Goal,Barcelona,La Liga,Numancia,H,4–1,W,76,Right Foot,Open Play,,,,97.4,54.9,,,0.832,statsbomb
+122,2009-02-01,2008/09,Goal,Barcelona,La Liga,Racing Santander,A,2–1,W,65,Right Foot,Open Play,rebound,Xavi,,97.7,57.1,,,0.281,statsbomb
+123,2009-02-01,2008/09,Goal,Barcelona,La Liga,Racing Santander,A,2–1,W,81,Right Foot,Open Play,Half Volley,,,91.8,63.6,,,0.056,statsbomb
+124,2009-02-08,2008/09,Assist,Barcelona,La Liga,Sporting Gijón,H,3–1,W,40,Right Foot,Open Play,,Samuel Eto'o,Pass,95.1,60.6,81.9,71.8,0.238,statsbomb
+125,2009-02-08,2008/09,Assist,Barcelona,La Liga,Sporting Gijón,H,3–1,W,65,Right Foot,Open Play,,Dani Alves,Pass,93.3,63.5,90.9,71.1,0.078,statsbomb
+126,2009-02-11,2008/09,Goal,Argentina,International Friendly,France,A,2–0,W,,Left Foot,Open Play,,Carlos Tevez,,87,33,,,,video
+127,2009-03-01,2008/09,Goal,Barcelona,La Liga,Atlético Madrid,A,3–4,L,30,Left Foot,Open Play,,Thierry Henry,,91.5,38.4,,,0.2,statsbomb
+128,2009-03-04,2008/09,Goal,Barcelona,Copa del Rey,Mallorca,A,1–1,D,81,Left Foot,Open Play,chip,Gerard Pique,,87,54,,,,video
+129,2009-03-07,2008/09,Goal,Barcelona,La Liga,Athletic Club,H,2–0,W,31,Left Foot,Penalty,,,,89.9,50.1,,,0.783,statsbomb
+130,2009-03-11,2008/09,Goal,Barcelona,Champions League,Olympique Lyon,H,5–2,W,40,Left Foot,Open Play,,Samuel Eto'o,,88,58,,,,video
+131,2009-03-15,2008/09,Assist,Barcelona,La Liga,Almería,A,2–0,W,53,Right Foot,Open Play,,Bojan Krkić,Shot on goal,91.8,42.4,89.5,53.4,0.328,statsbomb
+132,2009-03-22,2008/09,Goal,Barcelona,La Liga,Málaga,H,6–0,W,26,Right Foot,Open Play,solo,Xavi,,93.8,61.3,,,0.19,statsbomb
+133,2009-03-28,2008/09,Assist,Argentina,World Cup Qualifier,Venezuela,H,4–0,W,46,Right Foot,Open Play,,Carlos Tevez,Pass,,,,,,
+134,2009-03-28,2008/09,Goal,Argentina,World Cup Qualifier,Venezuela,H,4–0,W,26,Left Foot,Open Play,,Carlos Tevez,,92,59,,,,video
+135,2009-04-08,2008/09,Assist,Barcelona,Champions League,Bayern Munich,H,4–0,W,12,Right Foot,Open Play,,Samuel Eto'o,Pass,,,,,,
+136,2009-04-08,2008/09,Goal,Barcelona,Champions League,Bayern Munich,H,4–0,W,9,Left Foot,Open Play,,Samuel Eto'o,,91,57,,,,video
+137,2009-04-08,2008/09,Goal,Barcelona,Champions League,Bayern Munich,H,4–0,W,38,Right Foot,Open Play,,Thierry Henry,,98,45,,,,video
+138,2009-04-18,2008/09,Goal,Barcelona,La Liga,Getafe,A,1–0,W,18,Left Foot,Open Play,,Xavi,,94.2,43.5,,,0.102,statsbomb
+139,2009-04-25,2008/09,Goal,Barcelona,La Liga,Valencia,A,2–2,D,23,Left Foot,Open Play,,Andrés Iniesta,,93.2,48.5,,,0.214,statsbomb
+140,2009-05-02,2008/09,Assist,Barcelona,La Liga,Real Madrid,A,6–2,W,18,Right Foot,Open Play,,Thierry Henry,Pass,94.3,34.5,65.0,34.0,0.149,statsbomb
+141,2009-05-02,2008/09,Goal,Barcelona,La Liga,Real Madrid,A,6–2,W,35,Left Foot,Open Play,,Xavi,,90.0,56.9,,,0.294,statsbomb
+142,2009-05-02,2008/09,Goal,Barcelona,La Liga,Real Madrid,A,6–2,W,75,Left Foot,Open Play,,Xavi,,94.6,57.6,,,0.357,statsbomb
+143,2009-05-06,2008/09,Assist,Barcelona,Champions League,Chelsea FC,A,1–1,D,90+3,Right Foot,Open Play,,Andrés Iniesta,Pass,,,,,,
+144,2009-05-13,2008/09,Assist,Barcelona,Copa del Rey,Athletic Club,H,4–1,W,58,Right Foot,Open Play,,Bojan Krkić,Pass,,,,,,
+145,2009-05-13,2008/09,Goal,Barcelona,Copa del Rey,Athletic Club,H,4–1,W,55,Left Foot,Open Play,,Samuel Eto'o,,90,48,,,,video
+146,2009-05-27,2008/09,Goal,Barcelona,Champions League,Manchester United,N,2–0,W,70,Head,Open Play,Final,Xavi,,94.8,46.1,,,0.233,statsbomb
+147,2009-08-23,2009/10,Goal,Barcelona,Supercopa de España,Athletic Club,H,3–0,W,50,Right Foot,Open Play,chip,Zlatan Ibrahimovic,,97,66,,,,video
+148,2009-08-23,2009/10,Goal,Barcelona,Supercopa de España,Athletic Club,H,3–0,W,68,Left Foot,Penalty,,,,89,50,,,,video
+149,2009-08-28,2009/10,Assist,Barcelona,UEFA Super Cup,Shakhtar Donetsk,H,1–0,W,115,Right Foot,Open Play,,Pedro,Pass,,,,,,
+150,2009-09-12,2009/10,Goal,Barcelona,La Liga,Getafe,A,2–0,W,78,Head,Open Play,,Zlatan Ibrahimovic,,94.4,53.5,,,0.44,statsbomb
+151,2009-09-19,2009/10,Assist,Barcelona,La Liga,Atlético Madrid,H,5–2,W,42,Left Foot,Open Play,,Seydou Keita,Pass,96.5,49.2,96.7,28.0,0.783,statsbomb
+152,2009-09-19,2009/10,Goal,Barcelona,La Liga,Atlético Madrid,H,5–2,W,15,Left Foot,Open Play,,Xavi,,94.1,50.8,,,0.436,statsbomb
+153,2009-09-19,2009/10,Goal,Barcelona,La Liga,Atlético Madrid,H,5–2,W,90+3,Right Foot,Open Play,,Dani Alves,,86.6,62.8,,,0.055,statsbomb
+154,2009-09-22,2009/10,Assist,Barcelona,La Liga,Racing Santander,A,4–1,W,21,Head,Open Play,,Zlatan Ibrahimovic,Pass,97.2,42.4,87.8,76.1,0.125,statsbomb
+155,2009-09-22,2009/10,Goal,Barcelona,La Liga,Racing Santander,A,4–1,W,23,Left Foot,Open Play,,Xavi,,84.8,53.4,,,0.073,statsbomb
+156,2009-09-22,2009/10,Goal,Barcelona,La Liga,Racing Santander,A,4–1,W,63,Left Foot,Open Play,,Xavi,,84.7,52.0,,,0.106,statsbomb
+157,2009-09-26,2009/10,Assist,Barcelona,La Liga,Málaga,A,2–0,W,39,Right Foot,Open Play,Half Volley,Zlatan Ibrahimovic,Pass,90.2,55.4,77.1,62.9,0.335,statsbomb
+158,2009-09-29,2009/10,Goal,Barcelona,Champions League,Dynamo Kyiv,H,2–0,W,25,Left Foot,Open Play,,Andrés Iniesta,,87,66,,,,video
+159,2009-10-25,2009/10,Assist,Barcelona,La Liga,Real Zaragoza,H,6–1,W,25,Head,Open Play,Diving Header,Seydou Keita,Pass,93.5,49.6,93.4,72.5,0.228,statsbomb
+160,2009-10-25,2009/10,Goal,Barcelona,La Liga,Real Zaragoza,H,6–1,W,80,Left Foot,Open Play,Lob,Andrés Iniesta,,89.9,54.9,,,0.394,statsbomb
+161,2009-11-07,2009/10,Goal,Barcelona,La Liga,Mallorca,H,4–2,W,86,Left Foot,Penalty,,,,90.2,49.9,,,0.783,statsbomb
+162,2009-11-10,2009/10,Goal,Barcelona,Copa del Rey,Cultural Leonesa,H,5–0,W,64,Left Foot,Open Play,,Pedro,,86,41,,,,video
+163,2009-11-14,2009/10,Goal,Argentina,International Friendly,Spain,A,1–2,L,,Left Foot,Penalty,,,,89,50,,,,video
+164,2009-12-02,2009/10,Assist,Barcelona,La Liga,Xerez,A,2–0,W,90+3,Right Foot,Open Play,Lob,Zlatan Ibrahimovic,Pass,82.8,54.8,71.0,60.0,0.296,statsbomb
+165,2009-12-05,2009/10,Goal,Barcelona,La Liga,Deportivo La Coruña,A,3–1,W,26,Left Foot,Open Play,,Dani Alves,,83.7,57.2,,,0.06,statsbomb
+166,2009-12-05,2009/10,Goal,Barcelona,La Liga,Deportivo La Coruña,A,3–1,W,80,Head,Open Play,,Pedro,,91.8,52.8,,,0.149,statsbomb
+167,2009-12-09,2009/10,Goal,Barcelona,Champions League,Dynamo Kyiv,A,2–1,W,86,Left Foot,Free Kick,,,,77,67,,,,video
+168,2009-12-16,2009/10,Goal,Barcelona,Club World Cup,Atlante,A,3–1,W,55,Left Foot,Open Play,,Zlatan Ibrahimovic,,93,42,,,,video
+169,2009-12-19,2009/10,Goal,Barcelona,Club World Cup,Estudiantes,A,2–1,W,110,Head,Open Play,,Dani Alves,,94,50,,,,video
+170,2010-01-10,2009/10,Assist,Barcelona,La Liga,Tenerife,A,5–0,W,44,Head,Open Play,,Carles Puyol,Pass,95.4,53.5,84.4,96.1,0.263,statsbomb
+171,2010-01-10,2009/10,Goal,Barcelona,La Liga,Tenerife,A,5–0,W,36,Left Foot,Open Play,,Bojan Krkić,,91.1,54.4,,,0.118,statsbomb
+172,2010-01-10,2009/10,Goal,Barcelona,La Liga,Tenerife,A,5–0,W,45,Left Foot,Open Play,,Bojan Krkić,,94.8,54.8,,,0.503,statsbomb
+173,2010-01-10,2009/10,Goal,Barcelona,La Liga,Tenerife,A,5–0,W,75,Left Foot,Open Play,Lob,Bojan Krkić,,83.3,38.9,,,0.056,statsbomb
+174,2010-01-16,2009/10,Goal,Barcelona,La Liga,Sevilla,H,4–0,W,85,Left Foot,Open Play,,Dani Alves,,93.1,50.0,,,0.149,statsbomb
+175,2010-01-16,2009/10,Goal,Barcelona,La Liga,Sevilla,H,4–0,W,90+1,Left Foot,Open Play,,Éric Abidal,,87.5,45.6,,,0.466,statsbomb
+176,2010-01-23,2009/10,Assist,Barcelona,La Liga,Real Valladolid,A,3–0,W,22,Right Foot,Open Play,,Dani Alves,Pass,88.0,80.4,54.5,78.1,0.01,statsbomb
+177,2010-01-23,2009/10,Goal,Barcelona,La Liga,Real Valladolid,A,3–0,W,54,Left Foot,Open Play,,Zlatan Ibrahimovic,,92.3,55.6,,,0.156,statsbomb
+178,2010-02-06,2009/10,Assist,Barcelona,La Liga,Getafe,H,2–1,W,67,Right Foot,Open Play,,Xavi,Pass,92.9,59.7,87.3,47.8,0.36,statsbomb
+179,2010-02-06,2009/10,Goal,Barcelona,La Liga,Getafe,H,2–1,W,7,Left Foot,Open Play,,Yaya Touré,,79.4,47.6,,,0.035,statsbomb
+180,2010-02-20,2009/10,Assist,Barcelona,La Liga,Racing Santander,H,4–0,W,84,Right Foot,Open Play,,Thiago Alcântara,Pass,92.4,56.8,98.1,72.9,0.12,statsbomb
+181,2010-02-27,2009/10,Goal,Barcelona,La Liga,Málaga,H,2–1,W,84,Right Foot,Open Play,,Dani Alves,,94.5,48.8,,,0.695,statsbomb
+182,2010-03-06,2009/10,Goal,Barcelona,La Liga,Almería,A,2–2,D,42,Left Foot,Free Kick,,,,83.7,58.8,,,0.084,statsbomb
+183,2010-03-06,2009/10,Goal,Barcelona,La Liga,Almería,A,2–2,D,66,Left Foot,Open Play,Half Volley,,,95.4,46.5,,,0.411,statsbomb
+184,2010-03-14,2009/10,Goal,Barcelona,La Liga,Valencia,H,3–0,W,56,Left Foot,Open Play,,Xavi,,92.8,61.7,,,0.267,statsbomb
+185,2010-03-14,2009/10,Goal,Barcelona,La Liga,Valencia,H,3–0,W,80,Left Foot,Open Play,,Thierry Henry,,86.3,64.8,,,0.07,statsbomb
+186,2010-03-14,2009/10,Goal,Barcelona,La Liga,Valencia,H,3–0,W,82,Right Foot,Open Play,,Thierry Henry,,94.6,62.8,,,0.189,statsbomb
+187,2010-03-17,2009/10,Goal,Barcelona,Champions League,VfB Stuttgart,H,4–0,W,13,Left Foot,Open Play,,Yaya Touré,,81,45,,,,video
+188,2010-03-17,2009/10,Goal,Barcelona,Champions League,VfB Stuttgart,H,4–0,W,56,Left Foot,Open Play,,Dani Alves,,80,49,,,,video
+189,2010-03-21,2009/10,Assist,Barcelona,La Liga,Real Zaragoza,A,4–2,W,90,,Penalty,,Zlatan Ibrahimovic,Won penalty,,,,,,
+190,2010-03-21,2009/10,Goal,Barcelona,La Liga,Real Zaragoza,A,4–2,W,4,Head,Open Play,,Pedro,,92.7,51.1,,,0.118,statsbomb
+191,2010-03-21,2009/10,Goal,Barcelona,La Liga,Real Zaragoza,A,4–2,W,65,Left Foot,Open Play,,,,89.6,35.5,,,0.086,statsbomb
+192,2010-03-21,2009/10,Goal,Barcelona,La Liga,Real Zaragoza,A,4–2,W,78,Left Foot,Open Play,,Andrés Iniesta,,84.3,62.9,,,0.066,statsbomb
+193,2010-04-03,2009/10,Goal,Barcelona,La Liga,Athletic Club,H,4–1,W,67,Left Foot,Open Play,,Pedro,,93.6,54.9,,,0.323,statsbomb
+194,2010-04-06,2009/10,Goal,Barcelona,Champions League,Arsenal FC,H,4–1,W,21,Left Foot,Open Play,,,,82,53,,,,video
+195,2010-04-06,2009/10,Goal,Barcelona,Champions League,Arsenal FC,H,4–1,W,37,Right Foot,Open Play,,Pedro,,92,53,,,,video
+196,2010-04-06,2009/10,Goal,Barcelona,Champions League,Arsenal FC,H,4–1,W,42,Left Foot,Open Play,chip,Seydou Keita,,86,59,,,,video
+197,2010-04-06,2009/10,Goal,Barcelona,Champions League,Arsenal FC,H,4–1,W,88,Left Foot,Open Play,,Xavi,,96,35,,,,video
+198,2010-04-10,2009/10,Goal,Barcelona,La Liga,Real Madrid,A,2–0,W,32,Right Foot,Open Play,,Xavi,,92.2,46.5,,,0.121,statsbomb
+199,2010-05-01,2009/10,Goal,Barcelona,La Liga,Villarreal,A,4–1,W,18,Left Foot,Open Play,,Xavi,,93.8,35.0,,,0.092,statsbomb
+200,2010-05-01,2009/10,Goal,Barcelona,La Liga,Villarreal,A,4–1,W,87,Left Foot,Open Play,Lob,Dani Alves,,92.9,51.5,,,0.308,statsbomb
+201,2010-05-04,2009/10,Goal,Barcelona,La Liga,Tenerife,H,4–1,W,16,Right Foot,Open Play,Half Volley,Zlatan Ibrahimovic,,98.8,55.6,,,0.492,statsbomb
+202,2010-05-04,2009/10,Goal,Barcelona,La Liga,Tenerife,H,4–1,W,90+3,Right Foot,Open Play,Lob,Dani Alves,,94.0,61.4,,,0.156,statsbomb
+203,2010-05-08,2009/10,Goal,Barcelona,La Liga,Sevilla,A,3–2,W,5,Left Foot,Open Play,,Maxwell,,85.8,42.8,,,0.063,statsbomb
+204,2010-05-16,2009/10,Assist,Barcelona,La Liga,Real Valladolid,H,4–0,W,31,Right Foot,Open Play,,Pedro,Pass,90.9,64.5,75.3,57.9,0.161,statsbomb
+205,2010-05-16,2009/10,Goal,Barcelona,La Liga,Real Valladolid,H,4–0,W,61,Right Foot,Open Play,,Yaya Touré,,94.0,46.2,,,0.466,statsbomb
+206,2010-05-16,2009/10,Goal,Barcelona,La Liga,Real Valladolid,H,4–0,W,74,Left Foot,Open Play,,Yaya Touré,,87.6,44.9,,,0.402,statsbomb
+207,2010-06-27,2009/10,Assist,Argentina,World Cup,Mexico,N,3–1,W,25,Head,Open Play,,Carlos Tevez,Shot on goal,,,,,,
+208,2010-08-21,2010/11,Goal,Barcelona,Supercopa de España,Sevilla,H,4–0,W,25,Left Foot,Open Play,,Xavi,,90,37,,,,video
+209,2010-08-21,2010/11,Goal,Barcelona,Supercopa de España,Sevilla,H,4–0,W,43,Right Foot,Open Play,,Dani Alves,,94,64,,,,video
+210,2010-08-21,2010/11,Goal,Barcelona,Supercopa de España,Sevilla,H,4–0,W,90+1,Left Foot,Open Play,,Andrés Iniesta,,91,45,,,,video
+211,2010-08-29,2010/11,Goal,Barcelona,La Liga,Racing Santander,A,3–0,W,3,Right Foot,Open Play,Lob,Andrés Iniesta,,87.2,63.1,,,0.252,statsbomb
+212,2010-09-07,2010/11,Goal,Argentina,International Friendly,Spain,H,4–1,W,,Left Foot,Open Play,chip,Carlos Tevez,,96,39,,,,video
+213,2010-09-14,2010/11,Assist,Barcelona,Champions League,Panathinaikos,H,5–1,W,77,,Open Play,,Pedro,Shot on goal,,,,,,
+214,2010-09-14,2010/11,Assist,Barcelona,Champions League,Panathinaikos,H,5–1,W,90+2,Head,Open Play,,Dani Alves,Pass,,,,,,
+215,2010-09-14,2010/11,Goal,Barcelona,Champions League,Panathinaikos,H,5–1,W,22,Left Foot,Open Play,,Xavi,,91,64,,,,video
+216,2010-09-14,2010/11,Goal,Barcelona,Champions League,Panathinaikos,H,5–1,W,45,Left Foot,Open Play,,Pedro,,87,46,,,,video
+217,2010-09-19,2010/11,Assist,Barcelona,La Liga,Atlético Madrid,A,2–1,W,33,Right Foot,Open Play,Half Volley,Gerard Pique,Pass,95.2,62.1,100.0,1.2,0.07,statsbomb
+218,2010-09-19,2010/11,Goal,Barcelona,La Liga,Atlético Madrid,A,2–1,W,12,Left Foot,Open Play,,Pedro,,93.2,59.6,,,0.224,statsbomb
+219,2010-10-03,2010/11,Goal,Barcelona,La Liga,Mallorca,H,1–1,D,20,Left Foot,Open Play,,Pedro,,83.0,50.5,,,0.065,statsbomb
+220,2010-10-20,2010/11,Goal,Barcelona,Champions League,FC Copenhagen,H,2–0,W,18,Left Foot,Open Play,,Andrés Iniesta,,80,47,,,,video
+221,2010-10-20,2010/11,Goal,Barcelona,Champions League,FC Copenhagen,H,2–0,W,90+1,Left Foot,Open Play,,Éric Abidal,,97,50,,,,video
+222,2010-10-23,2010/11,Goal,Barcelona,La Liga,Real Zaragoza,A,2–0,W,41,Left Foot,Open Play,,David Villa,,88.4,47.2,,,0.444,statsbomb
+223,2010-10-23,2010/11,Goal,Barcelona,La Liga,Real Zaragoza,A,2–0,W,65,Left Foot,Open Play,Half Volley,,,89.1,57.1,,,0.064,statsbomb
+224,2010-10-30,2010/11,Assist,Barcelona,La Liga,Sevilla,H,5–0,W,24,Left Foot,Open Play,,David Villa,Pass,90.5,72.8,71.2,68.6,0.013,statsbomb
+225,2010-10-30,2010/11,Goal,Barcelona,La Liga,Sevilla,H,5–0,W,4,Left Foot,Open Play,,,,94.0,39.6,,,0.08,statsbomb
+226,2010-10-30,2010/11,Goal,Barcelona,La Liga,Sevilla,H,5–0,W,63,Left Foot,Open Play,Solo,,,81.8,46.5,,,0.065,statsbomb
+227,2010-11-02,2010/11,Goal,Barcelona,Champions League,FC Copenhagen,A,1–1,D,31,Right Foot,Open Play,,,,92,59,,,,video
+228,2010-11-07,2010/11,Assist,Barcelona,La Liga,Getafe,A,3–1,W,34,Right Foot,Open Play,,David Villa,Pass,89.8,59.5,77.8,61.3,0.177,statsbomb
+229,2010-11-07,2010/11,Assist,Barcelona,La Liga,Getafe,A,3–1,W,65,Right Foot,Open Play,,Pedro,Pass,,,,,,
+230,2010-11-07,2010/11,Goal,Barcelona,La Liga,Getafe,A,3–1,W,23,Left Foot,Open Play,,David Villa,,95.0,59.9,,,0.231,statsbomb
+231,2010-11-10,2010/11,Goal,Barcelona,Copa del Rey,AD Ceuta,H,5–1,W,67,Left Foot,Open Play,,Thiago Alcântara,,88,52,,,,video
+232,2010-11-13,2010/11,Goal,Barcelona,La Liga,Villarreal,H,3–1,W,58,Right Foot,Open Play,Lob,Pedro,,96.2,62.8,,,0.143,statsbomb
+233,2010-11-13,2010/11,Goal,Barcelona,La Liga,Villarreal,H,3–1,W,83,Left Foot,Open Play,Volley,Pedro,,95.1,53.2,,,0.544,statsbomb
+234,2010-11-17,2010/11,Goal,Argentina,International Friendly,Brazil,N,1–0,W,,Left Foot,Open Play,,Ezequiel Lavezzi,,85,45,,,,video
+235,2010-11-20,2010/11,Assist,Barcelona,La Liga,Almería,A,8–0,W,62,Right Foot,Open Play,,Bojan Krkić,Pass,94.2,46.5,83.6,51.1,0.23,statsbomb
+236,2010-11-20,2010/11,Assist,Barcelona,La Liga,Almería,A,8–0,W,73,Right Foot,Open Play,,Bojan Krkić,Pass,90.2,48.4,76.8,54.8,0.429,statsbomb
+237,2010-11-20,2010/11,Goal,Barcelona,La Liga,Almería,A,8–0,W,16,Left Foot,Open Play,,David Villa,,81.4,44.0,,,0.074,statsbomb
+238,2010-11-20,2010/11,Goal,Barcelona,La Liga,Almería,A,8–0,W,36,Left Foot,Open Play,Volley,,,97.0,55.0,,,0.495,statsbomb
+239,2010-11-20,2010/11,Goal,Barcelona,La Liga,Almería,A,8–0,W,67,Left Foot,Open Play,,David Villa,,96.7,53.5,,,0.857,statsbomb
+240,2010-11-24,2010/11,Goal,Barcelona,Champions League,Panathinaikos,A,3–0,W,63,Left Foot,Open Play,,Adriano,,94,47,,,,video
+241,2010-11-29,2010/11,Assist,Barcelona,La Liga,Real Madrid,H,5–0,W,55,Right Foot,Open Play,,David Villa,Pass,90.6,60.9,77.3,70.2,0.356,statsbomb
+242,2010-11-29,2010/11,Assist,Barcelona,La Liga,Real Madrid,H,5–0,W,58,Right Foot,Open Play,,David Villa,Pass,85.2,34.6,52.4,64.8,0.156,statsbomb
+243,2010-12-04,2010/11,Assist,Barcelona,La Liga,Osasuna,A,3–0,W,26,Right Foot,Open Play,,Pedro,Pass,87.9,50.6,74.3,57.1,0.361,statsbomb
+244,2010-12-04,2010/11,Goal,Barcelona,La Liga,Osasuna,A,3–0,W,64,Left Foot,Open Play,,David Villa,,89.8,36.9,,,0.309,statsbomb
+245,2010-12-04,2010/11,Goal,Barcelona,La Liga,Osasuna,A,3–0,W,82,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+246,2010-12-12,2010/11,Goal,Barcelona,La Liga,Real Sociedad,H,5–0,W,46,Left Foot,Open Play,,Dani Alves,,93.8,61.4,,,0.212,statsbomb
+247,2010-12-12,2010/11,Goal,Barcelona,La Liga,Real Sociedad,H,5–0,W,86,Left Foot,Open Play,,Bojan Krkić,,92.8,43.6,,,0.33,statsbomb
+248,2010-12-18,2010/11,Assist,Barcelona,La Liga,Espanyol,A,5–1,W,19,Right Foot,Open Play,,Pedro,Pass,85.0,50.5,54.9,57.2,0.264,statsbomb
+249,2010-12-18,2010/11,Assist,Barcelona,La Liga,Espanyol,A,5–1,W,76,Right Foot,Open Play,,David Villa,Pass,83.7,42.6,53.7,42.2,0.295,statsbomb
+250,2010-12-18,2010/11,Assist,Barcelona,La Liga,Espanyol,A,5–1,W,60,Right Foot,Open Play,,Pedro,Shot on goal,96.9,56.2,81.1,50.0,0.365,statsbomb
+251,2011-01-05,2010/11,Assist,Barcelona,Copa del Rey,Athletic Club,A,1–1,D,74,Left Foot,Open Play,,Éric Abidal,Pass,,,,,,
+252,2011-01-08,2010/11,Assist,Barcelona,La Liga,Deportivo La Coruña,A,4–0,W,26,Right Foot,Open Play,,David Villa,Pass,98.1,62.5,77.0,74.4,0.034,statsbomb
+253,2011-01-08,2010/11,Assist,Barcelona,La Liga,Deportivo La Coruña,A,4–0,W,81,Left Foot,Open Play,,Pedro,Pass,88.2,58.1,80.6,49.9,0.417,statsbomb
+254,2011-01-08,2010/11,Goal,Barcelona,La Liga,Deportivo La Coruña,A,4–0,W,51,Left Foot,Free Kick,,,,76.5,45.4,,,0.055,statsbomb
+255,2011-01-12,2010/11,Goal,Barcelona,Copa del Rey,Real Betis,H,5–0,W,44,Left Foot,Open Play,chip,Andrés Iniesta,,89,65,,,,video
+256,2011-01-12,2010/11,Goal,Barcelona,Copa del Rey,Real Betis,H,5–0,W,63,Left Foot,Open Play,,,,93,34,,,,video
+257,2011-01-12,2010/11,Goal,Barcelona,Copa del Rey,Real Betis,H,5–0,W,73,Left Foot,Open Play,,Xavi,,87,47,,,,video
+258,2011-01-16,2010/11,Assist,Barcelona,La Liga,Málaga,H,4–1,W,18,Left Foot,Open Play,,David Villa,Pass,92.3,38.5,77.3,49.0,0.24,statsbomb
+259,2011-01-19,2010/11,Goal,Barcelona,Copa del Rey,Real Betis,A,1–3,L,37,Left Foot,Open Play,,Xavi,,90,38,,,,video
+260,2011-01-22,2010/11,Assist,Barcelona,La Liga,Racing Santander,H,3–0,W,2,Other,Open Play,,Pedro,Pass,98.7,51.4,95.9,40.6,0.897,statsbomb
+261,2011-01-22,2010/11,Goal,Barcelona,La Liga,Racing Santander,H,3–0,W,33,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+262,2011-01-26,2010/11,Assist,Barcelona,Copa del Rey,Almería,H,5–0,W,88,Left Foot,Open Play,,Seydou Keita,Pass,,,,,,
+263,2011-01-26,2010/11,Goal,Barcelona,Copa del Rey,Almería,H,5–0,W,9,Left Foot,Open Play,,Pedro,,82,44,,,,video
+264,2011-01-26,2010/11,Goal,Barcelona,Copa del Rey,Almería,H,5–0,W,15,Left Foot,Open Play,,Andrés Iniesta,,88,58,,,,video
+265,2011-01-29,2010/11,Goal,Barcelona,La Liga,Hércules,A,3–0,W,87,Left Foot,Open Play,,Dani Alves,,86.2,43.4,,,0.344,statsbomb
+266,2011-01-29,2010/11,Goal,Barcelona,La Liga,Hércules,A,3–0,W,89,Left Foot,Open Play,,Dani Alves,,98.1,47.2,,,0.873,statsbomb
+267,2011-02-05,2010/11,Goal,Barcelona,La Liga,Atlético Madrid,H,3–0,W,16,Left Foot,Open Play,,Dani Alves,,84.2,53.8,,,0.117,statsbomb
+268,2011-02-05,2010/11,Goal,Barcelona,La Liga,Atlético Madrid,H,3–0,W,28,Left Foot,Open Play,,Pedro,,94.3,55.1,,,0.366,statsbomb
+269,2011-02-05,2010/11,Goal,Barcelona,La Liga,Atlético Madrid,H,3–0,W,78,Left Foot,Open Play,,David Villa,,98.1,50.9,,,0.707,statsbomb
+270,2011-02-09,2010/11,Assist,Argentina,International Friendly,Portugal,N,2–1,W,14,Left Foot,Open Play,,Ángel Di María,Pass,,,,,,
+271,2011-02-09,2010/11,Goal,Argentina,International Friendly,Portugal,N,2–1,W,90,Left Foot,Penalty,,,,89,50,,,,video
+272,2011-02-12,2010/11,Assist,Barcelona,La Liga,Sporting Gijón,A,1–1,D,80,Right Foot,Open Play,Lob,David Villa,Pass,83.7,70.1,61.6,70.4,0.062,statsbomb
+273,2011-02-16,2010/11,Assist,Barcelona,Champions League,Arsenal FC,A,1–2,L,26,Right Foot,Open Play,,David Villa,Pass,,,,,,
+274,2011-02-20,2010/11,Goal,Barcelona,La Liga,Athletic Club,H,2–1,W,78,Right Foot,Open Play,,Dani Alves,,95.2,54.4,,,0.371,statsbomb
+275,2011-02-26,2010/11,Goal,Barcelona,La Liga,Mallorca,A,3–0,W,38,Head,Open Play,Lob,Seydou Keita,,92.8,54.1,,,0.299,statsbomb
+276,2011-03-02,2010/11,Goal,Barcelona,La Liga,Valencia,A,1–0,W,77,Left Foot,Open Play,,Adriano,,90.2,47.0,,,0.1,statsbomb
+277,2011-03-05,2010/11,Assist,Barcelona,La Liga,Real Zaragoza,H,1–0,W,43,Right Foot,Open Play,,Seydou Keita,Pass,94.3,50.8,98.4,66.5,0.277,statsbomb
+278,2011-03-08,2010/11,Goal,Barcelona,Champions League,Arsenal FC,H,3–1,W,49,Left Foot,Open Play,self assist,Andrés Iniesta,,97,55,,,,video
+279,2011-03-08,2010/11,Goal,Barcelona,Champions League,Arsenal FC,H,3–1,W,72,Left Foot,Penalty,,,,89,50,,,,video
+280,2011-03-19,2010/11,Assist,Barcelona,La Liga,Getafe,H,2–1,W,50,Left Foot,Open Play,,Bojan Krkić,Pass,86.8,61.6,86.9,53.1,0.059,statsbomb
+281,2011-04-06,2010/11,Assist,Barcelona,Champions League,Shakhtar Donetsk,H,5–1,W,60,Left Foot,Open Play,,Seydou Keita,Pass,,,,,,
+282,2011-04-09,2010/11,Assist,Barcelona,La Liga,Almería,H,3–1,W,65,Head,Open Play,,Thiago Alcântara,Pass,94.3,49.7,100.0,1.2,0.172,statsbomb
+283,2011-04-09,2010/11,Goal,Barcelona,La Liga,Almería,H,3–1,W,52,Left Foot,Penalty,,,,90.2,50.1,,,0.783,statsbomb
+284,2011-04-09,2010/11,Goal,Barcelona,La Liga,Almería,H,3–1,W,90+1,Left Foot,Open Play,,Seydou Keita,,91.8,44.9,,,0.342,statsbomb
+285,2011-04-12,2010/11,Goal,Barcelona,Champions League,Shakhtar Donetsk,A,1–0,W,42,Left Foot,Open Play,,Dani Alves,,90,57,,,,video
+286,2011-04-16,2010/11,Goal,Barcelona,La Liga,Real Madrid,A,1–1,D,53,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+287,2011-04-23,2010/11,Goal,Barcelona,La Liga,Osasuna,H,2–0,W,87,Right Foot,Open Play,,Dani Alves,,91.0,57.2,,,0.198,statsbomb
+288,2011-04-27,2010/11,Goal,Barcelona,Champions League,Real Madrid,A,2–0,W,76,Left Foot,Open Play,,Ibrahim Afellay,,98,54,,,,video
+289,2011-04-27,2010/11,Goal,Barcelona,Champions League,Real Madrid,A,2–0,W,87,Right Foot,Open Play,,Sergio Busquets,,92,60,,,,video
+290,2011-04-30,2010/11,Assist,Barcelona,La Liga,Real Sociedad,A,1–2,L,29,Right Foot,Open Play,,Thiago Alcântara,Pass,89.8,59.1,75.8,50.0,0.335,statsbomb
+291,2011-05-28,2010/11,Goal,Barcelona,Champions League,Manchester United,N,3–1,W,54,Left Foot,Open Play,,Andrés Iniesta,,78.3,53.8,,,0.04,statsbomb
+292,2011-06-20,2010/11,Assist,Argentina,International Friendly,Albania,H,4–0,W,6,Right Foot,Open Play,,Ezequiel Lavezzi,Pass,,,,,,
+293,2011-06-20,2010/11,Assist,Argentina,International Friendly,Albania,H,4–0,W,75,Left Foot,Open Play,,Sergio Agüero,Pass,,,,,,
+294,2011-06-20,2010/11,Goal,Argentina,International Friendly,Albania,H,4–0,W,43,Left Foot,Open Play,,Ezequiel Lavezzi,,87,54,,,,video
+295,2011-07-11,2011/12,Assist,Argentina,Copa América,Costa Rica,H,3–0,W,53,Right Foot,Open Play,,Sergio Agüero,Pass,,,,,,
+296,2011-07-11,2011/12,Assist,Argentina,Copa América,Costa Rica,H,3–0,W,64,Left Foot,Open Play,,Ángel Di María,Pass,,,,,,
+297,2011-07-16,2011/12,Assist,Argentina,Copa América,Uruguay,H,1–1,D,17,Head,Open Play,,Gonzalo Higuaín,Cross,,,,,,
+298,2011-08-14,2011/12,Assist,Barcelona,Supercopa de España,Real Madrid,A,2–2,D,35,Right Foot,Open Play,,David Villa,Pass,,,,,,
+299,2011-08-14,2011/12,Goal,Barcelona,Supercopa de España,Real Madrid,A,2–2,D,45,Left Foot,Open Play,,Thiago Alcântara,,90,64,,,,video
+300,2011-08-17,2011/12,Assist,Barcelona,Supercopa de España,Real Madrid,H,3–2,W,15,Right Foot,Open Play,,Andrés Iniesta,Pass,,,,,,
+301,2011-08-17,2011/12,Goal,Barcelona,Supercopa de España,Real Madrid,H,3–2,W,44,Right Foot,Open Play,,Gerard Pique,,95,58,,,,video
+302,2011-08-17,2011/12,Goal,Barcelona,Supercopa de España,Real Madrid,H,3–2,W,88,Left Foot,Open Play,,Adriano,,92,53,,,,video
+303,2011-08-26,2011/12,Assist,Barcelona,UEFA Super Cup,FC Porto,H,2–0,W,87,Left Foot,Open Play,,Cesc Fàbregas,Cross,,,,,,
+304,2011-08-26,2011/12,Goal,Barcelona,UEFA Super Cup,FC Porto,H,2–0,W,39,Left Foot,Open Play,,,,94,35,,,,video
+305,2011-08-29,2011/12,Assist,Barcelona,La Liga,Villarreal,H,5–0,W,45,Right Foot,Open Play,,Cesc Fàbregas,Pass,96.1,62.5,73.9,67.5,0.36,statsbomb
+306,2011-08-29,2011/12,Goal,Barcelona,La Liga,Villarreal,H,5–0,W,51,Right Foot,Open Play,,Andrés Iniesta,,95.8,60.8,,,0.784,statsbomb
+307,2011-08-29,2011/12,Goal,Barcelona,La Liga,Villarreal,H,5–0,W,74,Left Foot,Open Play,,Thiago Alcântara,,95.8,52.0,,,0.622,statsbomb
+308,2011-09-02,2011/12,Assist,Argentina,International Friendly,Venezuela,N,1–0,W,70,Head,Open Play,,Nicolás Otamendi,Corner,,,,,,
+309,2011-09-06,2011/12,Assist,Argentina,International Friendly,Nigeria,N,3–1,W,25,Right Foot,Open Play,,Gonzalo Higuaín,Pass,,,,,,
+310,2011-09-13,2011/12,Assist,Barcelona,Champions League,AC Milan,H,2–2,D,36,Right Foot,Open Play,,Pedro,Pass,,,,,,
+311,2011-09-17,2011/12,Assist,Barcelona,La Liga,Osasuna,H,8–0,W,13,Left Foot,Open Play,Volley,Cesc Fàbregas,Pass,89.5,44.6,70.3,55.1,0.209,statsbomb
+312,2011-09-17,2011/12,Assist,Barcelona,La Liga,Osasuna,H,8–0,W,57,Right Foot,Open Play,Lob,Xavi,Pass,86.1,62.0,68.6,87.9,0.093,statsbomb
+313,2011-09-17,2011/12,Goal,Barcelona,La Liga,Osasuna,H,8–0,W,5,Left Foot,Open Play,Half Volley,Dani Alves,,97.4,48.0,,,0.69,statsbomb
+314,2011-09-17,2011/12,Goal,Barcelona,La Liga,Osasuna,H,8–0,W,41,Left Foot,Open Play,,Cesc Fàbregas,,90.6,48.3,,,0.274,statsbomb
+315,2011-09-17,2011/12,Goal,Barcelona,La Liga,Osasuna,H,8–0,W,79,Left Foot,Open Play,,Cesc Fàbregas,,90.6,52.4,,,0.503,statsbomb
+316,2011-09-21,2011/12,Assist,Barcelona,La Liga,Valencia,A,2–2,D,14,Left Foot,Open Play,,Pedro,Pass,95.2,35.6,84.6,41.5,0.128,statsbomb
+317,2011-09-21,2011/12,Assist,Barcelona,La Liga,Valencia,A,2–2,D,77,Left Foot,Open Play,,Cesc Fàbregas,Pass,86.6,42.6,63.7,39.6,0.16,statsbomb
+318,2011-09-24,2011/12,Assist,Barcelona,La Liga,Atlético Madrid,H,5–0,W,15,,Open Play,,Miranda,Shot on goal,,,,,,
+319,2011-09-24,2011/12,Goal,Barcelona,La Liga,Atlético Madrid,H,5–0,W,26,Left Foot,Open Play,,Pedro,,93.8,63.4,,,0.182,statsbomb
+320,2011-09-24,2011/12,Goal,Barcelona,La Liga,Atlético Madrid,H,5–0,W,78,Left Foot,Open Play,,Dani Alves,,91.1,37.4,,,0.064,statsbomb
+321,2011-09-24,2011/12,Goal,Barcelona,La Liga,Atlético Madrid,H,5–0,W,90+1,Left Foot,Open Play,,David Villa,,95.9,36.1,,,0.096,statsbomb
+322,2011-09-28,2011/12,Goal,Barcelona,Champions League,BATE Borisov,A,5–0,W,38,Head,Open Play,,,,96,54,,,,video
+323,2011-09-28,2011/12,Goal,Barcelona,Champions League,BATE Borisov,A,5–0,W,56,Left Foot,Open Play,,Dani Alves,,86,54,,,,video
+324,2011-10-07,2011/12,Assist,Argentina,World Cup Qualifier,Chile,H,4–1,W,63,Left Foot,Open Play,,Gonzalo Higuaín,Pass,,,,,,
+325,2011-10-07,2011/12,Goal,Argentina,World Cup Qualifier,Chile,H,4–1,W,25,Left Foot,Open Play,,Gonzalo Higuaín,,85,48,,,,video
+326,2011-10-15,2011/12,Goal,Barcelona,La Liga,Racing Santander,H,3–0,W,11,Right Foot,Open Play,,Andrés Iniesta,,97.9,59.9,,,0.456,statsbomb
+327,2011-10-15,2011/12,Goal,Barcelona,La Liga,Racing Santander,H,3–0,W,69,Right Foot,Open Play,Half Volley,,,89.2,56.5,,,0.282,statsbomb
+328,2011-10-19,2011/12,Assist,Barcelona,Champions League,Viktoria Plzeň,H,2–0,W,10,Left Foot,Open Play,,Andrés Iniesta,Pass,,,,,,
+329,2011-10-29,2011/12,Assist,Barcelona,La Liga,Mallorca,H,5–0,W,90+2,Right Foot,Open Play,,Dani Alves,Pass,78.8,75.9,60.9,76.2,0.009,statsbomb
+330,2011-10-29,2011/12,Goal,Barcelona,La Liga,Mallorca,H,5–0,W,13,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+331,2011-10-29,2011/12,Goal,Barcelona,La Liga,Mallorca,H,5–0,W,21,Right Foot,Open Play,,Adriano,,94.4,53.6,,,0.506,statsbomb
+332,2011-10-29,2011/12,Goal,Barcelona,La Liga,Mallorca,H,5–0,W,30,Left Foot,Open Play,Volley,Dani Alves,,89.5,47.8,,,0.205,statsbomb
+333,2011-11-01,2011/12,Goal,Barcelona,Champions League,Viktoria Plzeň,A,4–0,W,24,Left Foot,Penalty,,,,89,50,,,,video
+334,2011-11-01,2011/12,Goal,Barcelona,Champions League,Viktoria Plzeň,A,4–0,W,45+2,Left Foot,Open Play,,Adriano,,90,43,,,,video
+335,2011-11-01,2011/12,Goal,Barcelona,Champions League,Viktoria Plzeň,A,4–0,W,90+2,Left Foot,Open Play,,Gerard Pique,,94,39,,,,video
+336,2011-11-06,2011/12,Goal,Barcelona,La Liga,Athletic Club,A,2–2,D,90,Left Foot,Open Play,,,,87.2,43.5,,,0.142,statsbomb
+337,2011-11-15,2011/12,Goal,Argentina,World Cup Qualifier,Colombia,A,2–1,W,61,Left Foot,Open Play,,Sosa,,96,39,,,,video
+338,2011-11-19,2011/12,Goal,Barcelona,La Liga,Real Zaragoza,H,4–0,W,43,Right Foot,Open Play,,Cesc Fàbregas,,95.1,61.4,,,0.136,statsbomb
+339,2011-11-23,2011/12,Assist,Barcelona,Champions League,AC Milan,A,3–2,W,63,Right Foot,Open Play,,Xavi,Pass,,,,,,
+340,2011-11-23,2011/12,Goal,Barcelona,Champions League,AC Milan,A,3–2,W,31,Left Foot,Penalty,,,,89,50,,,,video
+341,2011-11-29,2011/12,Goal,Barcelona,La Liga,Rayo Vallecano,H,4–0,W,49,Left Foot,Open Play,,Dani Alves,,96.0,65.5,,,0.089,statsbomb
+342,2011-12-03,2011/12,Assist,Barcelona,La Liga,Levante,H,5–0,W,61,Right Foot,Open Play,Lob,Alexis Sánchez,Pass,90.5,39.9,84.6,57.0,0.136,statsbomb
+343,2011-12-03,2011/12,Goal,Barcelona,La Liga,Levante,H,5–0,W,55,Left Foot,Open Play,,Dani Alves,,92.4,65.8,,,0.156,statsbomb
+344,2011-12-10,2011/12,Assist,Barcelona,La Liga,Real Madrid,A,3–1,W,30,Right Foot,Open Play,,Alexis Sánchez,Pass,83.1,58.9,65.8,57.5,0.132,statsbomb
+345,2011-12-15,2011/12,Assist,Barcelona,Club World Cup,Al-Sadd,A,4–0,W,64,Right Foot,Open Play,,Seydou Keita,Pass,,,,,,
+346,2011-12-18,2011/12,Goal,Barcelona,Club World Cup,Santos FC,A,4–0,W,17,Left Foot,Open Play,Chip,Xavi,,93,64,,,,video
+347,2011-12-18,2011/12,Goal,Barcelona,Club World Cup,Santos FC,A,4–0,W,82,Left Foot,Open Play,,Dani Alves,,97,43,,,,video
+348,2012-01-04,2011/12,Goal,Barcelona,Copa del Rey,Osasuna,H,4–0,W,71,Head,Open Play,,Cesc Fàbregas,,92,47,,,,video
+349,2012-01-04,2011/12,Goal,Barcelona,Copa del Rey,Osasuna,H,4–0,W,90,Left Foot,Open Play,,Xavi,,83,59,,,,video
+350,2012-01-12,2011/12,Assist,Barcelona,Copa del Rey,Osasuna,A,2–1,W,72,Left Foot,Open Play,,Sergi Roberto,Pass,,,,,,
+351,2012-01-15,2011/12,Goal,Barcelona,La Liga,Real Betis,H,4–2,W,12,Left Foot,Open Play,Half Volley,Alexis Sánchez,,94.2,50.9,,,0.445,statsbomb
+352,2012-01-15,2011/12,Goal,Barcelona,La Liga,Real Betis,H,4–2,W,86,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+353,2012-01-18,2011/12,Assist,Barcelona,Copa del Rey,Real Madrid,A,2–1,W,77,Left Foot,Open Play,,Éric Abidal,Pass,,,,,,
+354,2012-01-22,2011/12,Goal,Barcelona,La Liga,Málaga,A,4–1,W,32,Head,Open Play,,Adriano,,89.2,51.0,,,0.129,statsbomb
+355,2012-01-22,2011/12,Goal,Barcelona,La Liga,Málaga,A,4–1,W,51,Left Foot,Open Play,,Thiago Alcântara,,86.5,53.4,,,0.14,statsbomb
+356,2012-01-22,2011/12,Goal,Barcelona,La Liga,Málaga,A,4–1,W,77,Left Foot,Open Play,,Pedro,,94.3,38.2,,,0.279,statsbomb
+357,2012-01-25,2011/12,Assist,Barcelona,Copa del Rey,Real Madrid,H,2–2,D,43,Right Foot,Open Play,,Pedro,Pass,,,,,,
+358,2012-02-04,2011/12,Assist,Barcelona,La Liga,Real Sociedad,H,2–1,W,9,Right Foot,Open Play,,Cristian Tello,Pass,92.5,29.0,72.0,29.9,0.039,statsbomb
+359,2012-02-04,2011/12,Goal,Barcelona,La Liga,Real Sociedad,H,2–1,W,72,Left Foot,Open Play,Half Volley,Dani Alves,,95.7,40.0,,,0.177,statsbomb
+360,2012-02-08,2011/12,Assist,Barcelona,Copa del Rey,Valencia,H,2–0,W,15,Right Foot,Open Play,,Cesc Fàbregas,Pass,,,,,,
+361,2012-02-14,2011/12,Assist,Barcelona,Champions League,Bayer 04 Leverkusen,A,3–1,W,41,Right Foot,Open Play,,Alexis Sánchez,Pass,,,,,,
+362,2012-02-14,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,A,3–1,W,88,Left Foot,Open Play,,Dani Alves,,92,47,,,,video
+363,2012-02-19,2011/12,Goal,Barcelona,La Liga,Valencia,H,5–1,W,21,Left Foot,Open Play,,,,98.6,42.5,,,0.267,statsbomb
+364,2012-02-19,2011/12,Goal,Barcelona,La Liga,Valencia,H,5–1,W,27,Left Foot,Open Play,,,,99.2,54.9,,,0.69,statsbomb
+365,2012-02-19,2011/12,Goal,Barcelona,La Liga,Valencia,H,5–1,W,75,Left Foot,Open Play,,Cristian Tello,,90.8,43.1,,,0.068,statsbomb
+366,2012-02-19,2011/12,Goal,Barcelona,La Liga,Valencia,H,5–1,W,84,Left Foot,Open Play,Lob,Sergio Busquets,,88.2,47.6,,,0.583,statsbomb
+367,2012-02-26,2011/12,Goal,Barcelona,La Liga,Atlético Madrid,A,2–1,W,79,Left Foot,Free Kick,,,,81.0,22.5,,,0.01,statsbomb
+368,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,,Left Foot,Open Play,,Sergio Agüero,,84,48,,,,video
+369,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,,Left Foot,Open Play,,Sergio Agüero,,84,48,,,,video
+370,2012-02-29,2011/12,Goal,Argentina,International Friendly,Switzerland,A,3–1,W,,Left Foot,Penalty,,,,89,50,,,,video
+371,2012-03-07,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,H,7–1,W,25,Left Foot,Open Play,Chip,Xavi,,90,37,,,,video
+372,2012-03-07,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,H,7–1,W,42,Left Foot,Open Play,,Andrés Iniesta,,90,54,,,,video
+373,2012-03-07,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,H,7–1,W,50,Right Foot,Open Play,Chip,Cesc Fàbregas,,89,63,,,,video
+374,2012-03-07,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,H,7–1,W,58,Left Foot,Open Play,,,,98,40,,,,video
+375,2012-03-07,2011/12,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,H,7–1,W,85,Left Foot,Open Play,,Seydou Keita,,82,45,,,,video
+376,2012-03-11,2011/12,Goal,Barcelona,La Liga,Racing Santander,A,2–0,W,28,Left Foot,Open Play,Volley,Cesc Fàbregas,,95.1,51.5,,,0.54,statsbomb
+377,2012-03-11,2011/12,Goal,Barcelona,La Liga,Racing Santander,A,2–0,W,55,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+378,2012-03-17,2011/12,Goal,Barcelona,La Liga,Sevilla,A,2–0,W,25,Left Foot,Open Play,Lob,Andrés Iniesta,,89.0,44.0,,,0.424,statsbomb
+379,2012-03-20,2011/12,Assist,Barcelona,La Liga,Granada,H,5–3,W,4,Right Foot,Open Play,Volley,Xavi,Pass,89.0,54.5,93.2,69.2,0.111,statsbomb
+380,2012-03-20,2011/12,Goal,Barcelona,La Liga,Granada,H,5–3,W,16,Left Foot,Open Play,Volley,Isaac Cuenca,,87.6,64.2,,,0.088,statsbomb
+381,2012-03-20,2011/12,Goal,Barcelona,La Liga,Granada,H,5–3,W,66,Left Foot,Open Play,Lob,Dani Alves,,92.2,41.9,,,0.248,statsbomb
+382,2012-03-20,2011/12,Goal,Barcelona,La Liga,Granada,H,5–3,W,85,Left Foot,Open Play,,Dani Alves,,98.2,59.7,,,0.179,statsbomb
+383,2012-03-24,2011/12,Assist,Barcelona,La Liga,Mallorca,A,2–0,W,79,Left Foot,Open Play,,Gerard Pique,Shot on goal,95.9,42.4,86.7,42.0,0.483,statsbomb
+384,2012-03-24,2011/12,Goal,Barcelona,La Liga,Mallorca,A,2–0,W,25,Left Foot,Free Kick,,,,76.5,71.4,,,0.009,statsbomb
+385,2012-03-31,2011/12,Assist,Barcelona,La Liga,Athletic Club,H,2–0,W,40,Right Foot,Open Play,,Andrés Iniesta,Pass,94.3,58.9,68.5,49.5,0.216,statsbomb
+386,2012-03-31,2011/12,Goal,Barcelona,La Liga,Athletic Club,H,2–0,W,57,Left Foot,Penalty,,,,90.1,50.3,,,0.783,statsbomb
+387,2012-04-03,2011/12,Goal,Barcelona,Champions League,AC Milan,H,3–1,W,11,Left Foot,Penalty,,,,89,50,,,,video
+388,2012-04-03,2011/12,Goal,Barcelona,Champions League,AC Milan,H,3–1,W,42,Left Foot,Penalty,,,,89,50,,,,video
+389,2012-04-07,2011/12,Assist,Barcelona,La Liga,Real Zaragoza,A,4–1,W,90+2,Right Foot,Open Play,,Pedro,Pass,92.0,52.0,89.5,29.9,0.417,statsbomb
+390,2012-04-07,2011/12,Goal,Barcelona,La Liga,Real Zaragoza,A,4–1,W,39,Left Foot,Open Play,,Alexis Sánchez,,91.3,37.6,,,0.113,statsbomb
+391,2012-04-07,2011/12,Goal,Barcelona,La Liga,Real Zaragoza,A,4–1,W,86,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+392,2012-04-10,2011/12,Assist,Barcelona,La Liga,Getafe,H,4–0,W,13,Right Foot,Open Play,,Alexis Sánchez,Pass,84.3,48.9,74.2,30.0,0.303,statsbomb
+393,2012-04-10,2011/12,Assist,Barcelona,La Liga,Getafe,H,4–0,W,75,Head,Open Play,,Pedro,Pass,94.1,53.8,92.0,94.5,0.122,statsbomb
+394,2012-04-10,2011/12,Goal,Barcelona,La Liga,Getafe,H,4–0,W,44,Left Foot,Open Play,,Andrés Iniesta,,86.6,45.2,,,0.221,statsbomb
+395,2012-04-14,2011/12,Goal,Barcelona,La Liga,Levante,A,2–1,W,64,Left Foot,Open Play,,Alexis Sánchez,,85.1,46.4,,,0.094,statsbomb
+396,2012-04-14,2011/12,Goal,Barcelona,La Liga,Levante,A,2–1,W,73,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+397,2012-04-24,2011/12,Assist,Barcelona,Champions League,Chelsea FC,H,2–2,D,43,Right Foot,Open Play,,Andrés Iniesta,Pass,,,,,,
+398,2012-04-29,2011/12,Assist,Barcelona,La Liga,Rayo Vallecano,A,7–0,W,38,Left Foot,Open Play,,Seydou Keita,Pass,90.6,43.4,82.5,65.9,0.295,statsbomb
+399,2012-04-29,2011/12,Assist,Barcelona,La Liga,Rayo Vallecano,A,7–0,W,87,Right Foot,Open Play,Half Volley,Pedro,Pass,93.8,43.2,73.1,52.9,0.311,statsbomb
+400,2012-04-29,2011/12,Assist,Barcelona,La Liga,Rayo Vallecano,A,7–0,W,47,Right Foot,Open Play,,Pedro,Shot on goal,96.8,56.0,94.7,43.5,0.566,statsbomb
+401,2012-04-29,2011/12,Goal,Barcelona,La Liga,Rayo Vallecano,A,7–0,W,16,Left Foot,Open Play,,Pedro,,96.2,46.5,,,0.622,statsbomb
+402,2012-04-29,2011/12,Goal,Barcelona,La Liga,Rayo Vallecano,A,7–0,W,88,Left Foot,Open Play,,Pedro,,86.6,43.1,,,0.07,statsbomb
+403,2012-05-02,2011/12,Goal,Barcelona,La Liga,Málaga,H,4–1,W,34,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+404,2012-05-02,2011/12,Goal,Barcelona,La Liga,Málaga,H,4–1,W,60,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+405,2012-05-02,2011/12,Goal,Barcelona,La Liga,Málaga,H,4–1,W,63,Left Foot,Open Play,Half Volley,Andrés Iniesta,,93.4,52.2,,,0.985,statsbomb
+406,2012-05-05,2011/12,Goal,Barcelona,La Liga,Espanyol,H,4–0,W,11,Left Foot,Free Kick,,,,77.7,57.5,,,0.057,statsbomb
+407,2012-05-05,2011/12,Goal,Barcelona,La Liga,Espanyol,H,4–0,W,63,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+408,2012-05-05,2011/12,Goal,Barcelona,La Liga,Espanyol,H,4–0,W,73,Left Foot,Open Play,,Adriano,,92.8,31.6,,,0.063,statsbomb
+409,2012-05-05,2011/12,Goal,Barcelona,La Liga,Espanyol,H,4–0,W,78,Left Foot,Penalty,,,,90.2,50.0,,,0.783,statsbomb
+410,2012-05-25,2011/12,Goal,Barcelona,Copa del Rey,Athletic Club,H,3–0,W,20,Right Foot,Open Play,,Andrés Iniesta,,96,65,,,,video
+411,2012-06-02,2011/12,Assist,Argentina,World Cup Qualifier,Ecuador,H,4–0,W,29,Right Foot,Open Play,,Gonzalo Higuaín,Pass,,,,,,
+412,2012-06-02,2011/12,Goal,Argentina,World Cup Qualifier,Ecuador,H,4–0,W,31,Left Foot,Open Play,,Gonzalo Higuaín,,87,49,,,,video
+413,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,,Left Foot,Open Play,,Gonzalo Higuaín,,85,55,,,,video
+414,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,,Left Foot,Open Play,,Ángel Di María,,92,38,,,,video
+415,2012-06-09,2011/12,Goal,Argentina,International Friendly,Brazil,N,4–3,W,,Left Foot,Open Play,,Fernandez,,80,61,,,,video
+416,2012-08-15,2012/13,Goal,Argentina,International Friendly,Germany,A,3–1,W,,Left Foot,Open Play,,Gonzalo Higuaín,,85,39,,,,video
+417,2012-08-19,2012/13,Goal,Barcelona,La Liga,Real Sociedad,H,5–1,W,10,Left Foot,Open Play,,Pedro,,87.0,54.9,,,0.079,statsbomb
+418,2012-08-19,2012/13,Goal,Barcelona,La Liga,Real Sociedad,H,5–1,W,15,Left Foot,Open Play,Half Volley,Cristian Tello,,92.6,42.6,,,0.119,statsbomb
+419,2012-08-23,2012/13,Goal,Barcelona,Supercopa de España,Real Madrid,H,3–2,W,60,Left Foot,Penalty,,,,89,50,,,,video
+420,2012-08-26,2012/13,Goal,Barcelona,La Liga,Osasuna,A,2–1,W,74,Left Foot,Open Play,,Alexis Sánchez,,94.2,52.1,,,0.496,statsbomb
+421,2012-08-26,2012/13,Goal,Barcelona,La Liga,Osasuna,A,2–1,W,79,Left Foot,Open Play,,Jordi Alba,,87.0,52.8,,,0.103,statsbomb
+422,2012-08-29,2012/13,Goal,Barcelona,Supercopa de España,Real Madrid,A,1–2,L,45,Left Foot,Free Kick,,,,73,50,,,,video
+423,2012-09-02,2012/13,Assist,Barcelona,La Liga,Valencia,H,1–0,W,23,Right Foot,Open Play,,Adriano,Pass,83.9,24.4,92.0,3.9,0.01,statsbomb
+424,2012-09-07,2012/13,Goal,Argentina,World Cup Qualifier,Paraguay,H,3–1,W,64,Left Foot,Free Kick,,,,70,52,,,,video
+425,2012-09-15,2012/13,Goal,Barcelona,La Liga,Getafe,A,4–1,W,74,Left Foot,Penalty,,,,90.2,50.1,,,0.783,statsbomb
+426,2012-09-15,2012/13,Goal,Barcelona,La Liga,Getafe,A,4–1,W,78,Left Foot,Open Play,,Pedro,,95.9,50.5,,,0.711,statsbomb
+427,2012-09-19,2012/13,Goal,Barcelona,Champions League,Spartak Moscow,H,3–2,W,71,Left Foot,Open Play,,Cristian Tello,,94,46,,,,video
+428,2012-09-19,2012/13,Goal,Barcelona,Champions League,Spartak Moscow,H,3–2,W,80,Head,Open Play,,Alexis Sánchez,,98,53,,,,video
+429,2012-09-22,2012/13,Assist,Barcelona,La Liga,Granada,H,2–0,W,90+1,,Open Play,,Borja Gómez,Pass,,,,,,
+430,2012-09-29,2012/13,Assist,Barcelona,La Liga,Sevilla,A,3–2,W,89,Right Foot,Open Play,,Cesc Fàbregas,Pass,90.4,41.1,80.4,55.6,0.174,statsbomb
+431,2012-09-29,2012/13,Assist,Barcelona,La Liga,Sevilla,A,3–2,W,90+3,Left Foot,Open Play,,David Villa,Pass,91.9,37.0,85.1,49.4,0.236,statsbomb
+432,2012-10-02,2012/13,Assist,Barcelona,Champions League,SL Benfica,A,2–0,W,6,Right Foot,Open Play,,Alexis Sánchez,Pass,,,,,,
+433,2012-10-02,2012/13,Assist,Barcelona,Champions League,SL Benfica,A,2–0,W,55,Left Foot,Open Play,,Cesc Fàbregas,Pass,,,,,,
+434,2012-10-07,2012/13,Goal,Barcelona,La Liga,Real Madrid,H,2–2,D,31,Left Foot,Open Play,Half Volley,,,95.2,50.5,,,0.59,statsbomb
+435,2012-10-07,2012/13,Goal,Barcelona,La Liga,Real Madrid,H,2–2,D,60,Left Foot,Free Kick,,,,77.8,57.4,,,0.059,statsbomb
+436,2012-10-12,2012/13,Goal,Argentina,World Cup Qualifier,Uruguay,H,3–0,W,65,Right Foot,Open Play,,Ángel Di María,,97,47,,,,video
+437,2012-10-12,2012/13,Goal,Argentina,World Cup Qualifier,Uruguay,H,3–0,W,79,Left Foot,Free Kick,,,,78,71,,,,video
+438,2012-10-16,2012/13,Goal,Argentina,World Cup Qualifier,Chile,A,2–1,W,28,Left Foot,Open Play,,Fernando Gago,,87,60,,,,video
+439,2012-10-20,2012/13,Assist,Barcelona,La Liga,Deportivo La Coruña,A,5–4,W,8,Right Foot,Open Play,,Cristian Tello,Pass,94.1,61.4,74.7,39.4,0.109,statsbomb
+440,2012-10-20,2012/13,Goal,Barcelona,La Liga,Deportivo La Coruña,A,5–4,W,17,Left Foot,Open Play,,Cesc Fàbregas,,82.8,46.1,,,0.134,statsbomb
+441,2012-10-20,2012/13,Goal,Barcelona,La Liga,Deportivo La Coruña,A,5–4,W,43,Right Foot,Open Play,,Cesc Fàbregas,,89.6,64.4,,,0.103,statsbomb
+442,2012-10-20,2012/13,Goal,Barcelona,La Liga,Deportivo La Coruña,A,5–4,W,76,Left Foot,Open Play,,Xavi,,87.4,33.4,,,0.059,statsbomb
+443,2012-10-27,2012/13,Goal,Barcelona,La Liga,Rayo Vallecano,A,5–0,W,48,Left Foot,Open Play,,Martín Montoya,,87.7,49.7,,,0.081,statsbomb
+444,2012-10-27,2012/13,Goal,Barcelona,La Liga,Rayo Vallecano,A,5–0,W,89,Right Foot,Open Play,,Cesc Fàbregas,,96.4,63.3,,,0.42,statsbomb
+445,2012-11-07,2012/13,Goal,Barcelona,Champions League,Celtic FC,A,1–2,L,90+1,Left Foot,Open Play,,,,97,57,,,,video
+446,2012-11-11,2012/13,Goal,Barcelona,La Liga,Mallorca,A,4–2,W,43,Left Foot,Open Play,,Sergio Busquets,,80.3,49.6,,,0.055,statsbomb
+447,2012-11-11,2012/13,Goal,Barcelona,La Liga,Mallorca,A,4–2,W,70,Left Foot,Open Play,,Alexis Sánchez,,86.6,41.9,,,0.097,statsbomb
+448,2012-11-17,2012/13,Assist,Barcelona,La Liga,Real Zaragoza,H,3–1,W,28,Right Foot,Open Play,,Alex Song,Pass,89.1,48.8,97.5,35.5,0.082,statsbomb
+449,2012-11-17,2012/13,Goal,Barcelona,La Liga,Real Zaragoza,H,3–1,W,15,Left Foot,Open Play,,Jordi Alba,,87.3,45.6,,,0.327,statsbomb
+450,2012-11-17,2012/13,Goal,Barcelona,La Liga,Real Zaragoza,H,3–1,W,60,Left Foot,Open Play,,Martín Montoya,,82.8,59.0,,,0.04,statsbomb
+451,2012-11-20,2012/13,Assist,Barcelona,Champions League,Spartak Moscow,A,3–0,W,16,Right Foot,Open Play,,Dani Alves,Pass,,,,,,
+452,2012-11-20,2012/13,Goal,Barcelona,Champions League,Spartak Moscow,A,3–0,W,27,Right Foot,Open Play,,,,84,52,,,,video
+453,2012-11-20,2012/13,Goal,Barcelona,Champions League,Spartak Moscow,A,3–0,W,39,Left Foot,Open Play,,Pedro,,92,39,,,,video
+454,2012-11-25,2012/13,Goal,Barcelona,La Liga,Levante,A,4–0,W,46,Left Foot,Open Play,Lob,Andrés Iniesta,,88.2,36.5,,,0.131,statsbomb
+455,2012-11-25,2012/13,Goal,Barcelona,La Liga,Levante,A,4–0,W,51,Left Foot,Open Play,,Andrés Iniesta,,94.0,43.1,,,0.11,statsbomb
+456,2012-12-01,2012/13,Goal,Barcelona,La Liga,Athletic Club,H,5–1,W,24,Left Foot,Open Play,Lob,Xavi,,93.0,45.4,,,0.419,statsbomb
+457,2012-12-01,2012/13,Goal,Barcelona,La Liga,Athletic Club,H,5–1,W,69,Right Foot,Open Play,,Pedro,,89.4,39.9,,,0.099,statsbomb
+458,2012-12-09,2012/13,Goal,Barcelona,La Liga,Real Betis,A,2–1,W,16,Left Foot,Open Play,,Andrés Iniesta,,88.2,41.5,,,0.271,statsbomb
+459,2012-12-09,2012/13,Goal,Barcelona,La Liga,Real Betis,A,2–1,W,25,Left Foot,Open Play,,Andrés Iniesta,,87.3,39.4,,,0.072,statsbomb
+460,2012-12-12,2012/13,Goal,Barcelona,Copa del Rey,Córdoba,A,2–0,W,10,Left Foot,Open Play,,David Villa,,95,53,,,,video
+461,2012-12-12,2012/13,Goal,Barcelona,Copa del Rey,Córdoba,A,2–0,W,73,Left Foot,Open Play,,Alexis Sánchez,,93,41,,,,video
+462,2012-12-16,2012/13,Goal,Barcelona,La Liga,Atlético Madrid,H,4–1,W,58,Left Foot,Open Play,,Alexis Sánchez,,82.0,44.0,,,0.056,statsbomb
+463,2012-12-16,2012/13,Goal,Barcelona,La Liga,Atlético Madrid,H,4–1,W,88,Left Foot,Open Play,Lob,,,92.4,56.4,,,0.459,statsbomb
+464,2012-12-22,2012/13,Goal,Barcelona,La Liga,Real Valladolid,A,3–1,W,59,Left Foot,Open Play,,Xavi,,86.1,39.9,,,0.071,statsbomb
+465,2013-01-06,2012/13,Assist,Barcelona,La Liga,Espanyol,H,4–0,W,15,,Open Play,,Pedro,Shot on goal,96.8,47.4,95.5,39.6,0.768,statsbomb
+466,2013-01-06,2012/13,Goal,Barcelona,La Liga,Espanyol,H,4–0,W,28,Left Foot,Penalty,,,,90.1,49.9,,,0.783,statsbomb
+467,2013-01-13,2012/13,Assist,Barcelona,La Liga,Málaga,A,3–1,W,50,Right Foot,Open Play,,Cesc Fàbregas,Pass,92.1,37.8,63.6,55.9,0.18,statsbomb
+468,2013-01-13,2012/13,Assist,Barcelona,La Liga,Málaga,A,3–1,W,82,Left Foot,Open Play,,Thiago Alcântara,Pass,80.0,51.5,81.7,71.1,0.056,statsbomb
+469,2013-01-13,2012/13,Goal,Barcelona,La Liga,Málaga,A,3–1,W,26,Right Foot,Open Play,,,,87.3,35.1,,,0.498,statsbomb
+470,2013-01-16,2012/13,Goal,Barcelona,Copa del Rey,Málaga,H,2–2,D,29,Left Foot,Open Play,,,,87,72,,,,video
+471,2013-01-19,2012/13,Goal,Barcelona,La Liga,Real Sociedad,A,2–3,L,6,Left Foot,Open Play,,Cesc Fàbregas,,85.0,51.9,,,0.089,statsbomb
+472,2013-01-24,2012/13,Goal,Barcelona,Copa del Rey,Málaga,A,4–2,W,79,Head,Open Play,,Dani Alves,,91,51,,,,video
+473,2013-01-27,2012/13,Goal,Barcelona,La Liga,Osasuna,H,5–1,W,11,Right Foot,Open Play,,Xavi,,97.7,55.8,,,0.503,statsbomb
+474,2013-01-27,2012/13,Goal,Barcelona,La Liga,Osasuna,H,5–1,W,28,Left Foot,Penalty,,,,90.2,50.3,,,0.783,statsbomb
+475,2013-01-27,2012/13,Goal,Barcelona,La Liga,Osasuna,H,5–1,W,56,Left Foot,Open Play,,David Villa,,93.4,35.4,,,0.259,statsbomb
+476,2013-01-27,2012/13,Goal,Barcelona,La Liga,Osasuna,H,5–1,W,58,Left Foot,Open Play,,Adriano,,94.7,47.8,,,0.311,statsbomb
+477,2013-01-30,2012/13,Assist,Barcelona,Copa del Rey,Real Madrid,A,1–1,D,50,Right Foot,Open Play,,Cesc Fàbregas,Pass,,,,,,
+478,2013-02-03,2012/13,Goal,Barcelona,La Liga,Valencia,A,1–1,D,39,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+479,2013-02-10,2012/13,Assist,Barcelona,La Liga,Getafe,H,6–1,W,79,Right Foot,Open Play,,Cristian Tello,Pass,84.8,61.0,78.6,46.1,0.101,statsbomb
+480,2013-02-10,2012/13,Goal,Barcelona,La Liga,Getafe,H,6–1,W,13,Left Foot,Open Play,,Thiago Alcântara,,93.4,41.5,,,0.104,statsbomb
+481,2013-02-16,2012/13,Goal,Barcelona,La Liga,Granada,A,2–1,W,49,Right Foot,Open Play,,,,93.8,45.8,,,0.525,statsbomb
+482,2013-02-16,2012/13,Goal,Barcelona,La Liga,Granada,A,2–1,W,72,Left Foot,Free Kick,,,,77.8,43.8,,,0.062,statsbomb
+483,2013-02-23,2012/13,Goal,Barcelona,La Liga,Sevilla,H,2–1,W,60,Left Foot,Open Play,,Cristian Tello,,92.4,47.0,,,0.095,statsbomb
+484,2013-03-02,2012/13,Goal,Barcelona,La Liga,Real Madrid,A,1–2,L,18,Left Foot,Open Play,,Dani Alves,,91.3,62.8,,,0.12,statsbomb
+485,2013-03-09,2012/13,Goal,Barcelona,La Liga,Deportivo La Coruña,H,2–0,W,88,Left Foot,Open Play,Lob,Alexis Sánchez,,93.3,53.8,,,0.321,statsbomb
+486,2013-03-12,2012/13,Goal,Barcelona,Champions League,AC Milan,H,4–0,W,5,Left Foot,Open Play,,Xavi,,85,46,,,,video
+487,2013-03-12,2012/13,Goal,Barcelona,Champions League,AC Milan,H,4–0,W,40,Left Foot,Open Play,,Andrés Iniesta,,82,55,,,,video
+488,2013-03-17,2012/13,Assist,Barcelona,La Liga,Rayo Vallecano,H,3–1,W,25,Right Foot,Open Play,,David Villa,Pass,89.4,38.8,81.8,57.6,0.365,statsbomb
+489,2013-03-17,2012/13,Goal,Barcelona,La Liga,Rayo Vallecano,H,3–1,W,40,Left Foot,Open Play,,David Villa,,89.7,35.2,,,0.117,statsbomb
+490,2013-03-17,2012/13,Goal,Barcelona,La Liga,Rayo Vallecano,H,3–1,W,57,Left Foot,Open Play,Lob,David Villa,,89.0,38.8,,,0.298,statsbomb
+491,2013-03-22,2012/13,Assist,Argentina,World Cup Qualifier,Venezuela,H,3–0,W,29,,Open Play,,Gonzalo Higuaín,Pass,,,,,,
+492,2013-03-22,2012/13,Assist,Argentina,World Cup Qualifier,Venezuela,H,3–0,W,59,,Open Play,,Gonzalo Higuaín,Pass,,,,,,
+493,2013-03-22,2012/13,Goal,Argentina,World Cup Qualifier,Venezuela,H,3–0,W,45,Left Foot,Penalty,,,,89,50,,,,video
+494,2013-03-30,2012/13,Assist,Barcelona,La Liga,Celta Vigo,A,2–2,D,43,Right Foot,Open Play,,Cristian Tello,Pass,89.0,33.5,51.2,43.5,0.106,statsbomb
+495,2013-03-30,2012/13,Goal,Barcelona,La Liga,Celta Vigo,A,2–2,D,73,Left Foot,Open Play,Half Volley,Cristian Tello,,90.8,49.2,,,0.1,statsbomb
+496,2013-04-02,2012/13,Goal,Barcelona,Champions League,Paris Saint-Germain,A,2–2,D,38,Left Foot,Open Play,,Dani Alves,,94,33,,,,video
+497,2013-04-27,2012/13,Assist,Barcelona,La Liga,Athletic Club,A,2–2,D,69,Right Foot,Open Play,,Alexis Sánchez,Shot on goal,95.2,43.0,88.5,46.2,0.211,statsbomb
+498,2013-04-27,2012/13,Goal,Barcelona,La Liga,Athletic Club,A,2–2,D,67,Left Foot,Open Play,,Thiago Alcântara,,85.6,56.9,,,0.061,statsbomb
+499,2013-05-05,2012/13,Goal,Barcelona,La Liga,Real Betis,H,4–2,W,60,Left Foot,Free Kick,,,,80.1,69.6,,,0.043,statsbomb
+500,2013-05-05,2012/13,Goal,Barcelona,La Liga,Real Betis,H,4–2,W,71,Left Foot,Open Play,,Alexis Sánchez,,95.4,47.4,,,0.775,statsbomb
+501,2013-06-14,2012/13,Assist,Argentina,International Friendly,Guatemala,A,4–0,W,36,,Open Play,,Augusto Fernández,,,,,,,
+502,2013-06-14,2012/13,Goal,Argentina,International Friendly,Guatemala,A,4–0,W,15,Left Foot,Open Play,,Ezequiel Lavezzi,,78,33,,,,video
+503,2013-06-14,2012/13,Goal,Argentina,International Friendly,Guatemala,A,4–0,W,40,Left Foot,Penalty,,,,89,50,,,,video
+504,2013-06-14,2012/13,Goal,Argentina,International Friendly,Guatemala,A,4–0,W,49,Left Foot,Open Play,,Ezequiel Lavezzi,,91,54,,,,video
+505,2013-08-18,2013/14,Assist,Barcelona,La Liga,Levante,H,7–0,W,26,Right Foot,Open Play,,Pedro,Pass,87.8,33.5,63.7,51.1,0.121,statsbomb
+506,2013-08-18,2013/14,Goal,Barcelona,La Liga,Levante,H,7–0,W,13,Left Foot,Open Play,,Pedro,,93.1,43.0,,,0.216,statsbomb
+507,2013-08-18,2013/14,Goal,Barcelona,La Liga,Levante,H,7–0,W,42,Left Foot,Penalty,adriano assist,,,89.9,50.0,,,0.783,statsbomb
+508,2013-09-01,2013/14,Goal,Barcelona,La Liga,Valencia,A,3–2,W,11,Left Foot,Open Play,,Cesc Fàbregas,,95.4,44.4,,,0.919,statsbomb
+509,2013-09-01,2013/14,Goal,Barcelona,La Liga,Valencia,A,3–2,W,39,Right Foot,Open Play,,Cesc Fàbregas,,90.7,57.8,,,0.336,statsbomb
+510,2013-09-01,2013/14,Goal,Barcelona,La Liga,Valencia,A,3–2,W,41,Left Foot,Open Play,,Neymar,,89.5,44.0,,,0.153,statsbomb
+511,2013-09-10,2013/14,Assist,Argentina,World Cup Qualifier,Paraguay,A,5–2,W,32,Left Foot,Open Play,,Sergio Agüero,Pass,,,,,,
+512,2013-09-10,2013/14,Goal,Argentina,World Cup Qualifier,Paraguay,A,5–2,W,12,Left Foot,Penalty,,,,89,50,,,,video
+513,2013-09-10,2013/14,Goal,Argentina,World Cup Qualifier,Paraguay,A,5–2,W,52,Left Foot,Penalty,,,,89,50,,,,video
+514,2013-09-14,2013/14,Goal,Barcelona,La Liga,Sevilla,H,3–2,W,75,Left Foot,Open Play,,Neymar,,91.1,51.7,,,0.303,statsbomb
+515,2013-09-18,2013/14,Goal,Barcelona,Champions League,Ajax Amsterdam,H,4–0,W,22,Left Foot,Free Kick,,,,79,52,,,,video
+516,2013-09-18,2013/14,Goal,Barcelona,Champions League,Ajax Amsterdam,H,4–0,W,55,Left Foot,Open Play,,Sergio Busquets,,90,58,,,,video
+517,2013-09-18,2013/14,Goal,Barcelona,Champions League,Ajax Amsterdam,H,4–0,W,75,Left Foot,Open Play,,Xavi,,85,48,,,,video
+518,2013-09-21,2013/14,Assist,Barcelona,La Liga,Rayo Vallecano,A,4–0,W,33,Left Foot,Open Play,,Pedro,Pass,90.2,64.1,86.8,54.9,0.128,statsbomb
+519,2013-09-24,2013/14,Assist,Barcelona,La Liga,Real Sociedad,H,4–1,W,77,Right Foot,Open Play,,Marc Bartra,Pass,97.4,45.1,99.3,32.8,0.619,statsbomb
+520,2013-09-24,2013/14,Goal,Barcelona,La Liga,Real Sociedad,H,4–1,W,8,Head,Open Play,Diving Header,Neymar,,94.4,56.5,,,0.277,statsbomb
+521,2013-09-28,2013/14,Goal,Barcelona,La Liga,Almería,A,2–0,W,21,Left Foot,Open Play,,Pedro,,83.9,57.8,,,0.063,statsbomb
+522,2013-10-22,2013/14,Goal,Barcelona,Champions League,AC Milan,A,1–1,D,23,Left Foot,Open Play,,Andrés Iniesta,,89,56,,,,video
+523,2013-10-29,2013/14,Assist,Barcelona,La Liga,Celta Vigo,A,3–0,W,54,Left Foot,Open Play,,Cesc Fàbregas,Pass,90.6,36.8,73.1,59.5,0.146,statsbomb
+524,2013-11-06,2013/14,Goal,Barcelona,Champions League,AC Milan,H,3–1,W,30,Left Foot,Penalty,,,,89,50,,,,video
+525,2013-11-06,2013/14,Goal,Barcelona,Champions League,AC Milan,H,3–1,W,83,Left Foot,Open Play,,Cesc Fàbregas,,92,52,,,,video
+526,2014-01-08,2013/14,Goal,Barcelona,Copa del Rey,Getafe,H,4–0,W,90,Left Foot,Open Play,,Martín Montoya,,92,44,,,,video
+527,2014-01-08,2013/14,Goal,Barcelona,Copa del Rey,Getafe,H,4–0,W,90+2,Left Foot,Open Play,,Alex Song,,88,59,,,,video
+528,2014-01-16,2013/14,Goal,Barcelona,Copa del Rey,Getafe,A,2–0,W,43,Right Foot,Open Play,,Cristian Tello,,95,43,,,,video
+529,2014-01-16,2013/14,Goal,Barcelona,Copa del Rey,Getafe,A,2–0,W,63,Left Foot,Open Play,,,,96,33,,,,video
+530,2014-01-22,2013/14,Assist,Barcelona,Copa del Rey,Levante,A,4–1,W,59,Right Foot,Open Play,,Cristian Tello,Pass,,,,,,
+531,2014-01-22,2013/14,Assist,Barcelona,Copa del Rey,Levante,A,4–1,W,80,Right Foot,Open Play,,Cristian Tello,Pass,,,,,,
+532,2014-01-22,2013/14,Assist,Barcelona,Copa del Rey,Levante,A,4–1,W,85,Right Foot,Open Play,,Cristian Tello,Pass,,,,,,
+533,2014-01-26,2013/14,Assist,Barcelona,La Liga,Málaga,H,3–0,W,55,Right Foot,Open Play,,Pedro,Pass,90.1,37.4,80.6,34.1,0.081,statsbomb
+534,2014-02-01,2013/14,Assist,Barcelona,La Liga,Valencia,H,2–3,L,7,Right Foot,Open Play,,Alexis Sánchez,Pass,98.4,65.4,88.3,25.6,0.016,statsbomb
+535,2014-02-01,2013/14,Goal,Barcelona,La Liga,Valencia,H,2–3,L,54,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+536,2014-02-09,2013/14,Assist,Barcelona,La Liga,Sevilla,A,4–1,W,34,Head,Open Play,,Alexis Sánchez,Pass,95.5,46.1,70.8,66.4,0.221,statsbomb
+537,2014-02-09,2013/14,Goal,Barcelona,La Liga,Sevilla,A,4–1,W,44,Left Foot,Open Play,Half Volley,Pedro,,84.9,42.0,,,0.091,statsbomb
+538,2014-02-09,2013/14,Goal,Barcelona,La Liga,Sevilla,A,4–1,W,56,Left Foot,Open Play,,Andrés Iniesta,,84.7,45.4,,,0.145,statsbomb
+539,2014-02-12,2013/14,Goal,Barcelona,Copa del Rey,Real Sociedad,A,1–1,D,26,Left Foot,Open Play,,,,83,47,,,,video
+540,2014-02-15,2013/14,Assist,Barcelona,La Liga,Rayo Vallecano,H,6–0,W,53,Right Foot,Open Play,,Alexis Sánchez,Pass,85.2,57.6,64.7,39.6,0.256,statsbomb
+541,2014-02-15,2013/14,Goal,Barcelona,La Liga,Rayo Vallecano,H,6–0,W,36,Left Foot,Open Play,Lob,Cesc Fàbregas,,82.6,35.9,,,0.153,statsbomb
+542,2014-02-15,2013/14,Goal,Barcelona,La Liga,Rayo Vallecano,H,6–0,W,68,Left Foot,Open Play,,Alexis Sánchez,,87.4,51.0,,,0.103,statsbomb
+543,2014-02-18,2013/14,Goal,Barcelona,Champions League,Manchester City,A,2–0,W,54,Left Foot,Penalty,,,,89,50,,,,video
+544,2014-02-22,2013/14,Goal,Barcelona,La Liga,Real Sociedad,A,1–3,L,36,Left Foot,Open Play,,Sergio Busquets,,84.2,48.4,,,0.105,statsbomb
+545,2014-03-02,2013/14,Goal,Barcelona,La Liga,Almería,H,4–1,W,24,Left Foot,Free Kick,,,,75.5,45.1,,,0.041,statsbomb
+546,2014-03-12,2013/14,Goal,Barcelona,Champions League,Manchester City,H,2–1,W,67,Left Foot,Open Play,,,,91,57,,,,video
+547,2014-03-16,2013/14,Assist,Barcelona,La Liga,Osasuna,H,7–0,W,90+1,Right Foot,Open Play,,Pedro,Pass,92.6,53.1,91.8,68.8,0.31,statsbomb
+548,2014-03-16,2013/14,Goal,Barcelona,La Liga,Osasuna,H,7–0,W,18,Left Foot,Open Play,,Alexis Sánchez,,96.9,54.6,,,0.232,statsbomb
+549,2014-03-16,2013/14,Goal,Barcelona,La Liga,Osasuna,H,7–0,W,63,Left Foot,Open Play,,Andrés Iniesta,,96.2,40.6,,,0.079,statsbomb
+550,2014-03-16,2013/14,Goal,Barcelona,La Liga,Osasuna,H,7–0,W,88,Right Foot,Open Play,,Dani Alves,,93.5,49.4,,,0.276,statsbomb
+551,2014-03-23,2013/14,Assist,Barcelona,La Liga,Real Madrid,A,4–3,W,7,Left Foot,Open Play,,Andrés Iniesta,Pass,91.2,37.8,77.7,54.2,0.16,statsbomb
+552,2014-03-23,2013/14,Goal,Barcelona,La Liga,Real Madrid,A,4–3,W,42,Left Foot,Open Play,,Neymar,,90.2,53.2,,,0.087,statsbomb
+553,2014-03-23,2013/14,Goal,Barcelona,La Liga,Real Madrid,A,4–3,W,65,Left Foot,Penalty,,,,89.8,49.9,,,0.783,statsbomb
+554,2014-03-23,2013/14,Goal,Barcelona,La Liga,Real Madrid,A,4–3,W,84,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+555,2014-03-26,2013/14,Goal,Barcelona,La Liga,Celta Vigo,H,3–0,W,30,Right Foot,Open Play,,Andrés Iniesta,,94.4,59.6,,,0.447,statsbomb
+556,2014-03-29,2013/14,Goal,Barcelona,La Liga,Espanyol,A,1–0,W,77,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+557,2014-04-05,2013/14,Goal,Barcelona,La Liga,Real Betis,H,3–1,W,15,Left Foot,Penalty,,,,90.0,50.1,,,0.783,statsbomb
+558,2014-04-05,2013/14,Goal,Barcelona,La Liga,Real Betis,H,3–1,W,86,Right Foot,Open Play,Missed pen,,,94.5,53.9,,,0.525,statsbomb
+559,2014-04-20,2013/14,Goal,Barcelona,La Liga,Athletic Club,H,2–1,W,74,Left Foot,Free Kick,,,,84.1,51.6,,,0.088,statsbomb
+560,2014-04-27,2013/14,Goal,Barcelona,La Liga,Villarreal,A,3–2,W,83,Right Foot,Open Play,Half Volley,Cesc Fàbregas,,90.2,47.4,,,0.382,statsbomb
+561,2014-05-03,2013/14,Goal,Barcelona,La Liga,Getafe,H,2–2,D,23,Left Foot,Open Play,,Dani Alves,,89.1,48.4,,,0.105,statsbomb
+562,2014-05-17,2013/14,Assist,Barcelona,La Liga,Atlético Madrid,H,1–1,D,34,Right Foot,Open Play,Half Volley,Alexis Sánchez,Pass,92.7,74.0,90.8,58.5,0.008,statsbomb
+563,2014-06-04,2013/14,Assist,Argentina,International Friendly,Trinidad and Tobago,H,3–0,W,51,,Open Play,,Javier Mascherano,Shot on goal,,,,,,
+564,2014-06-07,2013/14,Goal,Argentina,International Friendly,Slovenia,H,2–0,W,,Left Foot,Open Play,,Sergio Agüero,,93,54,,,,video
+565,2014-06-15,2013/14,Goal,Argentina,World Cup,Bosnia and Herzegovina,N,2–1,W,65,Left Foot,Open Play,,Gonzalo Higuaín,,83,50,,,,video
+566,2014-06-21,2013/14,Goal,Argentina,World Cup,Iran,N,1–0,W,90+1,Left Foot,Open Play,,Ezequiel Lavezzi,,81,68,,,,video
+567,2014-06-25,2013/14,Goal,Argentina,World Cup,Nigeria,N,3–2,W,3,Left Foot,Open Play,,Ángel Di María,,92,45,,,,video
+568,2014-06-25,2013/14,Goal,Argentina,World Cup,Nigeria,N,3–2,W,45+1,Left Foot,Free Kick,,,,75,71,,,,video
+569,2014-07-01,2014/15,Assist,Argentina,World Cup,Switzerland,N,1–0,W,118,Left Foot,Open Play,,Ángel Di María,Pass,,,,,,
+570,2014-08-24,2014/15,Goal,Barcelona,La Liga,Elche,H,3–0,W,42,Left Foot,Open Play,,Sergio Busquets,,87.8,39.6,,,0.183,statsbomb
+571,2014-08-24,2014/15,Goal,Barcelona,La Liga,Elche,H,3–0,W,64,Left Foot,Open Play,,,,87.1,56.9,,,0.182,statsbomb
+572,2014-08-31,2014/15,Assist,Barcelona,La Liga,Villarreal,A,1–0,W,82,Left Foot,Open Play,,Sandro Ramírez,Shot on goal,99.4,50.0,97.5,63.0,0.94,statsbomb
+573,2014-09-13,2014/15,Assist,Barcelona,La Liga,Athletic Club,H,2–0,W,79,Left Foot,Open Play,,Neymar,Pass,89.0,41.0,69.1,62.5,0.403,statsbomb
+574,2014-09-13,2014/15,Assist,Barcelona,La Liga,Athletic Club,H,2–0,W,84,Right Foot,Open Play,,Neymar,Pass,91.1,50.6,96.7,71.9,0.11,statsbomb
+575,2014-09-17,2014/15,Assist,Barcelona,Champions League,APOEL Nicosia,H,1–0,W,28,Head,Open Play,,Gerard Pique,Free kick,,,,,,
+576,2014-09-21,2014/15,Assist,Barcelona,La Liga,Levante,A,5–0,W,34,Right Foot,Open Play,,Neymar,Pass,94.0,62.1,54.2,61.6,0.894,statsbomb
+577,2014-09-21,2014/15,Assist,Barcelona,La Liga,Levante,A,5–0,W,57,Right Foot,Open Play,,Sandro Ramírez,Pass,85.8,55.5,83.8,70.2,0.252,statsbomb
+578,2014-09-21,2014/15,Goal,Barcelona,La Liga,Levante,A,5–0,W,77,Right Foot,Open Play,Lob,,,85.7,57.9,,,0.134,statsbomb
+579,2014-09-27,2014/15,Assist,Barcelona,La Liga,Granada,H,6–0,W,43,Head,Open Play,,Ivan Rakitić,Pass,95.4,50.9,97.1,75.4,0.321,statsbomb
+580,2014-09-27,2014/15,Assist,Barcelona,La Liga,Granada,H,6–0,W,66,Right Foot,Open Play,,Neymar,Pass,92.4,45.5,94.3,31.8,0.101,statsbomb
+581,2014-09-27,2014/15,Goal,Barcelona,La Liga,Granada,H,6–0,W,62,Head,Open Play,,Dani Alves,,95.7,45.0,,,0.328,statsbomb
+582,2014-09-27,2014/15,Goal,Barcelona,La Liga,Granada,H,6–0,W,82,Right Foot,Open Play,,,,90.9,53.5,,,0.398,statsbomb
+583,2014-09-30,2014/15,Goal,Barcelona,Champions League,Paris Saint-Germain,A,2–3,L,12,Left Foot,Open Play,,Andrés Iniesta,,88,43,,,,video
+584,2014-10-04,2014/15,Goal,Barcelona,La Liga,Rayo Vallecano,A,2–0,W,35,Left Foot,Open Play,Lob,Gerard Pique,,93.8,38.1,,,0.199,statsbomb
+585,2014-10-14,2014/15,Assist,Argentina,International Friendly,Hong Kong,A,7–0,W,72,Right Foot,Open Play,,Nico Gaitán,Pass,,,,,,
+586,2014-10-14,2014/15,Goal,Argentina,International Friendly,Hong Kong,A,7–0,W,66,Right Foot,Open Play,,Nicolás Gaitán,,91,53,,,,video
+587,2014-10-14,2014/15,Goal,Argentina,International Friendly,Hong Kong,A,7–0,W,85,Left Foot,Open Play,,,,88,46,,,,video
+588,2014-10-18,2014/15,Assist,Barcelona,La Liga,Eibar,H,3–0,W,60,Right Foot,Open Play,,Xavi,Pass,92.8,60.1,79.7,68.2,0.284,statsbomb
+589,2014-10-18,2014/15,Goal,Barcelona,La Liga,Eibar,H,3–0,W,74,Left Foot,Open Play,,Neymar,,89.8,34.5,,,0.085,statsbomb
+590,2014-10-21,2014/15,Assist,Barcelona,Champions League,Ajax Amsterdam,H,3–1,W,8,Right Foot,Open Play,,Neymar,Pass,,,,,,
+591,2014-10-21,2014/15,Goal,Barcelona,Champions League,Ajax Amsterdam,H,3–1,W,24,Left Foot,Open Play,,Andrés Iniesta,,91,52,,,,video
+592,2014-11-05,2014/15,Goal,Barcelona,Champions League,Ajax Amsterdam,A,2–0,W,36,Head,Open Play,,Marc Bartra,,91,54,,,,video
+593,2014-11-05,2014/15,Goal,Barcelona,Champions League,Ajax Amsterdam,A,2–0,W,76,Left Foot,Open Play,,Pedro,,95,49,,,,video
+594,2014-11-12,2014/15,Goal,Argentina,International Friendly,Croatia,N,2–1,W,,Left Foot,Penalty,,,,89,50,,,,video
+595,2014-11-22,2014/15,Goal,Barcelona,La Liga,Sevilla,H,5–1,W,21,Left Foot,Free Kick,,,,80.0,45.2,,,0.078,statsbomb
+596,2014-11-22,2014/15,Goal,Barcelona,La Liga,Sevilla,H,5–1,W,73,Right Foot,Open Play,,Neymar,,97.7,53.8,,,0.858,statsbomb
+597,2014-11-22,2014/15,Goal,Barcelona,La Liga,Sevilla,H,5–1,W,78,Left Foot,Open Play,,Neymar,,85.7,45.4,,,0.087,statsbomb
+598,2014-11-25,2014/15,Goal,Barcelona,Champions League,APOEL Nicosia,A,4–0,W,38,Right Foot,Open Play,,Rafinha,,92,46,,,,video
+599,2014-11-25,2014/15,Goal,Barcelona,Champions League,APOEL Nicosia,A,4–0,W,58,Right Foot,Open Play,,Dani Alves,,89,57,,,,video
+600,2014-11-25,2014/15,Goal,Barcelona,Champions League,APOEL Nicosia,A,4–0,W,87,Right Foot,Open Play,,Pedro,,94,47,,,,video
+601,2014-12-07,2014/15,Goal,Barcelona,La Liga,Espanyol,H,5–1,W,45+1,Left Foot,Open Play,,Xavi,,80.6,45.5,,,0.04,statsbomb
+602,2014-12-07,2014/15,Goal,Barcelona,La Liga,Espanyol,H,5–1,W,50,Right Foot,Open Play,,Luis Suárez,,85.0,52.5,,,0.104,statsbomb
+603,2014-12-07,2014/15,Goal,Barcelona,La Liga,Espanyol,H,5–1,W,81,Right Foot,Open Play,,Pedro,,90.2,58.8,,,0.189,statsbomb
+604,2014-12-10,2014/15,Goal,Barcelona,Champions League,Paris Saint-Germain,H,3–1,W,19,Right Foot,Open Play,,Luis Suárez,,97,57,,,,video
+605,2014-12-20,2014/15,Goal,Barcelona,La Liga,Córdoba,H,5–0,W,82,Right Foot,Open Play,,,,88.0,51.5,,,0.074,statsbomb
+606,2014-12-20,2014/15,Goal,Barcelona,La Liga,Córdoba,H,5–0,W,90,Right Foot,Open Play,Half Volley,,,92.8,60.0,,,0.081,statsbomb
+607,2015-01-08,2014/15,Assist,Barcelona,Copa del Rey,Elche,H,5–0,W,55,Right Foot,Open Play,,Jordi Alba,Pass,,,,,,
+608,2015-01-08,2014/15,Assist,Barcelona,Copa del Rey,Elche,H,5–0,W,59,Right Foot,Open Play,,Neymar,Pass,,,,,,
+609,2015-01-08,2014/15,Goal,Barcelona,Copa del Rey,Elche,H,5–0,W,45,Left Foot,Penalty,,,,89,50,,,,video
+610,2015-01-11,2014/15,Assist,Barcelona,La Liga,Atlético Madrid,H,3–1,W,35,Right Foot,Open Play,,Luis Suárez,Pass,90.0,41.9,84.2,57.6,0.468,statsbomb
+611,2015-01-11,2014/15,Goal,Barcelona,La Liga,Atlético Madrid,H,3–1,W,87,Left Foot,Open Play,,,,93.8,54.6,,,0.229,statsbomb
+612,2015-01-18,2014/15,Goal,Barcelona,La Liga,Deportivo La Coruña,A,4–0,W,11,Head,Open Play,,Ivan Rakitić,,87.5,43.1,,,0.129,statsbomb
+613,2015-01-18,2014/15,Goal,Barcelona,La Liga,Deportivo La Coruña,A,4–0,W,33,Left Foot,Open Play,Lob,Luis Suárez,,94.8,43.1,,,0.349,statsbomb
+614,2015-01-18,2014/15,Goal,Barcelona,La Liga,Deportivo La Coruña,A,4–0,W,62,Left Foot,Open Play,,Dani Alves,,88.9,65.1,,,0.062,statsbomb
+615,2015-01-21,2014/15,Goal,Barcelona,Copa del Rey,Atlético Madrid,H,1–0,W,85,Left Foot,Open Play,penalty rebound,,,98,49,,,,video
+616,2015-01-24,2014/15,Assist,Barcelona,La Liga,Elche,A,6–0,W,69,Right Foot,Open Play,,Neymar,Pass,92.6,40.0,79.8,26.1,0.396,statsbomb
+617,2015-01-24,2014/15,Assist,Barcelona,La Liga,Elche,A,6–0,W,71,Right Foot,Open Play,Volley,Neymar,Pass,91.9,44.7,80.7,51.1,0.333,statsbomb
+618,2015-01-24,2014/15,Goal,Barcelona,La Liga,Elche,A,6–0,W,55,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+619,2015-01-24,2014/15,Goal,Barcelona,La Liga,Elche,A,6–0,W,88,Left Foot,Open Play,,Marc Bartra,,87.6,39.0,,,0.095,statsbomb
+620,2015-02-01,2014/15,Assist,Barcelona,La Liga,Villarreal,H,3–2,W,53,Left Foot,Open Play,,Rafael Alcântara do Nascimento,Shot on goal,94.2,52.0,93.5,47.6,0.425,statsbomb
+621,2015-02-01,2014/15,Goal,Barcelona,La Liga,Villarreal,H,3–2,W,55,Right Foot,Open Play,,Luis Suárez,,83.3,50.3,,,0.063,statsbomb
+622,2015-02-08,2014/15,Assist,Barcelona,La Liga,Athletic Club,A,5–2,W,26,Right Foot,Open Play,,Luis Suárez,Pass,82.4,55.2,89.2,67.1,0.072,statsbomb
+623,2015-02-08,2014/15,Assist,Barcelona,La Liga,Athletic Club,A,5–2,W,64,Right Foot,Open Play,,Neymar,Pass,86.0,38.1,80.8,56.6,0.1,statsbomb
+624,2015-02-08,2014/15,Assist,Barcelona,La Liga,Athletic Club,A,5–2,W,62,,Open Play,,Óscar de Marcos,Shot on goal,,,,,,
+625,2015-02-08,2014/15,Goal,Barcelona,La Liga,Athletic Club,A,5–2,W,15,Left Foot,Free Kick,,,,76.3,68.2,,,0.021,statsbomb
+626,2015-02-11,2014/15,Assist,Barcelona,Copa del Rey,Villarreal,H,3–1,W,64,Head,Open Play,,Gerard Pique,Corner,,,,,,
+627,2015-02-11,2014/15,Goal,Barcelona,Copa del Rey,Villarreal,H,3–1,W,41,Left Foot,Open Play,,Luis Suárez,,88,45,,,,video
+628,2015-02-15,2014/15,Assist,Barcelona,La Liga,Levante,H,5–0,W,17,Right Foot,Open Play,Volley,Neymar,Pass,96.1,41.0,80.4,75.4,0.205,statsbomb
+629,2015-02-15,2014/15,Goal,Barcelona,La Liga,Levante,H,5–0,W,38,Right Foot,Open Play,,Marc Bartra,,91.8,61.7,,,0.227,statsbomb
+630,2015-02-15,2014/15,Goal,Barcelona,La Liga,Levante,H,5–0,W,59,Right Foot,Open Play,Half Volley,Pedro,,93.8,49.7,,,0.682,statsbomb
+631,2015-02-15,2014/15,Goal,Barcelona,La Liga,Levante,H,5–0,W,65,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+632,2015-02-28,2014/15,Goal,Barcelona,La Liga,Granada,A,3–1,W,70,Right Foot,Open Play,,Luis Suárez,,92.8,51.0,,,0.67,statsbomb
+633,2015-03-04,2014/15,Assist,Barcelona,Copa del Rey,Villarreal,A,3–1,W,4,Left Foot,Open Play,,Neymar,Cross,,,,,,
+634,2015-03-08,2014/15,Assist,Barcelona,La Liga,Rayo Vallecano,H,6–1,W,90+1,Right Foot,Open Play,,Luis Suárez,Pass,96.5,61.9,81.5,62.6,0.404,statsbomb
+635,2015-03-08,2014/15,Goal,Barcelona,La Liga,Rayo Vallecano,H,6–1,W,56,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+636,2015-03-08,2014/15,Goal,Barcelona,La Liga,Rayo Vallecano,H,6–1,W,63,Left Foot,Open Play,,,,95.2,50.6,,,0.668,statsbomb
+637,2015-03-08,2014/15,Goal,Barcelona,La Liga,Rayo Vallecano,H,6–1,W,68,Left Foot,Open Play,,Pedro,,96.8,39.8,,,0.466,statsbomb
+638,2015-03-14,2014/15,Goal,Barcelona,La Liga,Eibar,A,2–0,W,31,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+639,2015-03-14,2014/15,Goal,Barcelona,La Liga,Eibar,A,2–0,W,55,Head,Open Play,Diving Header,Ivan Rakitić,,89.8,53.0,,,0.07,statsbomb
+640,2015-03-18,2014/15,Assist,Barcelona,Champions League,Manchester City,H,1–0,W,31,Right Foot,Open Play,,Ivan Rakitić,Cross,,,,,,
+641,2015-03-22,2014/15,Assist,Barcelona,La Liga,Real Madrid,H,2–1,W,19,Head,Open Play,,Jérémy Mathieu,Pass,93.2,49.5,79.1,16.9,0.151,statsbomb
+642,2015-04-08,2014/15,Goal,Barcelona,La Liga,Almería,H,4–0,W,33,Left Foot,Open Play,,Marc Bartra,,86.8,72.6,,,0.021,statsbomb
+643,2015-04-11,2014/15,Goal,Barcelona,La Liga,Sevilla,A,2–2,D,15,Left Foot,Open Play,,Neymar,,88.1,63.6,,,0.059,statsbomb
+644,2015-04-15,2014/15,Assist,Barcelona,Champions League,Paris Saint-Germain,A,3–1,W,18,Right Foot,Open Play,,Neymar,Pass,,,,,,
+645,2015-04-18,2014/15,Assist,Barcelona,La Liga,Valencia,H,2–0,W,1,Right Foot,Open Play,,Luis Suárez,Pass,92.4,62.1,83.3,52.9,0.197,statsbomb
+646,2015-04-18,2014/15,Goal,Barcelona,La Liga,Valencia,H,2–0,W,90+4,Left Foot,Open Play,,,,91.8,49.7,,,0.821,statsbomb
+647,2015-04-25,2014/15,Goal,Barcelona,La Liga,Espanyol,A,2–0,W,25,Left Foot,Open Play,,Luis Suárez,,98.8,39.1,,,0.032,statsbomb
+648,2015-04-28,2014/15,Assist,Barcelona,La Liga,Getafe,H,6–0,W,25,Right Foot,Open Play,Volley,Luis Suárez,Pass,91.0,55.6,77.6,88.1,0.104,statsbomb
+649,2015-04-28,2014/15,Goal,Barcelona,La Liga,Getafe,H,6–0,W,9,Left Foot,Penalty,Lob,,,90.0,50.0,,,0.783,statsbomb
+650,2015-04-28,2014/15,Goal,Barcelona,La Liga,Getafe,H,6–0,W,47,Left Foot,Open Play,,Luis Suárez,,90.4,67.5,,,0.03,statsbomb
+651,2015-05-02,2014/15,Assist,Barcelona,La Liga,Córdoba,A,8–0,W,42,Right Foot,Open Play,Half Volley,Ivan Rakitić,Pass,93.7,37.9,75.2,61.6,0.086,statsbomb
+652,2015-05-02,2014/15,Goal,Barcelona,La Liga,Córdoba,A,8–0,W,47,Head,Open Play,,Dani Alves,,89.0,53.6,,,0.095,statsbomb
+653,2015-05-02,2014/15,Goal,Barcelona,La Liga,Córdoba,A,8–0,W,80,Left Foot,Open Play,,Luis Suárez,,98.5,48.8,,,0.793,statsbomb
+654,2015-05-06,2014/15,Assist,Barcelona,Champions League,Bayern Munich,H,3–0,W,90+4,Right Foot,Open Play,,Neymar,Pass,,,,,,
+655,2015-05-06,2014/15,Goal,Barcelona,Champions League,Bayern Munich,H,3–0,W,77,Left Foot,Open Play,,Dani Alves,,81,58,,,,video
+656,2015-05-06,2014/15,Goal,Barcelona,Champions League,Bayern Munich,H,3–0,W,80,Right Foot,Open Play,Chip,Ivan Rakitić,,93,61,,,,video
+657,2015-05-17,2014/15,Goal,Barcelona,La Liga,Atlético Madrid,A,1–0,W,65,Left Foot,Open Play,,Pedro,,90.3,43.0,,,0.052,statsbomb
+658,2015-05-23,2014/15,Goal,Barcelona,La Liga,Deportivo La Coruña,H,2–2,D,5,Head,Open Play,,Rafinha,,94.6,45.1,,,0.246,statsbomb
+659,2015-05-23,2014/15,Goal,Barcelona,La Liga,Deportivo La Coruña,H,2–2,D,59,Right Foot,Open Play,,Neymar,,93.5,56.6,,,0.696,statsbomb
+660,2015-05-30,2014/15,Goal,Barcelona,Copa del Rey,Athletic Club,A,3–1,W,20,Left Foot,Open Play,,,,91,69,,,,video
+661,2015-05-30,2014/15,Goal,Barcelona,Copa del Rey,Athletic Club,A,3–1,W,74,Left Foot,Open Play,,Dani Alves,,94,57,,,,video
+662,2015-06-06,2014/15,Assist,Barcelona,Champions League,Juventus FC,A,3–1,W,68,,Open Play,,Luis Suárez,Shot on goal,,,,,,
+663,2015-06-13,2014/15,Goal,Argentina,Copa América,Paraguay,N,2–2,D,35,Left Foot,Penalty,,,,89,50,,,,video
+664,2015-06-30,2014/15,Assist,Argentina,Copa América,Paraguay,N,6–1,W,15,Left Foot,Open Play,,Marcos Rojo,Free kick,,,,,,
+665,2015-06-30,2014/15,Assist,Argentina,Copa América,Paraguay,N,6–1,W,27,Right Foot,Open Play,,Javier Pastore,Pass,,,,,,
+666,2015-06-30,2014/15,Assist,Argentina,Copa América,Paraguay,N,6–1,W,82,Left Foot,Open Play,,Gonzalo Higuaín,Pass,,,,,,
+667,2015-08-11,2015/16,Assist,Barcelona,UEFA Super Cup,Sevilla,H,5–4,W,115,,Open Play,,Pedro,Shot on goal,,,,,,
+668,2015-08-11,2015/16,Goal,Barcelona,UEFA Super Cup,Sevilla,H,5–4,W,7,Left Foot,Free Kick,,,,82,60,,,,video
+669,2015-08-11,2015/16,Goal,Barcelona,UEFA Super Cup,Sevilla,H,5–4,W,16,Left Foot,Free Kick,,,,77,48,,,,video
+670,2015-08-17,2015/16,Goal,Barcelona,Supercopa de España,Athletic Club,H,1–1,D,43,Left Foot,Open Play,,Luis Suárez,,96,48,,,,video
+671,2015-09-04,2015/16,Goal,Argentina,International Friendly,Bolivia,N,7–0,W,,Head,Open Play,,Milton Casco,,92,48,,,,video
+672,2015-09-04,2015/16,Goal,Argentina,International Friendly,Bolivia,N,7–0,W,,Left Foot,Open Play,,Sergio Agüero,,95,46,,,,video
+673,2015-09-08,2015/16,Goal,Argentina,International Friendly,Mexico,N,2–2,D,,Left Foot,Open Play,,Sergio Agüero,,93,40,,,,video
+674,2015-09-12,2015/16,Goal,Barcelona,La Liga,Atlético Madrid,A,2–1,W,77,Left Foot,Open Play,,Luis Suárez,,92.3,40.6,,,0.202,statsbomb
+675,2015-09-20,2015/16,Assist,Barcelona,La Liga,Levante,H,4–1,W,50,Right Foot,Open Play,,Marc Bartra,Pass,95.2,44.5,86.8,73.6,0.241,statsbomb
+676,2015-09-20,2015/16,Goal,Barcelona,La Liga,Levante,H,4–1,W,61,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+677,2015-09-20,2015/16,Goal,Barcelona,La Liga,Levante,H,4–1,W,90,Left Foot,Open Play,,Marc Bartra,,86.3,48.5,,,0.129,statsbomb
+678,2015-09-23,2015/16,Assist,Barcelona,La Liga,Celta Vigo,A,1–4,L,80,Right Foot,Open Play,Half Volley,Neymar,Pass,94.8,62.9,65.9,62.6,0.067,statsbomb
+679,2015-11-24,2015/16,Assist,Barcelona,Champions League,AS Roma,H,6–1,W,56,Left Foot,Open Play,,Gerard Pique,Pass,,,,,,
+680,2015-11-24,2015/16,Goal,Barcelona,Champions League,AS Roma,H,6–1,W,18,Left Foot,Open Play,chip,Luis Suárez,,94,40,,,,video
+681,2015-11-24,2015/16,Goal,Barcelona,Champions League,AS Roma,H,6–1,W,60,Left Foot,Open Play,,,,98,44,,,,video
+682,2015-11-28,2015/16,Goal,Barcelona,La Liga,Real Sociedad,H,4–0,W,90+1,Left Foot,Open Play,,Neymar,,96.2,55.9,,,0.603,statsbomb
+683,2015-12-05,2015/16,Assist,Barcelona,La Liga,Valencia,A,1–1,D,59,Right Foot,Open Play,,Luis Suárez,Pass,97.8,61.7,58.2,73.5,0.078,statsbomb
+684,2015-12-09,2015/16,Goal,Barcelona,Champions League,Bayer 04 Leverkusen,A,1–1,D,20,Right Foot,Open Play,,Ivan Rakitić,,95,56,,,,video
+685,2015-12-12,2015/16,Assist,Barcelona,La Liga,Deportivo La Coruña,H,2–2,D,62,Right Foot,Open Play,,Ivan Rakitić,Pass,79.5,64.4,71.4,53.8,0.03,statsbomb
+686,2015-12-12,2015/16,Goal,Barcelona,La Liga,Deportivo La Coruña,H,2–2,D,39,Left Foot,Free Kick,,,,76.9,55.1,,,0.057,statsbomb
+687,2015-12-20,2015/16,Goal,Barcelona,Club World Cup,River Plate,A,3–0,W,36,Left Foot,Open Play,,Neymar,,92,57,,,,video
+688,2015-12-30,2015/16,Goal,Barcelona,La Liga,Real Betis,H,4–0,W,33,Right Foot,Open Play,Half Volley,Neymar,,93.6,47.8,,,0.563,statsbomb
+689,2016-01-06,2015/16,Assist,Barcelona,Copa del Rey,Espanyol,H,4–1,W,49,Right Foot,Open Play,,Gerard Pique,Pass,,,,,,
+690,2016-01-06,2015/16,Assist,Barcelona,Copa del Rey,Espanyol,H,4–1,W,88,Right Foot,Open Play,,Neymar,Pass,,,,,,
+691,2016-01-06,2015/16,Goal,Barcelona,Copa del Rey,Espanyol,H,4–1,W,13,Left Foot,Open Play,,Andrés Iniesta,,90,49,,,,video
+692,2016-01-06,2015/16,Goal,Barcelona,Copa del Rey,Espanyol,H,4–1,W,44,Left Foot,Free Kick,,,,75,70,,,,video
+693,2016-01-09,2015/16,Goal,Barcelona,La Liga,Granada,H,4–0,W,8,Left Foot,Open Play,,Arda Turan,,94.5,45.6,,,0.447,statsbomb
+694,2016-01-09,2015/16,Goal,Barcelona,La Liga,Granada,H,4–0,W,14,Left Foot,Open Play,,Luis Suárez,,98.3,41.1,,,0.348,statsbomb
+695,2016-01-09,2015/16,Goal,Barcelona,La Liga,Granada,H,4–0,W,58,Left Foot,Open Play,,,,93.8,49.4,,,0.546,statsbomb
+696,2016-01-13,2015/16,Assist,Barcelona,Copa del Rey,Espanyol,A,2–0,W,32,Left Foot,Open Play,,Munir El Haddadi,Pass,,,,,,
+697,2016-01-17,2015/16,Goal,Barcelona,La Liga,Athletic Club,H,6–0,W,7,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+698,2016-01-23,2015/16,Goal,Barcelona,La Liga,Málaga,A,2–1,W,51,Left Foot,Open Play,Volley,Adriano,,94.8,56.5,,,0.231,statsbomb
+699,2016-01-27,2015/16,Assist,Barcelona,Copa del Rey,Athletic Club,H,3–1,W,53,Right Foot,Open Play,,Luis Suárez,Pass,,,,,,
+700,2016-01-30,2015/16,Goal,Barcelona,La Liga,Atlético Madrid,H,2–1,W,30,Left Foot,Open Play,,Jordi Alba,,91.6,46.6,,,0.156,statsbomb
+701,2016-02-03,2015/16,Goal,Barcelona,Copa del Rey,Valencia,H,7–0,W,29,Left Foot,Open Play,,Neymar,,92,52,,,,video
+702,2016-02-03,2015/16,Goal,Barcelona,Copa del Rey,Valencia,H,7–0,W,59,Left Foot,Open Play,,Luis Suárez,,88,50,,,,video
+703,2016-02-03,2015/16,Goal,Barcelona,Copa del Rey,Valencia,H,7–0,W,74,Left Foot,Open Play,,,,89,34,,,,video
+704,2016-02-07,2015/16,Assist,Barcelona,La Liga,Levante,A,2–0,W,90+2,Right Foot,Open Play,,Luis Suárez,Pass,87.8,48.8,72.1,76.5,0.408,statsbomb
+705,2016-02-14,2015/16,Assist,Barcelona,La Liga,Celta Vigo,H,6–1,W,59,Right Foot,Open Play,Half Volley,Luis Suárez,Pass,92.5,58.8,76.5,60.8,0.257,statsbomb
+706,2016-02-14,2015/16,Assist,Barcelona,La Liga,Celta Vigo,H,6–1,W,82,Right Foot,Open Play,,Luis Suárez,Shot on goal,93.6,55.6,90.1,50.1,0.316,statsbomb
+707,2016-02-14,2015/16,Goal,Barcelona,La Liga,Celta Vigo,H,6–1,W,28,Left Foot,Free Kick,,,,75.4,63.7,,,0.034,statsbomb
+708,2016-02-17,2015/16,Goal,Barcelona,La Liga,Sporting Gijón,A,3–1,W,25,Left Foot,Open Play,,Luis Suárez,,78.3,54.5,,,0.034,statsbomb
+709,2016-02-17,2015/16,Goal,Barcelona,La Liga,Sporting Gijón,A,3–1,W,31,Left Foot,Open Play,,Luis Suárez,,92.4,61.0,,,0.097,statsbomb
+710,2016-02-23,2015/16,Goal,Barcelona,Champions League,Arsenal FC,A,2–0,W,71,Left Foot,Open Play,,Neymar,,92,51,,,,video
+711,2016-02-23,2015/16,Goal,Barcelona,Champions League,Arsenal FC,A,2–0,W,83,Left Foot,Penalty,messi drew,,,89,50,,,,video
+712,2016-02-28,2015/16,Goal,Barcelona,La Liga,Sevilla,H,2–1,W,31,Left Foot,Free Kick,,,,83.0,37.0,,,0.075,statsbomb
+713,2016-03-03,2015/16,Goal,Barcelona,La Liga,Rayo Vallecano,A,5–1,W,23,Left Foot,Open Play,,Neymar,,90.2,43.0,,,0.203,statsbomb
+714,2016-03-03,2015/16,Goal,Barcelona,La Liga,Rayo Vallecano,A,5–1,W,53,Left Foot,Open Play,,,,91.5,49.1,,,0.194,statsbomb
+715,2016-03-03,2015/16,Goal,Barcelona,La Liga,Rayo Vallecano,A,5–1,W,72,Left Foot,Open Play,,Sergio Busquets,,87.7,54.2,,,0.271,statsbomb
+716,2016-03-06,2015/16,Goal,Barcelona,La Liga,Eibar,A,4–0,W,42,Left Foot,Open Play,,Munir El Haddadi,,87.8,38.1,,,0.14,statsbomb
+717,2016-03-06,2015/16,Goal,Barcelona,La Liga,Eibar,A,4–0,W,76,Left Foot,Penalty,Handball,,,90.1,50.3,,,0.783,statsbomb
+718,2016-03-12,2015/16,Assist,Barcelona,La Liga,Getafe,H,6–0,W,19,Head,Open Play,,Munir El Haddadi,Pass,93.2,49.9,92.6,65.1,0.433,statsbomb
+719,2016-03-12,2015/16,Assist,Barcelona,La Liga,Getafe,H,6–0,W,32,Right Foot,Open Play,,Neymar,Pass,90.3,37.2,75.3,44.6,0.249,statsbomb
+720,2016-03-12,2015/16,Assist,Barcelona,La Liga,Getafe,H,6–0,W,51,Right Foot,Open Play,,Neymar,Pass,90.1,53.0,76.0,64.1,0.261,statsbomb
+721,2016-03-12,2015/16,Goal,Barcelona,La Liga,Getafe,H,6–0,W,41,Left Foot,Open Play,,Arda Turan,,78.8,50.4,,,0.038,statsbomb
+722,2016-03-16,2015/16,Goal,Barcelona,Champions League,Arsenal FC,H,3–1,W,86,Left Foot,Open Play,,Neymar,,92,60,,,,video
+723,2016-03-29,2015/16,Goal,Argentina,World Cup Qualifier,Bolivia,H,2–0,W,30,Left Foot,Penalty,,,,89,50,,,,video
+724,2016-04-17,2015/16,Goal,Barcelona,La Liga,Valencia,H,1–2,L,63,Left Foot,Open Play,,Jordi Alba,,90.5,48.1,,,0.102,statsbomb
+725,2016-04-20,2015/16,Assist,Barcelona,La Liga,Deportivo La Coruña,A,8–0,W,24,Right Foot,Open Play,,Luis Suárez,Pass,90.6,47.5,79.1,47.2,0.44,statsbomb
+726,2016-04-20,2015/16,Assist,Barcelona,La Liga,Deportivo La Coruña,A,8–0,W,53,Right Foot,Open Play,,Luis Suárez,Pass,88.9,52.6,76.6,49.5,0.383,statsbomb
+727,2016-04-20,2015/16,Goal,Barcelona,La Liga,Deportivo La Coruña,A,8–0,W,73,Left Foot,Open Play,,Luis Suárez,,88.8,51.7,,,0.202,statsbomb
+728,2016-04-23,2015/16,Assist,Barcelona,La Liga,Sporting Gijón,H,6–0,W,88,Right Foot,Open Play,,Luis Suárez,Pass,90.7,40.0,79.0,52.9,0.211,statsbomb
+729,2016-04-23,2015/16,Goal,Barcelona,La Liga,Sporting Gijón,H,6–0,W,13,Head,Open Play,Lob,,,85.8,55.1,,,0.265,statsbomb
+730,2016-04-30,2015/16,Assist,Barcelona,La Liga,Real Betis,A,2–0,W,50,Right Foot,Open Play,Half Volley,Ivan Rakitić,Pass,94.8,47.1,76.4,66.1,0.909,statsbomb
+731,2016-04-30,2015/16,Assist,Barcelona,La Liga,Real Betis,A,2–0,W,81,Right Foot,Open Play,,Luis Suárez,Pass,87.8,51.0,61.9,57.1,0.402,statsbomb
+732,2016-05-08,2015/16,Assist,Barcelona,La Liga,Espanyol,H,5–0,W,52,Right Foot,Open Play,,Luis Suárez,Pass,90.2,54.2,77.8,58.5,0.451,statsbomb
+733,2016-05-08,2015/16,Goal,Barcelona,La Liga,Espanyol,H,5–0,W,8,Left Foot,Free Kick,,,,78.9,51.4,,,0.076,statsbomb
+734,2016-05-22,2015/16,Assist,Barcelona,Copa del Rey,Sevilla,H,2–0,W,97,Left Foot,Open Play,,Jordi Alba,Pass,,,,,,
+735,2016-05-22,2015/16,Assist,Barcelona,Copa del Rey,Sevilla,H,2–0,W,120+3,Right Foot,Open Play,,Neymar,Pass,,,,,,
+736,2016-06-10,2015/16,Goal,Argentina,Copa América,Panama,N,5–0,W,68,Left Foot,Open Play,,Gonzalo Higuaín,,88,44,,,,video
+737,2016-06-10,2015/16,Goal,Argentina,Copa América,Panama,N,5–0,W,78,Left Foot,Free Kick,,,,76,67,,,,video
+738,2016-06-10,2015/16,Goal,Argentina,Copa América,Panama,N,5–0,W,87,Left Foot,Open Play,,Marcos Rojo,,88,54,,,,video
+739,2016-06-18,2015/16,Assist,Argentina,Copa América,Venezuela,N,4–1,W,8,Right Foot,Open Play,,Gonzalo Higuaín,Cross,,,,,,
+740,2016-06-18,2015/16,Assist,Argentina,Copa América,Venezuela,N,4–1,W,71,Right Foot,Open Play,,Erik Lamela,Pass,,,,,,
+741,2016-06-18,2015/16,Goal,Argentina,Copa América,Venezuela,N,4–1,W,60,Left Foot,Open Play,,Nicolás Gaitán,,91,55,,,,video
+742,2016-06-21,2015/16,Assist,Argentina,Copa América,United States,A,4–0,W,3,Head,Open Play,,Ezequiel Lavezzi,Pass,,,,,,
+743,2016-06-21,2015/16,Assist,Argentina,Copa América,United States,A,4–0,W,86,Right Foot,Open Play,,Gonzalo Higuaín,Pass,,,,,,
+744,2016-06-21,2015/16,Goal,Argentina,Copa América,United States,A,4–0,W,32,Left Foot,Free Kick,,,,77,40,,,,video
+745,2016-08-14,2016/17,Assist,Barcelona,Supercopa de España,Sevilla,A,2–0,W,81,Left Foot,Open Play,,Munir El Haddadi,Pass,,,,,,
+746,2016-08-17,2016/17,Assist,Barcelona,Supercopa de España,Sevilla,H,3–0,W,10,Left Foot,Open Play,,Arda Turan,Pass,,,,,,
+747,2016-08-17,2016/17,Goal,Barcelona,Supercopa de España,Sevilla,H,3–0,W,55,Head,Open Play,,Lucas Digne,,92,57,,,,video
+748,2016-08-20,2016/17,Assist,Barcelona,La Liga,Real Betis,H,6–2,W,56,Right Foot,Open Play,,Luis Suárez,Pass,96.2,53.8,93.3,34.5,0.828,statsbomb
+749,2016-08-20,2016/17,Goal,Barcelona,La Liga,Real Betis,H,6–2,W,37,Left Foot,Open Play,,Sergi Roberto,,81.2,57.1,,,0.043,statsbomb
+750,2016-08-20,2016/17,Goal,Barcelona,La Liga,Real Betis,H,6–2,W,58,Left Foot,Open Play,,Arda Turan,,82.2,43.8,,,0.144,statsbomb
+751,2016-09-01,2016/17,Goal,Argentina,World Cup Qualifier,Uruguay,H,1–0,W,43,Left Foot,Open Play,,,,82,29,,,,video
+752,2016-09-13,2016/17,Assist,Barcelona,Champions League,Celtic FC,H,7–0,W,88,Right Foot,Open Play,,Luis Suárez,Cross,,,,,,
+753,2016-09-13,2016/17,Goal,Barcelona,Champions League,Celtic FC,H,7–0,W,3,Left Foot,Open Play,,Neymar,,95,34,,,,video
+754,2016-09-13,2016/17,Goal,Barcelona,Champions League,Celtic FC,H,7–0,W,27,Left Foot,Open Play,,Neymar,,98,43,,,,video
+755,2016-09-13,2016/17,Goal,Barcelona,Champions League,Celtic FC,H,7–0,W,60,Left Foot,Open Play,,Luis Suárez,,96,55,,,,video
+756,2016-09-17,2016/17,Assist,Barcelona,La Liga,Leganés,A,5–1,W,31,Right Foot,Open Play,,Luis Suárez,Pass,95.3,55.8,92.0,40.1,0.825,statsbomb
+757,2016-09-17,2016/17,Goal,Barcelona,La Liga,Leganés,A,5–1,W,15,Left Foot,Open Play,,Luis Suárez,,90.8,60.1,,,0.411,statsbomb
+758,2016-09-17,2016/17,Goal,Barcelona,La Liga,Leganés,A,5–1,W,55,Left Foot,Penalty,,,,90.2,50.1,,,0.783,statsbomb
+759,2016-10-15,2016/17,Goal,Barcelona,La Liga,Deportivo La Coruña,H,4–0,W,58,Left Foot,Open Play,,Neymar,,94.0,36.9,,,0.116,statsbomb
+760,2016-10-19,2016/17,Assist,Barcelona,Champions League,Manchester City,H,4–0,W,89,Right Foot,Open Play,,Neymar,Pass,,,,,,
+761,2016-10-19,2016/17,Goal,Barcelona,Champions League,Manchester City,H,4–0,W,17,Left Foot,Open Play,,Andrés Iniesta,,95,44,,,,video
+762,2016-10-19,2016/17,Goal,Barcelona,Champions League,Manchester City,H,4–0,W,61,Left Foot,Open Play,,Andrés Iniesta,,83,59,,,,video
+763,2016-10-19,2016/17,Goal,Barcelona,Champions League,Manchester City,H,4–0,W,69,Left Foot,Open Play,,Luis Suárez,,90,48,,,,video
+764,2016-10-22,2016/17,Goal,Barcelona,La Liga,Valencia,A,3–2,W,22,Left Foot,Open Play,,Ivan Rakitić,,86.2,62.2,,,0.052,statsbomb
+765,2016-10-22,2016/17,Goal,Barcelona,La Liga,Valencia,A,3–2,W,90+4,Left Foot,Penalty,,,,89.9,50.1,,,0.783,statsbomb
+766,2016-11-01,2016/17,Goal,Barcelona,Champions League,Manchester City,A,1–3,L,21,Left Foot,Open Play,,Neymar,,89,46,,,,video
+767,2016-11-06,2016/17,Assist,Barcelona,La Liga,Sevilla,A,2–1,W,61,Right Foot,Open Play,,Luis Suárez,Pass,91.2,62.4,80.6,55.6,0.368,statsbomb
+768,2016-11-06,2016/17,Goal,Barcelona,La Liga,Sevilla,A,2–1,W,43,Left Foot,Open Play,,Neymar,,84.2,47.0,,,0.102,statsbomb
+769,2016-11-15,2016/17,Assist,Argentina,World Cup Qualifier,Colombia,H,3–0,W,22,Head,Open Play,,Lucas Pratto,Cross,,,,,,
+770,2016-11-15,2016/17,Assist,Argentina,World Cup Qualifier,Colombia,H,3–0,W,83,Left Foot,Open Play,,Ángel Di María,Pass,,,,,,
+771,2016-11-15,2016/17,Goal,Argentina,World Cup Qualifier,Colombia,H,3–0,W,10,Left Foot,Free Kick,,,,74,49,,,,video
+772,2016-11-23,2016/17,Goal,Barcelona,Champions League,Celtic FC,A,2–0,W,24,Left Foot,Open Play,,Neymar,,93,42,,,,video
+773,2016-11-23,2016/17,Goal,Barcelona,Champions League,Celtic FC,A,2–0,W,55,Left Foot,Penalty,,,,89,50,,,,video
+774,2016-11-27,2016/17,Goal,Barcelona,La Liga,Real Sociedad,A,1–1,D,59,Left Foot,Open Play,,Neymar,,89.3,46.5,,,0.142,statsbomb
+775,2016-12-06,2016/17,Goal,Barcelona,Champions League,Borussia Mönchengladbach,H,4–0,W,16,Left Foot,Open Play,,Arda Turan,,92,38,,,,video
+776,2016-12-10,2016/17,Goal,Barcelona,La Liga,Osasuna,A,3–0,W,72,Left Foot,Open Play,,Jordi Alba,,95.0,41.5,,,0.327,statsbomb
+777,2016-12-10,2016/17,Goal,Barcelona,La Liga,Osasuna,A,3–0,W,90+2,Left Foot,Open Play,,Sergio Busquets,,89.2,49.1,,,0.156,statsbomb
+778,2016-12-18,2016/17,Assist,Barcelona,La Liga,Espanyol,H,4–1,W,67,Left Foot,Open Play,,Luis Suárez,Shot on goal,,,,,,
+779,2016-12-18,2016/17,Assist,Barcelona,La Liga,Espanyol,H,4–1,W,69,Left Foot,Open Play,,Jordi Alba,Pass,,,,,,
+780,2016-12-18,2016/17,Goal,Barcelona,La Liga,Espanyol,H,4–1,W,90,Left Foot,Open Play,Volley,Luis Suárez,,94.4,55.4,,,0.337,statsbomb
+781,2017-01-05,2016/17,Goal,Barcelona,Copa del Rey,Athletic Club,A,1–2,L,52,Left Foot,Free Kick,,,,79,22,,,,video
+782,2017-01-08,2016/17,Goal,Barcelona,La Liga,Villarreal,A,1–1,D,90,Left Foot,Free Kick,,,,79.2,50.4,,,0.082,statsbomb
+783,2017-01-11,2016/17,Goal,Barcelona,Copa del Rey,Athletic Club,H,3–1,W,78,Left Foot,Free Kick,,,,78,43,,,,video
+784,2017-01-14,2016/17,Goal,Barcelona,La Liga,Las Palmas,H,5–0,W,52,Right Foot,Open Play,,,,97.0,51.7,,,0.44,statsbomb
+785,2017-01-22,2016/17,Assist,Barcelona,La Liga,Eibar,A,4–0,W,32,Right Foot,Open Play,,Denis Suárez,Shot on goal,80.1,58.9,82.4,48.6,0.042,statsbomb
+786,2017-01-22,2016/17,Goal,Barcelona,La Liga,Eibar,A,4–0,W,50,Left Foot,Open Play,Volley,Luis Suárez,,94.1,45.6,,,0.323,statsbomb
+787,2017-01-26,2016/17,Assist,Barcelona,Copa del Rey,Real Sociedad,H,5–2,W,64,Right Foot,Open Play,,Luis Suárez,Pass,,,,,,
+788,2017-01-26,2016/17,Assist,Barcelona,Copa del Rey,Real Sociedad,H,5–2,W,82,Right Foot,Open Play,,Denis Suárez,Pass,,,,,,
+789,2017-01-26,2016/17,Goal,Barcelona,Copa del Rey,Real Sociedad,H,5–2,W,55,Left Foot,Penalty,,,,89,50,,,,video
+790,2017-01-29,2016/17,Assist,Barcelona,La Liga,Real Betis,A,1–1,D,90,Right Foot,Open Play,,Luis Suárez,Pass,88.2,51.7,74.8,59.0,0.378,statsbomb
+791,2017-02-01,2016/17,Goal,Barcelona,Copa del Rey,Atlético Madrid,A,2–1,W,33,Left Foot,Open Play,,Ivan Rakitić,,77,65,,,,video
+792,2017-02-04,2016/17,Goal,Barcelona,La Liga,Athletic Club,H,3–0,W,40,Left Foot,Free Kick,,,,94.6,86.9,,,0.007,statsbomb
+793,2017-02-07,2016/17,Assist,Barcelona,Copa del Rey,Atlético Madrid,H,1–1,D,43,Right Foot,Open Play,,Luis Suárez,Shot on goal,,,,,,
+794,2017-02-11,2016/17,Goal,Barcelona,La Liga,Deportivo Alavés,A,6–0,W,59,Left Foot,Open Play,,Neymar,,93.5,33.9,,,0.066,statsbomb
+795,2017-02-19,2016/17,Goal,Barcelona,La Liga,Leganés,H,2–1,W,4,Right Foot,Open Play,Volley,Luis Suárez,,95.8,53.8,,,0.528,statsbomb
+796,2017-02-19,2016/17,Goal,Barcelona,La Liga,Leganés,H,2–1,W,90,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+797,2017-02-26,2016/17,Goal,Barcelona,La Liga,Atlético Madrid,A,2–1,W,86,Left Foot,Open Play,,,,95.8,54.4,,,0.518,statsbomb
+798,2017-03-01,2016/17,Assist,Barcelona,La Liga,Sporting Gijón,H,6–1,W,50,Left Foot,Open Play,,Paco Alcácer,Pass,89.1,51.9,87.2,67.9,0.255,statsbomb
+799,2017-03-01,2016/17,Goal,Barcelona,La Liga,Sporting Gijón,H,6–1,W,9,Head,Open Play,Lob,Javier Mascherano,,86.9,46.4,,,0.302,statsbomb
+800,2017-03-04,2016/17,Assist,Barcelona,La Liga,Celta Vigo,H,5–0,W,40,Right Foot,Open Play,Lob,Neymar,Pass,91.5,40.4,77.6,39.5,0.268,statsbomb
+801,2017-03-04,2016/17,Assist,Barcelona,La Liga,Celta Vigo,H,5–0,W,61,Right Foot,Open Play,,Samuel Umtiti,Pass,94.9,48.3,91.7,31.4,0.628,statsbomb
+802,2017-03-04,2016/17,Goal,Barcelona,La Liga,Celta Vigo,H,5–0,W,24,Left Foot,Open Play,,Sergio Busquets,,83.8,49.0,,,0.111,statsbomb
+803,2017-03-04,2016/17,Goal,Barcelona,La Liga,Celta Vigo,H,5–0,W,64,Left Foot,Open Play,,Rafinha,,88.4,58.5,,,0.143,statsbomb
+804,2017-03-08,2016/17,Goal,Barcelona,Champions League,Paris Saint-Germain,H,6–1,W,50,Left Foot,Penalty,,,,89,50,,,,video
+805,2017-03-19,2016/17,Goal,Barcelona,La Liga,Valencia,H,4–2,W,45,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+806,2017-03-19,2016/17,Goal,Barcelona,La Liga,Valencia,H,4–2,W,53,Right Foot,Open Play,,Javier Mascherano,,93.8,62.8,,,0.094,statsbomb
+807,2017-03-23,2016/17,Goal,Argentina,World Cup Qualifier,Chile,H,1–0,W,15,Left Foot,Penalty,,,,89,50,,,,video
+808,2017-04-05,2016/17,Goal,Barcelona,La Liga,Sevilla,H,3–0,W,28,Right Foot,Open Play,,Luis Suárez,,93.8,55.8,,,0.124,statsbomb
+809,2017-04-05,2016/17,Goal,Barcelona,La Liga,Sevilla,H,3–0,W,33,Left Foot,Open Play,Volley,,,89.3,62.8,,,0.065,statsbomb
+810,2017-04-15,2016/17,Assist,Barcelona,La Liga,Real Sociedad,H,3–2,W,44,Left Foot,Open Play,,Paco Alcácer,Pass,91.8,36.9,80.3,45.2,0.168,statsbomb
+811,2017-04-15,2016/17,Goal,Barcelona,La Liga,Real Sociedad,H,3–2,W,17,Left Foot,Open Play,,Luis Suárez,,79.5,51.1,,,0.049,statsbomb
+812,2017-04-15,2016/17,Goal,Barcelona,La Liga,Real Sociedad,H,3–2,W,37,Left Foot,Open Play,Volley,,,94.7,49.4,,,0.762,statsbomb
+813,2017-04-23,2016/17,Goal,Barcelona,La Liga,Real Madrid,A,3–2,W,33,Left Foot,Open Play,,Ivan Rakitić,,90.2,49.2,,,0.384,statsbomb
+814,2017-04-23,2016/17,Goal,Barcelona,La Liga,Real Madrid,A,3–2,W,90+2,Left Foot,Open Play,,Jordi Alba,,87.2,46.6,,,0.086,statsbomb
+815,2017-04-26,2016/17,Goal,Barcelona,La Liga,Osasuna,H,7–1,W,12,Left Foot,Open Play,Lob,,,89.4,57.2,,,0.389,statsbomb
+816,2017-04-26,2016/17,Goal,Barcelona,La Liga,Osasuna,H,7–1,W,61,Left Foot,Open Play,,Ivan Rakitić,,83.3,45.2,,,0.06,statsbomb
+817,2017-04-29,2016/17,Assist,Barcelona,La Liga,Espanyol,A,3–0,W,76,Left Foot,Open Play,,Ivan Rakitić,Pass,88.5,39.8,79.8,55.9,0.072,statsbomb
+818,2017-05-06,2016/17,Goal,Barcelona,La Liga,Villarreal,H,4–1,W,45,Left Foot,Open Play,,Sergio Busquets,,82.2,36.9,,,0.038,statsbomb
+819,2017-05-06,2016/17,Goal,Barcelona,La Liga,Villarreal,H,4–1,W,82,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+820,2017-05-21,2016/17,Goal,Barcelona,La Liga,Eibar,H,4–2,W,75,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+821,2017-05-21,2016/17,Goal,Barcelona,La Liga,Eibar,H,4–2,W,90+2,Right Foot,Open Play,,,,86.8,47.5,,,0.089,statsbomb
+822,2017-05-27,2016/17,Assist,Barcelona,Copa del Rey,Deportivo Alavés,H,3–1,W,45+3,Right Foot,Open Play,,Paco Alcácer,Pass,,,,,,
+823,2017-05-27,2016/17,Goal,Barcelona,Copa del Rey,Deportivo Alavés,H,3–1,W,30,Left Foot,Open Play,,Neymar,,83,49,,,,video
+824,2017-08-13,2017/18,Goal,Barcelona,Supercopa de España,Real Madrid,H,1–3,L,77,Left Foot,Penalty,,,,89,50,,,,video
+825,2017-08-26,2017/18,Goal,Barcelona,La Liga,Deportivo Alavés,A,2–0,W,55,Left Foot,Open Play,,Jordi Alba,,91.4,35.5,,,0.075,statsbomb
+826,2017-08-26,2017/18,Goal,Barcelona,La Liga,Deportivo Alavés,A,2–0,W,66,Left Foot,Open Play,Half Volley,Paco Alcácer,,90.3,43.6,,,0.173,statsbomb
+827,2017-09-09,2017/18,Goal,Barcelona,La Liga,Espanyol,H,5–0,W,26,Left Foot,Open Play,,Ivan Rakitić,,91.7,49.4,,,0.228,statsbomb
+828,2017-09-09,2017/18,Goal,Barcelona,La Liga,Espanyol,H,5–0,W,35,Right Foot,Open Play,,Jordi Alba,,96.7,42.2,,,0.214,statsbomb
+829,2017-09-09,2017/18,Goal,Barcelona,La Liga,Espanyol,H,5–0,W,67,Left Foot,Open Play,,Jordi Alba,,92.2,42.9,,,0.191,statsbomb
+830,2017-09-12,2017/18,Goal,Barcelona,Champions League,Juventus FC,H,3–0,W,45,Left Foot,Open Play,,Luis Suárez,,84,37,,,,video
+831,2017-09-12,2017/18,Goal,Barcelona,Champions League,Juventus FC,H,3–0,W,69,Left Foot,Open Play,,,,84,48,,,,video
+832,2017-09-16,2017/18,Assist,Barcelona,La Liga,Getafe,A,2–1,W,84,Right Foot,Open Play,,Paulinho,Pass,93.7,62.8,70.4,76.1,0.182,statsbomb
+833,2017-09-19,2017/18,Assist,Barcelona,La Liga,Eibar,H,6–1,W,53,Right Foot,Open Play,,Denis Suárez,Shot on goal,93.2,36.2,85.2,53.5,0.25,statsbomb
+834,2017-09-19,2017/18,Goal,Barcelona,La Liga,Eibar,H,6–1,W,21,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+835,2017-09-19,2017/18,Goal,Barcelona,La Liga,Eibar,H,6–1,W,59,Left Foot,Open Play,,Sergio Busquets,,85.0,45.5,,,0.072,statsbomb
+836,2017-09-19,2017/18,Goal,Barcelona,La Liga,Eibar,H,6–1,W,62,Left Foot,Open Play,,Paulinho,,91.9,60.6,,,0.171,statsbomb
+837,2017-09-19,2017/18,Goal,Barcelona,La Liga,Eibar,H,6–1,W,87,Left Foot,Open Play,,Aleix Vidal,,93.1,57.9,,,0.118,statsbomb
+838,2017-10-01,2017/18,Assist,Barcelona,La Liga,Las Palmas,H,3–0,W,49,Head,Open Play,,Sergio Busquets,Pass,97.0,56.0,100.0,100.0,0.183,statsbomb
+839,2017-10-01,2017/18,Goal,Barcelona,La Liga,Las Palmas,H,3–0,W,70,Left Foot,Open Play,,Denis Suárez,,96.8,57.9,,,0.891,statsbomb
+840,2017-10-01,2017/18,Goal,Barcelona,La Liga,Las Palmas,H,3–0,W,77,Left Foot,Open Play,,Luis Suárez,,91.2,52.8,,,0.508,statsbomb
+841,2017-10-10,2017/18,Goal,Argentina,World Cup Qualifier,Ecuador,A,3–1,W,11,Left Foot,Open Play,,Ángel Di María,,91,43,,,,video
+842,2017-10-10,2017/18,Goal,Argentina,World Cup Qualifier,Ecuador,A,3–1,W,19,Left Foot,Open Play,,,,87,36,,,,video
+843,2017-10-10,2017/18,Goal,Argentina,World Cup Qualifier,Ecuador,A,3–1,W,62,Left Foot,Open Play,,Perez,,84,43,,,,video
+844,2017-10-18,2017/18,Assist,Barcelona,Champions League,Olympiacos,H,3–1,W,64,Left Foot,Open Play,,Lucas Digne,Pass,,,,,,
+845,2017-10-18,2017/18,Goal,Barcelona,Champions League,Olympiacos,H,3–1,W,61,Left Foot,Free Kick,,,,79,47,,,,video
+846,2017-10-21,2017/18,Assist,Barcelona,La Liga,Málaga,H,2–0,W,56,Left Foot,Open Play,,Andrés Iniesta,Pass,89.5,40.4,77.4,49.4,0.068,statsbomb
+847,2017-10-28,2017/18,Goal,Barcelona,La Liga,Athletic Club,A,2–0,W,37,Left Foot,Open Play,,Jordi Alba,,91.1,39.9,,,0.22,statsbomb
+848,2017-11-26,2017/18,Assist,Barcelona,La Liga,Valencia,A,1–1,D,82,Left Foot,Open Play,Volley,Jordi Alba,Pass,94.4,43.1,71.7,56.1,0.15,statsbomb
+849,2017-12-02,2017/18,Goal,Barcelona,La Liga,Celta Vigo,H,2–2,D,22,Left Foot,Open Play,,Paulinho,,91.3,38.8,,,0.178,statsbomb
+850,2017-12-10,2017/18,Goal,Barcelona,La Liga,Villarreal,A,2–0,W,83,Left Foot,Open Play,,Sergio Busquets,,90.6,53.9,,,0.62,statsbomb
+851,2017-12-17,2017/18,Assist,Barcelona,La Liga,Deportivo La Coruña,H,4–0,W,29,Right Foot,Open Play,,Luis Suárez,Pass,96.7,55.4,95.2,41.1,0.508,statsbomb
+852,2017-12-23,2017/18,Assist,Barcelona,La Liga,Real Madrid,A,3–0,W,90+3,Right Foot,Open Play,,Aleix Vidal,Pass,87.4,54.9,99.2,70.0,0.108,statsbomb
+853,2017-12-23,2017/18,Goal,Barcelona,La Liga,Real Madrid,A,3–0,W,64,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+854,2018-01-07,2017/18,Assist,Barcelona,La Liga,Levante,H,3–0,W,90+3,Right Foot,Open Play,,Paulinho,Pass,94.2,50.9,96.7,30.8,0.795,statsbomb
+855,2018-01-07,2017/18,Goal,Barcelona,La Liga,Levante,H,3–0,W,12,Left Foot,Open Play,Volley,Jordi Alba,,87.3,41.4,,,0.062,statsbomb
+856,2018-01-11,2017/18,Assist,Barcelona,Copa del Rey,Celta Vigo,H,5–0,W,28,Left Foot,Open Play,,Jordi Alba,Pass,,,,,,
+857,2018-01-11,2017/18,Goal,Barcelona,Copa del Rey,Celta Vigo,H,5–0,W,13,Left Foot,Open Play,,Jordi Alba,,85,47,,,,video
+858,2018-01-11,2017/18,Goal,Barcelona,Copa del Rey,Celta Vigo,H,5–0,W,15,Left Foot,Open Play,,Jordi Alba,,87,45,,,,video
+859,2018-01-14,2017/18,Assist,Barcelona,La Liga,Real Sociedad,A,4–2,W,50,Right Foot,Open Play,,Luis Suárez,Pass,87.6,30.1,72.5,56.2,0.05,statsbomb
+860,2018-01-14,2017/18,Goal,Barcelona,La Liga,Real Sociedad,A,4–2,W,85,Left Foot,Free Kick,,,,73.8,47.0,,,0.028,statsbomb
+861,2018-01-21,2017/18,Assist,Barcelona,La Liga,Real Betis,A,5–0,W,89,Right Foot,Open Play,,Luis Suárez,Pass,89.8,38.4,85.0,53.8,0.239,statsbomb
+862,2018-01-21,2017/18,Goal,Barcelona,La Liga,Real Betis,A,5–0,W,64,Left Foot,Open Play,,Sergio Busquets,,88.3,41.2,,,0.393,statsbomb
+863,2018-01-21,2017/18,Goal,Barcelona,La Liga,Real Betis,A,5–0,W,80,Left Foot,Open Play,,Luis Suárez,,90.6,40.5,,,0.415,statsbomb
+864,2018-01-25,2017/18,Goal,Barcelona,Copa del Rey,Espanyol,H,2–0,W,25,Left Foot,Open Play,,,,80,63,,,,video
+865,2018-01-28,2017/18,Goal,Barcelona,La Liga,Deportivo Alavés,H,2–1,W,84,Left Foot,Free Kick,,,,82.8,62.1,,,0.076,statsbomb
+866,2018-02-01,2017/18,Assist,Barcelona,Copa del Rey,Valencia,H,1–0,W,67,Head,Open Play,,Luis Suárez,Cross,,,,,,
+867,2018-02-04,2017/18,Assist,Barcelona,La Liga,Espanyol,A,1–1,D,82,Head,Open Play,,Gerard Pique,Pass,94.5,44.9,92.9,6.2,0.101,statsbomb
+868,2018-02-17,2017/18,Assist,Barcelona,La Liga,Eibar,A,2–0,W,16,Right Foot,Open Play,,Luis Suárez,Pass,94.6,61.4,60.1,30.0,0.861,statsbomb
+869,2018-02-17,2017/18,Assist,Barcelona,La Liga,Eibar,A,2–0,W,88,Right Foot,Open Play,,Jordi Alba,Shot on goal,89.7,38.6,91.6,50.8,0.437,statsbomb
+870,2018-02-20,2017/18,Goal,Barcelona,Champions League,Chelsea FC,A,1–1,D,75,Left Foot,Open Play,,Andrés Iniesta,,85,42,,,,video
+871,2018-02-24,2017/18,Assist,Barcelona,La Liga,Girona,H,6–1,W,5,Left Foot,Open Play,,Luis Suárez,Pass,87.4,34.8,61.7,46.1,0.148,statsbomb
+872,2018-02-24,2017/18,Goal,Barcelona,La Liga,Girona,H,6–1,W,30,Left Foot,Open Play,,Luis Suárez,,89.2,52.1,,,0.281,statsbomb
+873,2018-02-24,2017/18,Goal,Barcelona,La Liga,Girona,H,6–1,W,36,Left Foot,Free Kick,,,,80.8,46.2,,,0.079,statsbomb
+874,2018-03-01,2017/18,Goal,Barcelona,La Liga,Las Palmas,A,1–1,D,21,Left Foot,Free Kick,,,,83.2,55.6,,,0.096,statsbomb
+875,2018-03-04,2017/18,Goal,Barcelona,La Liga,Atlético Madrid,H,1–0,W,26,Left Foot,Free Kick,,,,79.2,58.6,,,0.065,statsbomb
+876,2018-03-14,2017/18,Assist,Barcelona,Champions League,Chelsea FC,H,3–0,W,20,Right Foot,Open Play,,Ousmane Dembélé,Pass,,,,,,
+877,2018-03-14,2017/18,Goal,Barcelona,Champions League,Chelsea FC,H,3–0,W,3,Right Foot,Open Play,,Luis Suárez,,99,67,,,,video
+878,2018-03-14,2017/18,Goal,Barcelona,Champions League,Chelsea FC,H,3–0,W,63,Left Foot,Open Play,,Luis Suárez,,93,35,,,,video
+879,2018-03-18,2017/18,Goal,Barcelona,La Liga,Athletic Club,H,2–0,W,30,Left Foot,Open Play,,Ousmane Dembélé,,83.7,49.7,,,0.057,statsbomb
+880,2018-03-31,2017/18,Goal,Barcelona,La Liga,Sevilla,A,2–2,D,89,Left Foot,Open Play,,Philippe Coutinho,,79.2,48.8,,,0.043,statsbomb
+881,2018-04-07,2017/18,Goal,Barcelona,La Liga,Leganés,H,3–1,W,27,Left Foot,Free Kick,,,,79.2,65.1,,,0.048,statsbomb
+882,2018-04-07,2017/18,Goal,Barcelona,La Liga,Leganés,H,3–1,W,32,Left Foot,Open Play,,Philippe Coutinho,,88.3,46.4,,,0.174,statsbomb
+883,2018-04-07,2017/18,Goal,Barcelona,La Liga,Leganés,H,3–1,W,87,Left Foot,Open Play,Lob,Ousmane Dembélé,,95.4,52.0,,,0.641,statsbomb
+884,2018-04-21,2017/18,Assist,Barcelona,Copa del Rey,Sevilla,A,5–0,W,40,Right Foot,Open Play,,Luis Suárez,Pass,,,,,,
+885,2018-04-21,2017/18,Assist,Barcelona,Copa del Rey,Sevilla,A,5–0,W,52,Right Foot,Open Play,,Andrés Iniesta,Pass,,,,,,
+886,2018-04-21,2017/18,Goal,Barcelona,Copa del Rey,Sevilla,A,5–0,W,31,Left Foot,Open Play,,Jordi Alba,,92,40,,,,video
+887,2018-04-29,2017/18,Goal,Barcelona,La Liga,Deportivo La Coruña,A,4–2,W,38,Left Foot,Open Play,Volley,Luis Suárez,,95.9,37.2,,,0.115,statsbomb
+888,2018-04-29,2017/18,Goal,Barcelona,La Liga,Deportivo La Coruña,A,4–2,W,82,Right Foot,Open Play,,Luis Suárez,,95.8,53.6,,,0.63,statsbomb
+889,2018-04-29,2017/18,Goal,Barcelona,La Liga,Deportivo La Coruña,A,4–2,W,85,Left Foot,Open Play,,Luis Suárez,,90.0,47.5,,,0.389,statsbomb
+890,2018-05-06,2017/18,Goal,Barcelona,La Liga,Real Madrid,H,2–2,D,52,Left Foot,Open Play,,Luis Suárez,,86.3,45.2,,,0.107,statsbomb
+891,2018-05-09,2017/18,Goal,Barcelona,La Liga,Villarreal,H,5–1,W,45,Left Foot,Open Play,Volley,Andrés Iniesta,,96.0,41.4,,,0.21,statsbomb
+892,2018-05-29,2017/18,Assist,Argentina,International Friendly,Haiti,H,4–0,W,69,Right Foot,Open Play,,Sergio Agüero,Pass,,,,,,
+893,2018-05-29,2017/18,Goal,Argentina,International Friendly,Haiti,H,4–0,W,17,Left Foot,Penalty,,,,89,50,,,,video
+894,2018-05-29,2017/18,Goal,Argentina,International Friendly,Haiti,H,4–0,W,58,Head,Open Play,,,,94,50,,,,video
+895,2018-05-29,2017/18,Goal,Argentina,International Friendly,Haiti,H,4–0,W,66,Left Foot,Open Play,,Cristian Pavón,,95,54,,,,video
+896,2018-06-26,2017/18,Goal,Argentina,World Cup,Nigeria,N,2–1,W,14,Right Foot,Open Play,,Éver Banega,,93.3,62.5,,,0.207,statsbomb
+897,2018-06-30,2017/18,Assist,Argentina,World Cup,France,N,3–4,L,90+3,Head,Open Play,,Sergio Agüero,Cross,93.3,46.2,70.8,70.0,0.194,statsbomb
+898,2018-06-30,2017/18,Assist,Argentina,World Cup,France,N,3–4,L,48,Left Foot,Open Play,,Gabriel Mercado,Shot on goal,,,,,,
+899,2018-08-12,2018/19,Assist,Barcelona,Supercopa de España,Sevilla,H,2–1,W,42,Left Foot,Open Play,,Gerard Pique,Shot on goal,,,,,,
+900,2018-08-12,2018/19,Assist,Barcelona,Supercopa de España,Sevilla,H,2–1,W,78,Right Foot,Open Play,,Ousmane Dembélé,Free kick,,,,,,
+901,2018-08-18,2018/19,Goal,Barcelona,La Liga,Deportivo Alavés,H,3–0,W,64,Left Foot,Free Kick,,,,81.5,56.8,,,0.083,statsbomb
+902,2018-08-18,2018/19,Goal,Barcelona,La Liga,Deportivo Alavés,H,3–0,W,90+2,Left Foot,Open Play,,Luis Suárez,,92.9,45.2,,,0.421,statsbomb
+903,2018-09-02,2018/19,Assist,Barcelona,La Liga,Huesca,H,8–2,W,52,Right Foot,Open Play,Half Volley,Ivan Rakitić,Pass,90.2,69.2,83.2,53.5,0.046,statsbomb
+904,2018-09-02,2018/19,Assist,Barcelona,La Liga,Huesca,H,8–2,W,81,Left Foot,Open Play,,Jordi Alba,Pass,93.2,39.1,85.7,54.6,0.348,statsbomb
+905,2018-09-02,2018/19,Goal,Barcelona,La Liga,Huesca,H,8–2,W,16,Right Foot,Open Play,,Ivan Rakitić,,91.8,63.5,,,0.136,statsbomb
+906,2018-09-02,2018/19,Goal,Barcelona,La Liga,Huesca,H,8–2,W,61,Left Foot,Open Play,,Philippe Coutinho,,86.2,44.0,,,0.274,statsbomb
+907,2018-09-18,2018/19,Goal,Barcelona,Champions League,PSV Eindhoven,H,4–0,W,31,Left Foot,Free Kick,,,,78,52,,,,video
+908,2018-09-18,2018/19,Goal,Barcelona,Champions League,PSV Eindhoven,H,4–0,W,77,Left Foot,Open Play,,Ivan Rakitić,,90,63,,,,video
+909,2018-09-18,2018/19,Goal,Barcelona,Champions League,PSV Eindhoven,H,4–0,W,87,Right Foot,Open Play,,Luis Suárez,,87,63,,,,video
+910,2018-09-23,2018/19,Goal,Barcelona,La Liga,Girona,H,2–2,D,19,Left Foot,Open Play,,Arturo Vidal,,87.8,52.1,,,0.207,statsbomb
+911,2018-09-26,2018/19,Assist,Barcelona,La Liga,Leganés,A,1–2,L,12,Right Foot,Open Play,Half Volley,Philippe Coutinho,Pass,81.8,48.1,78.3,72.5,0.061,statsbomb
+912,2018-09-29,2018/19,Assist,Barcelona,La Liga,Athletic Club,H,1–1,D,84,Left Foot,Open Play,,Munir El Haddadi,Pass,96.1,55.0,97.5,69.8,0.446,statsbomb
+913,2018-10-03,2018/19,Goal,Barcelona,Champions League,Tottenham Hotspur,A,4–2,W,56,Left Foot,Open Play,,Jordi Alba,,91,42,,,,video
+914,2018-10-03,2018/19,Goal,Barcelona,Champions League,Tottenham Hotspur,A,4–2,W,90,Left Foot,Open Play,,Jordi Alba,,92,42,,,,video
+915,2018-10-07,2018/19,Goal,Barcelona,La Liga,Valencia,A,1–1,D,23,Left Foot,Open Play,,Luis Suárez,,80.7,50.5,,,0.059,statsbomb
+916,2018-10-20,2018/19,Assist,Barcelona,La Liga,Sevilla,H,4–2,W,3,Right Foot,Open Play,,Philippe Coutinho,Pass,87.5,43.8,80.0,57.5,0.159,statsbomb
+917,2018-10-20,2018/19,Goal,Barcelona,La Liga,Sevilla,H,4–2,W,12,Left Foot,Open Play,,Luis Suárez,,84.2,59.6,,,0.109,statsbomb
+918,2018-11-11,2018/19,Goal,Barcelona,La Liga,Real Betis,H,3–4,L,68,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+919,2018-11-11,2018/19,Goal,Barcelona,La Liga,Real Betis,H,3–4,L,90+4,Left Foot,Open Play,,Arturo Vidal,,97.8,46.5,,,0.925,statsbomb
+920,2018-11-24,2018/19,Assist,Barcelona,La Liga,Atlético Madrid,A,1–1,D,90,Left Foot,Open Play,,Ousmane Dembélé,Pass,93.2,66.1,82.5,48.8,0.072,statsbomb
+921,2018-11-28,2018/19,Assist,Barcelona,Champions League,PSV Eindhoven,A,2–1,W,70,Right Foot,Open Play,,Gerard Pique,Free kick,,,,,,
+922,2018-11-28,2018/19,Goal,Barcelona,Champions League,PSV Eindhoven,A,2–1,W,61,Left Foot,Open Play,,Ousmane Dembélé,,91,65,,,,video
+923,2018-12-02,2018/19,Assist,Barcelona,La Liga,Villarreal,H,2–0,W,87,Left Foot,Open Play,Lob,Carles Aleñà,Pass,85.7,59.2,64.0,77.0,0.325,statsbomb
+924,2018-12-08,2018/19,Assist,Barcelona,La Liga,Espanyol,A,4–0,W,26,Right Foot,Open Play,,Ousmane Dembélé,Pass,91.8,32.6,79.2,42.5,0.056,statsbomb
+925,2018-12-08,2018/19,Goal,Barcelona,La Liga,Espanyol,A,4–0,W,17,Left Foot,Free Kick,,,,77.4,53.6,,,0.065,statsbomb
+926,2018-12-08,2018/19,Goal,Barcelona,La Liga,Espanyol,A,4–0,W,65,Left Foot,Free Kick,,,,77.3,35.1,,,0.043,statsbomb
+927,2018-12-16,2018/19,Assist,Barcelona,La Liga,Levante,A,5–0,W,35,Right Foot,Open Play,Volley,Luis Suárez,Pass,91.4,51.1,87.4,31.8,0.246,statsbomb
+928,2018-12-16,2018/19,Assist,Barcelona,La Liga,Levante,A,5–0,W,88,Left Foot,Open Play,,Gerard Pique,Pass,91.2,46.8,87.9,30.1,0.302,statsbomb
+929,2018-12-16,2018/19,Goal,Barcelona,La Liga,Levante,A,5–0,W,43,Right Foot,Open Play,,Sergio Busquets,,92.8,61.3,,,0.207,statsbomb
+930,2018-12-16,2018/19,Goal,Barcelona,La Liga,Levante,A,5–0,W,47,Left Foot,Open Play,,,,86.3,48.0,,,0.135,statsbomb
+931,2018-12-16,2018/19,Goal,Barcelona,La Liga,Levante,A,5–0,W,60,Left Foot,Open Play,Volley,Arturo Vidal,,96.1,47.1,,,0.573,statsbomb
+932,2018-12-22,2018/19,Assist,Barcelona,La Liga,Celta Vigo,H,2–0,W,10,Left Foot,Open Play,,Ousmane Dembélé,Shot on goal,93.6,39.8,85.2,46.2,0.161,statsbomb
+933,2018-12-22,2018/19,Goal,Barcelona,La Liga,Celta Vigo,H,2–0,W,45,Left Foot,Open Play,,Jordi Alba,,84.9,47.1,,,0.253,statsbomb
+934,2019-01-06,2018/19,Goal,Barcelona,La Liga,Getafe,A,2–1,W,20,Left Foot,Open Play,,,,97.5,38.8,,,0.341,statsbomb
+935,2019-01-13,2018/19,Goal,Barcelona,La Liga,Eibar,H,3–0,W,53,Left Foot,Open Play,,Luis Suárez,,92.1,38.2,,,0.161,statsbomb
+936,2019-01-17,2018/19,Assist,Barcelona,Copa del Rey,Levante,H,3–0,W,31,Left Foot,Open Play,,Ousmane Dembélé,Pass,,,,,,
+937,2019-01-17,2018/19,Goal,Barcelona,Copa del Rey,Levante,H,3–0,W,54,Left Foot,Open Play,,Nelson Semedo,,93,56,,,,video
+938,2019-01-20,2018/19,Goal,Barcelona,La Liga,Leganés,H,3–1,W,90+2,Right Foot,Open Play,,Jordi Alba,,89.6,42.1,,,0.149,statsbomb
+939,2019-01-27,2018/19,Goal,Barcelona,La Liga,Girona,A,2–0,W,69,Left Foot,Open Play,Lob,Jordi Alba,,86.8,52.2,,,0.274,statsbomb
+940,2019-01-30,2018/19,Assist,Barcelona,Copa del Rey,Sevilla,H,6–1,W,13,,Penalty,,Philippe Coutinho,Won penalty,,,,,,
+941,2019-01-30,2018/19,Assist,Barcelona,Copa del Rey,Sevilla,H,6–1,W,54,Right Foot,Open Play,,Sergi Roberto,Pass,,,,,,
+942,2019-01-30,2018/19,Goal,Barcelona,Copa del Rey,Sevilla,H,6–1,W,90+2,Left Foot,Open Play,,Jordi Alba,,94,47,,,,video
+943,2019-02-02,2018/19,Goal,Barcelona,La Liga,Valencia,H,2–2,D,39,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+944,2019-02-02,2018/19,Goal,Barcelona,La Liga,Valencia,H,2–2,D,64,Left Foot,Open Play,,Arturo Vidal,,81.1,42.6,,,0.035,statsbomb
+945,2019-02-16,2018/19,Goal,Barcelona,La Liga,Real Valladolid,H,1–0,W,43,Left Foot,Penalty,,,,90.0,50.0,,,0.783,statsbomb
+946,2019-02-23,2018/19,Assist,Barcelona,La Liga,Sevilla,A,4–2,W,90+3,Right Foot,Open Play,Lob,Luis Suárez,Pass,88.1,42.8,67.5,55.0,0.275,statsbomb
+947,2019-02-23,2018/19,Goal,Barcelona,La Liga,Sevilla,A,4–2,W,26,Left Foot,Open Play,Volley,Ivan Rakitić,,87.8,51.1,,,0.07,statsbomb
+948,2019-02-23,2018/19,Goal,Barcelona,La Liga,Sevilla,A,4–2,W,67,Right Foot,Open Play,,Ousmane Dembélé,,86.5,56.2,,,0.086,statsbomb
+949,2019-02-23,2018/19,Goal,Barcelona,La Liga,Sevilla,A,4–2,W,85,Left Foot,Open Play,Lob,,,92.7,45.1,,,0.37,statsbomb
+950,2019-03-09,2018/19,Assist,Barcelona,La Liga,Rayo Vallecano,H,3–1,W,39,Head,Open Play,,Gerard Pique,Pass,94.7,54.9,85.0,93.8,0.245,statsbomb
+951,2019-03-09,2018/19,Goal,Barcelona,La Liga,Rayo Vallecano,H,3–1,W,51,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+952,2019-03-13,2018/19,Assist,Barcelona,Champions League,Olympique Lyon,H,5–1,W,81,Left Foot,Open Play,,Gerard Pique,Pass,,,,,,
+953,2019-03-13,2018/19,Assist,Barcelona,Champions League,Olympique Lyon,H,5–1,W,86,Right Foot,Open Play,,Ousmane Dembélé,Pass,,,,,,
+954,2019-03-13,2018/19,Goal,Barcelona,Champions League,Olympique Lyon,H,5–1,W,18,Left Foot,Penalty,,,,89,50,,,,video
+955,2019-03-13,2018/19,Goal,Barcelona,Champions League,Olympique Lyon,H,5–1,W,78,Right Foot,Open Play,,Sergio Busquets,,87,51,,,,video
+956,2019-03-17,2018/19,Goal,Barcelona,La Liga,Real Betis,A,4–1,W,18,Left Foot,Free Kick,,,,79.7,55.5,,,0.085,statsbomb
+957,2019-03-17,2018/19,Goal,Barcelona,La Liga,Real Betis,A,4–1,W,45+2,Left Foot,Open Play,Half Volley,Luis Suárez,,90.9,47.2,,,0.284,statsbomb
+958,2019-03-17,2018/19,Goal,Barcelona,La Liga,Real Betis,A,4–1,W,85,Left Foot,Open Play,Lob,Ivan Rakitić,,86.2,34.1,,,0.055,statsbomb
+959,2019-03-30,2018/19,Goal,Barcelona,La Liga,Espanyol,H,2–0,W,71,Left Foot,Free Kick,,,,84.5,55.2,,,0.1,statsbomb
+960,2019-03-30,2018/19,Goal,Barcelona,La Liga,Espanyol,H,2–0,W,89,Left Foot,Open Play,,Malcom,,90.1,45.1,,,0.168,statsbomb
+961,2019-04-02,2018/19,Goal,Barcelona,La Liga,Villarreal,A,4–4,D,90,Left Foot,Free Kick,,,,83.7,53.9,,,0.112,statsbomb
+962,2019-04-06,2018/19,Goal,Barcelona,La Liga,Atlético Madrid,H,2–0,W,87,Left Foot,Open Play,,,,90.0,53.1,,,0.075,statsbomb
+963,2019-04-16,2018/19,Goal,Barcelona,Champions League,Manchester United,H,3–0,W,16,Left Foot,Open Play,,,,80,56,,,,video
+964,2019-04-16,2018/19,Goal,Barcelona,Champions League,Manchester United,H,3–0,W,20,Right Foot,Open Play,,,,80,49,,,,video
+965,2019-04-20,2018/19,Assist,Barcelona,La Liga,Real Sociedad,H,2–1,W,64,Right Foot,Open Play,,Jordi Alba,Pass,86.7,36.0,65.0,32.5,0.078,statsbomb
+966,2019-04-27,2018/19,Goal,Barcelona,La Liga,Levante,H,1–0,W,62,Left Foot,Open Play,,Arturo Vidal,,93.0,59.1,,,0.07,statsbomb
+967,2019-05-01,2018/19,Goal,Barcelona,Champions League,Liverpool FC,H,3–0,W,75,Left Foot,Open Play,,Luis Suárez,,99,46,,,,video
+968,2019-05-01,2018/19,Goal,Barcelona,Champions League,Liverpool FC,H,3–0,W,82,Left Foot,Free Kick,,,,73,49,,,,video
+969,2019-05-19,2018/19,Goal,Barcelona,La Liga,Eibar,A,2–2,D,31,Left Foot,Open Play,,Arturo Vidal,,94.9,37.8,,,0.216,statsbomb
+970,2019-05-19,2018/19,Goal,Barcelona,La Liga,Eibar,A,2–2,D,32,Left Foot,Open Play,Lob,Ivan Rakitić,,87.6,38.8,,,0.205,statsbomb
+971,2019-05-25,2018/19,Goal,Barcelona,Copa del Rey,Valencia,H,1–2,L,73,Left Foot,Open Play,,Clement Lenglet,,97,55,,,,video
+972,2019-06-07,2018/19,Goal,Argentina,International Friendly,Nicaragua,H,5–1,W,,Left Foot,Open Play,,Giovani Lo Celso,,88,48,,,,video
+973,2019-06-07,2018/19,Goal,Argentina,International Friendly,Nicaragua,H,5–1,W,,Left Foot,Open Play,,,,97,56,,,,video
+974,2019-06-19,2018/19,Goal,Argentina,Copa América,Paraguay,N,1–1,D,57,Left Foot,Penalty,,,,97,56,,,,video
+975,2019-07-06,2019/20,Assist,Argentina,Copa América,Chile,N,2–1,W,12,Right Foot,Open Play,,Sergio Agüero,Free kick,,,,,,
+976,2019-09-24,2019/20,Assist,Barcelona,La Liga,Villarreal,H,2–1,W,6,Head,Open Play,,Antoine Griezmann,Pass,98.2,60.5,100.0,100.0,0.071,statsbomb
+977,2019-10-02,2019/20,Assist,Barcelona,Champions League,Inter Milan,H,2–1,W,84,Left Foot,Open Play,,Luis Suárez,Pass,,,,,,
+978,2019-10-06,2019/20,Goal,Barcelona,La Liga,Sevilla,H,4–0,W,78,Left Foot,Free Kick,,,,81.4,64.1,,,0.071,statsbomb
+979,2019-10-19,2019/20,Assist,Barcelona,La Liga,Eibar,A,3–0,W,66,Right Foot,Open Play,,Luis Suárez,Pass,91.8,41.5,87.6,52.0,0.58,statsbomb
+980,2019-10-19,2019/20,Goal,Barcelona,La Liga,Eibar,A,3–0,W,58,Left Foot,Open Play,,Antoine Griezmann,,93.0,42.6,,,0.1,statsbomb
+981,2019-10-23,2019/20,Goal,Barcelona,Champions League,Slavia Prague,A,2–1,W,3,Left Foot,Open Play,,Arthur,,89,56,,,,video
+982,2019-10-29,2019/20,Assist,Barcelona,La Liga,Real Valladolid,H,5–1,W,29,Right Foot,Open Play,Volley,Arturo Vidal,Pass,92.5,51.1,75.4,64.8,0.285,statsbomb
+983,2019-10-29,2019/20,Assist,Barcelona,La Liga,Real Valladolid,H,5–1,W,77,Right Foot,Open Play,,Luis Suárez,Pass,90.7,59.5,74.1,67.6,0.174,statsbomb
+984,2019-10-29,2019/20,Goal,Barcelona,La Liga,Real Valladolid,H,5–1,W,34,Left Foot,Free Kick,,,,77.6,62.8,,,0.055,statsbomb
+985,2019-10-29,2019/20,Goal,Barcelona,La Liga,Real Valladolid,H,5–1,W,75,Left Foot,Open Play,Half Volley,Ivan Rakitić,,87.4,42.9,,,0.119,statsbomb
+986,2019-11-02,2019/20,Goal,Barcelona,La Liga,Levante,A,1–3,L,38,Left Foot,Penalty,,,,90.2,49.9,,,0.783,statsbomb
+987,2019-11-09,2019/20,Goal,Barcelona,La Liga,Celta Vigo,H,4–1,W,23,Left Foot,Penalty,,,,89.9,50.0,,,0.783,statsbomb
+988,2019-11-09,2019/20,Goal,Barcelona,La Liga,Celta Vigo,H,4–1,W,45+1,Left Foot,Free Kick,,,,77.9,54.2,,,0.07,statsbomb
+989,2019-11-09,2019/20,Goal,Barcelona,La Liga,Celta Vigo,H,4–1,W,48,Left Foot,Free Kick,,,,79.5,53.9,,,0.078,statsbomb
+990,2019-11-15,2019/20,Goal,Argentina,International Friendly,Brazil,N,1–0,W,,Left Foot,Open Play,rebound on penalty save,,,97,51,,,,video
+991,2019-11-18,2019/20,Assist,Argentina,International Friendly,Uruguay,N,2–2,D,63,Head,Open Play,,Sergio Agüero,Free kick,,,,,,
+992,2019-11-18,2019/20,Goal,Argentina,International Friendly,Uruguay,N,2–2,D,90+2,Left Foot,Penalty,,,,89,50,,,,video
+993,2019-11-23,2019/20,Assist,Barcelona,La Liga,Leganés,A,2–1,W,53,Head,Open Play,,Luis Suárez,Pass,92.6,50.5,71.3,32.9,0.137,statsbomb
+994,2019-11-27,2019/20,Assist,Barcelona,Champions League,Borussia Dortmund,H,3–1,W,29,Right Foot,Open Play,,Luis Suárez,Pass,,,,,,
+995,2019-11-27,2019/20,Assist,Barcelona,Champions League,Borussia Dortmund,H,3–1,W,67,Left Foot,Open Play,,Antoine Griezmann,Pass,,,,,,
+996,2019-11-27,2019/20,Goal,Barcelona,Champions League,Borussia Dortmund,H,3–1,W,33,Left Foot,Open Play,,Luis Suárez,,91,37,,,,video
+997,2019-12-01,2019/20,Goal,Barcelona,La Liga,Atlético Madrid,A,1–0,W,86,Left Foot,Open Play,,Luis Suárez,,84.1,46.0,,,0.08,statsbomb
+998,2019-12-07,2019/20,Goal,Barcelona,La Liga,Mallorca,H,5–2,W,17,Left Foot,Open Play,,Antoine Griezmann,,79.6,60.5,,,0.03,statsbomb
+999,2019-12-07,2019/20,Goal,Barcelona,La Liga,Mallorca,H,5–2,W,41,Left Foot,Open Play,,Ivan Rakitić,,82.6,50.5,,,0.062,statsbomb
+1000,2019-12-07,2019/20,Goal,Barcelona,La Liga,Mallorca,H,5–2,W,83,Left Foot,Open Play,,Luis Suárez,,88.4,62.6,,,0.071,statsbomb
+1001,2019-12-14,2019/20,Assist,Barcelona,La Liga,Real Sociedad,A,2–2,D,49,Right Foot,Open Play,,Luis Suárez,Pass,90.2,44.7,88.1,58.5,0.779,statsbomb
+1002,2019-12-21,2019/20,Goal,Barcelona,La Liga,Deportivo Alavés,H,4–1,W,69,Left Foot,Open Play,,Luis Suárez,,80.5,40.8,,,0.037,statsbomb
+1003,2020-01-09,2019/20,Goal,Barcelona,Supercopa de España,Atlético Madrid,H,2–3,L,51,Right Foot,Open Play,,Luis Suárez,,85,44,,,,video
+1004,2020-01-19,2019/20,Goal,Barcelona,La Liga,Granada,H,1–0,W,76,Right Foot,Open Play,,Arturo Vidal,,88.5,49.9,,,0.37,statsbomb
+1005,2020-01-30,2019/20,Assist,Barcelona,Copa del Rey,Leganés,H,5–0,W,27,Head,Open Play,,Clement Lenglet,Corner,,,,,,
+1006,2020-01-30,2019/20,Goal,Barcelona,Copa del Rey,Leganés,H,5–0,W,59,Left Foot,Open Play,,Frenkie de Jong,,91,60,,,,video
+1007,2020-01-30,2019/20,Goal,Barcelona,Copa del Rey,Leganés,H,5–0,W,89,Left Foot,Open Play,,Ivan Rakitić,,92,39,,,,video
+1008,2020-02-02,2019/20,Assist,Barcelona,La Liga,Levante,H,2–1,W,30,Right Foot,Open Play,,Ansu Fati,Pass,85.0,42.8,46.6,53.5,0.401,statsbomb
+1009,2020-02-02,2019/20,Assist,Barcelona,La Liga,Levante,H,2–1,W,32,Left Foot,Open Play,,Ansu Fati,Pass,92.8,37.2,84.5,50.0,0.158,statsbomb
+1010,2020-02-09,2019/20,Assist,Barcelona,La Liga,Real Betis,A,3–2,W,9,Right Foot,Open Play,Volley,Frenkie de Jong,Pass,94.6,47.1,73.8,70.2,0.403,statsbomb
+1011,2020-02-09,2019/20,Assist,Barcelona,La Liga,Real Betis,A,3–2,W,45+3,Left Foot,Open Play,Half Volley,Sergio Busquets,Pass,93.9,52.2,59.2,42.5,0.303,statsbomb
+1012,2020-02-09,2019/20,Assist,Barcelona,La Liga,Real Betis,A,3–2,W,72,Head,Open Play,,Clement Lenglet,Pass,90.5,54.5,67.9,26.0,0.048,statsbomb
+1013,2020-02-15,2019/20,Assist,Barcelona,La Liga,Getafe,H,2–1,W,33,Left Foot,Open Play,Lob,Antoine Griezmann,Pass,89.2,53.1,76.7,48.4,0.302,statsbomb
+1014,2020-02-22,2019/20,Goal,Barcelona,La Liga,Eibar,H,5–0,W,14,Left Foot,Open Play,,Ivan Rakitić,,88.3,43.5,,,0.387,statsbomb
+1015,2020-02-22,2019/20,Goal,Barcelona,La Liga,Eibar,H,5–0,W,37,Left Foot,Open Play,,Arturo Vidal,,93.1,34.1,,,0.119,statsbomb
+1016,2020-02-22,2019/20,Goal,Barcelona,La Liga,Eibar,H,5–0,W,40,Left Foot,Open Play,,,,92.1,54.6,,,0.324,statsbomb
+1017,2020-02-22,2019/20,Goal,Barcelona,La Liga,Eibar,H,5–0,W,87,Left Foot,Open Play,,,,96.8,45.1,,,0.78,statsbomb
+1018,2020-03-07,2019/20,Goal,Barcelona,La Liga,Real Sociedad,H,1–0,W,81,Left Foot,Penalty,last game before Covid,,,90.2,50.0,,,0.783,statsbomb
+1019,2020-06-13,2019/20,Assist,Barcelona,La Liga,Mallorca,A,4–0,W,37,Right Foot,Open Play,Half Volley,Martin Braithwaite,Pass,90.8,49.1,89.5,43.6,0.288,statsbomb
+1020,2020-06-13,2019/20,Assist,Barcelona,La Liga,Mallorca,A,4–0,W,79,Left Foot,Open Play,,Jordi Alba,Pass,91.1,37.0,57.8,30.8,0.227,statsbomb
+1021,2020-06-13,2019/20,Goal,Barcelona,La Liga,Mallorca,A,4–0,W,90+3,Right Foot,Open Play,,Luis Suárez,,89.2,48.3,,,0.128,statsbomb
+1022,2020-06-16,2019/20,Goal,Barcelona,La Liga,Leganés,H,2–0,W,69,Left Foot,Penalty,,,,90.1,50.1,,,0.783,statsbomb
+1023,2020-06-23,2019/20,Assist,Barcelona,La Liga,Athletic Club,H,1–0,W,71,Right Foot,Open Play,,Ivan Rakitić,Pass,,,,,,
+1024,2020-06-27,2019/20,Assist,Barcelona,La Liga,Celta Vigo,A,2–2,D,20,Head,Open Play,,Luis Suárez,Pass,96.8,55.5,80.4,42.8,0.236,statsbomb
+1025,2020-06-27,2019/20,Assist,Barcelona,La Liga,Celta Vigo,A,2–2,D,67,Left Foot,Open Play,,Luis Suárez,Pass,90.5,60.2,88.2,74.1,0.121,statsbomb
+1026,2020-06-30,2019/20,Assist,Barcelona,La Liga,Atlético Madrid,H,2–2,D,11,,Open Play,,Diego Costa,Corner,,,,,,
+1027,2020-06-30,2019/20,Goal,Barcelona,La Liga,Atlético Madrid,H,2–2,D,50,Left Foot,Penalty,,,,90.2,49.6,,,0.783,statsbomb
+1028,2020-07-05,2020/21,Assist,Barcelona,La Liga,Villarreal,A,4–1,W,20,Right Foot,Open Play,,Luis Suárez,Pass,84.6,33.8,74.8,43.8,0.064,statsbomb
+1029,2020-07-05,2020/21,Assist,Barcelona,La Liga,Villarreal,A,4–1,W,45,Left Foot,Open Play,Lob,Antoine Griezmann,Pass,84.6,37.9,86.6,32.5,0.077,statsbomb
+1030,2020-07-11,2020/21,Assist,Barcelona,La Liga,Real Valladolid,A,1–0,W,15,Right Foot,Open Play,,Arturo Vidal,Pass,89.3,64.4,81.0,70.5,0.131,statsbomb
+1031,2020-07-16,2020/21,Goal,Barcelona,La Liga,Osasuna,H,1–2,L,62,Left Foot,Free Kick,,,,78.8,43.6,,,0.064,statsbomb
+1032,2020-07-19,2020/21,Assist,Barcelona,La Liga,Deportivo Alavés,A,5–0,W,24,Right Foot,Open Play,,Anssumane Fati,Pass,93.8,53.4,92.2,72.1,0.278,statsbomb
+1033,2020-07-19,2020/21,Goal,Barcelona,La Liga,Deportivo Alavés,A,5–0,W,34,Left Foot,Open Play,,Riqui Puig,,95.0,44.2,,,0.557,statsbomb
+1034,2020-07-19,2020/21,Goal,Barcelona,La Liga,Deportivo Alavés,A,5–0,W,75,Left Foot,Open Play,Half Volley,Jordi Alba,,90.2,47.1,,,0.161,statsbomb
+1035,2020-08-08,2020/21,Assist,Barcelona,Champions League,SSC Napoli,H,3–1,W,45+1,,Penalty,,Luis Suárez,Won penalty,,,,,,
+1036,2020-08-08,2020/21,Goal,Barcelona,Champions League,SSC Napoli,H,3–1,W,23,Left Foot,Open Play,,,,90,65,,,,video
+1037,2020-09-27,2020/21,Assist,Barcelona,La Liga,Villarreal,H,4–0,W,45,,Open Play,,Pau Torres,Pass,,,,,,
+1038,2020-09-27,2020/21,Goal,Barcelona,La Liga,Villarreal,H,4–0,W,35,Left Foot,Penalty,,,,90.0,49.7,,,0.783,statsbomb
+1039,2020-10-01,2020/21,Assist,Barcelona,La Liga,Celta Vigo,A,3–0,W,90+5,Right Foot,Open Play,,Sergio Busquets,Shot on goal,91.4,60.2,94.0,35.1,0.161,statsbomb
+1040,2020-10-08,2020/21,Goal,Argentina,World Cup Qualifier,Ecuador,H,1–0,W,13,Left Foot,Penalty,,,,89,50,,,,video
+1041,2020-10-20,2020/21,Assist,Barcelona,Champions League,Ferencváros,H,5–1,W,89,Right Foot,Open Play,,Ousmane Dembélé,Pass,,,,,,
+1042,2020-10-20,2020/21,Goal,Barcelona,Champions League,Ferencváros,H,5–1,W,27,Left Foot,Penalty,,,,89,50,,,,video
+1043,2020-10-28,2020/21,Assist,Barcelona,Champions League,Juventus FC,A,2–0,W,14,,Open Play,,Ousmane Dembélé,Pass,,,,,,
+1044,2020-10-28,2020/21,Goal,Barcelona,Champions League,Juventus FC,A,2–0,W,90+1,Left Foot,Penalty,,,,89,50,,,,video
+1045,2020-11-04,2020/21,Goal,Barcelona,Champions League,Dynamo Kyiv,H,2–1,W,5,Left Foot,Penalty,,,,89,50,,,,video
+1046,2020-11-07,2020/21,Goal,Barcelona,La Liga,Real Betis,H,5–2,W,61,Left Foot,Penalty,,,,90.1,50.3,,,0.783,statsbomb
+1047,2020-11-07,2020/21,Goal,Barcelona,La Liga,Real Betis,H,5–2,W,82,Left Foot,Open Play,,Sergi Roberto,,94.2,62.6,,,0.319,statsbomb
+1048,2020-11-29,2020/21,Goal,Barcelona,La Liga,Osasuna,H,4–0,W,73,Left Foot,Open Play,,Francisco Trincão,,84.0,42.4,,,0.06,statsbomb
+1049,2020-12-13,2020/21,Goal,Barcelona,La Liga,Levante,H,1–0,W,76,Left Foot,Open Play,,Frenkie de Jong,,89.2,37.8,,,0.227,statsbomb
+1050,2020-12-19,2020/21,Goal,Barcelona,La Liga,Valencia,H,2–2,D,45+4,Head,Open Play,Diving Header,,,98.5,53.5,,,0.836,statsbomb
+1051,2020-12-22,2020/21,Assist,Barcelona,La Liga,Real Valladolid,A,3–0,W,21,Head,Open Play,,Clement Lenglet,Pass,94.5,52.2,79.8,29.8,0.229,statsbomb
+1052,2020-12-22,2020/21,Goal,Barcelona,La Liga,Real Valladolid,A,3–0,W,65,Left Foot,Open Play,,Pedri,,90.8,39.2,,,0.5,statsbomb
+1053,2021-01-03,2020/21,Assist,Barcelona,La Liga,Huesca,A,1–0,W,27,Right Foot,Open Play,,Frenkie de Jong,Pass,96.2,51.4,74.5,19.6,0.277,statsbomb
+1054,2021-01-06,2020/21,Goal,Barcelona,La Liga,Athletic Club,A,3–2,W,38,Left Foot,Open Play,,Pedri,,86.2,36.8,,,0.083,statsbomb
+1055,2021-01-06,2020/21,Goal,Barcelona,La Liga,Athletic Club,A,3–2,W,62,Left Foot,Open Play,,Antoine Griezmann,,92.1,42.4,,,0.124,statsbomb
+1056,2021-01-09,2020/21,Goal,Barcelona,La Liga,Granada,A,4–0,W,35,Left Foot,Open Play,,Antoine Griezmann,,86.6,47.4,,,0.056,statsbomb
+1057,2021-01-09,2020/21,Goal,Barcelona,La Liga,Granada,A,4–0,W,42,Left Foot,Free Kick,,,,84.0,54.8,,,0.093,statsbomb
+1058,2021-01-27,2020/21,Goal,Barcelona,Copa del Rey,Rayo Vallecano,A,2–1,W,69,Left Foot,Open Play,,Antoine Griezmann,,95,54,,,,video
+1059,2021-01-31,2020/21,Goal,Barcelona,La Liga,Athletic Club,H,2–1,W,20,Left Foot,Free Kick,,,,79.3,51.5,,,0.07,statsbomb
+1060,2021-02-03,2020/21,Assist,Barcelona,Copa del Rey,Granada,A,5–3,W,88,Left Foot,Open Play,,Antoine Griezmann,Pass,,,,,,
+1061,2021-02-07,2020/21,Goal,Barcelona,La Liga,Real Betis,A,3–2,W,59,Left Foot,Open Play,,Ousmane Dembélé,,85.4,65.8,,,0.056,statsbomb
+1062,2021-02-13,2020/21,Assist,Barcelona,La Liga,Deportivo Alavés,H,5–1,W,74,Left Foot,Open Play,,Francisco Trincão,Pass,88.8,61.7,89.0,55.5,0.336,statsbomb
+1063,2021-02-13,2020/21,Goal,Barcelona,La Liga,Deportivo Alavés,H,5–1,W,45+1,Left Foot,Open Play,,Sergio Busquets,,79.6,63.1,,,0.033,statsbomb
+1064,2021-02-13,2020/21,Goal,Barcelona,La Liga,Deportivo Alavés,H,5–1,W,75,Left Foot,Open Play,,Antoine Griezmann,,79.3,52.0,,,0.051,statsbomb
+1065,2021-02-16,2020/21,Goal,Barcelona,Champions League,Paris Saint-Germain,H,1–4,L,27,Left Foot,Penalty,,,,89,50,,,,video
+1066,2021-02-21,2020/21,Goal,Barcelona,La Liga,Cádiz,H,1–1,D,32,Left Foot,Penalty,,,,90.1,50.3,,,0.783,statsbomb
+1067,2021-02-24,2020/21,Goal,Barcelona,La Liga,Elche,H,3–0,W,48,Left Foot,Open Play,,Martin Braithwaite,,92.3,52.5,,,0.335,statsbomb
+1068,2021-02-24,2020/21,Goal,Barcelona,La Liga,Elche,H,3–0,W,68,Left Foot,Open Play,,Frenkie de Jong,,95.1,46.8,,,0.579,statsbomb
+1069,2021-02-27,2020/21,Assist,Barcelona,La Liga,Sevilla,A,2–0,W,29,Left Foot,Open Play,,Ousmane Dembélé,Pass,89.1,34.5,53.2,29.0,0.186,statsbomb
+1070,2021-02-27,2020/21,Goal,Barcelona,La Liga,Sevilla,A,2–0,W,85,Right Foot,Open Play,,Ilaix Moriba,,98.2,44.5,,,0.797,statsbomb
+1071,2021-03-06,2020/21,Assist,Barcelona,La Liga,Osasuna,A,2–0,W,30,Left Foot,Open Play,,Jordi Alba,Pass,94.2,35.2,59.2,58.5,0.154,statsbomb
+1072,2021-03-06,2020/21,Assist,Barcelona,La Liga,Osasuna,A,2–0,W,83,Left Foot,Open Play,,Ilaix Moriba,Pass,84.8,51.5,82.9,40.0,0.069,statsbomb
+1073,2021-03-10,2020/21,Goal,Barcelona,Champions League,Paris Saint-Germain,A,1–1,D,37,Left Foot,Open Play,,Pedri,,75,52,,,,video
+1074,2021-03-15,2020/21,Assist,Barcelona,La Liga,Huesca,H,4–1,W,53,Head,Open Play,,Óscar Mingueza,Pass,95.2,45.5,90.9,9.8,0.142,statsbomb
+1075,2021-03-15,2020/21,Goal,Barcelona,La Liga,Huesca,H,4–1,W,13,Left Foot,Open Play,,Sergio Busquets,,82.8,41.2,,,0.037,statsbomb
+1076,2021-03-15,2020/21,Goal,Barcelona,La Liga,Huesca,H,4–1,W,90,Left Foot,Open Play,,Francisco Trincão,,78.8,59.4,,,0.031,statsbomb
+1077,2021-03-21,2020/21,Assist,Barcelona,La Liga,Real Sociedad,A,6–1,W,43,Right Foot,Open Play,,Sergiño Dest,Pass,93.8,63.0,80.6,56.0,0.297,statsbomb
+1078,2021-03-21,2020/21,Goal,Barcelona,La Liga,Real Sociedad,A,6–1,W,56,Left Foot,Open Play,Half Volley,Sergio Busquets,,90.8,47.5,,,0.294,statsbomb
+1079,2021-03-21,2020/21,Goal,Barcelona,La Liga,Real Sociedad,A,6–1,W,89,Left Foot,Open Play,,Jordi Alba,,90.5,44.6,,,0.234,statsbomb
+1080,2021-04-17,2020/21,Goal,Barcelona,Copa del Rey,Athletic Club,A,4–0,W,68,Left Foot,Open Play,,Frenkie de Jong,,93,62,,,,video
+1081,2021-04-17,2020/21,Goal,Barcelona,Copa del Rey,Athletic Club,A,4–0,W,72,Left Foot,Open Play,,Jordi Alba,,87,42,,,,video
+1082,2021-04-22,2020/21,Assist,Barcelona,La Liga,Getafe,H,5–2,W,87,Head,Open Play,,Ronald Araújo,Pass,98.2,55.2,100.0,100.0,0.212,statsbomb
+1083,2021-04-22,2020/21,Goal,Barcelona,La Liga,Getafe,H,5–2,W,8,Left Foot,Open Play,,Sergio Busquets,,88.2,37.1,,,0.121,statsbomb
+1084,2021-04-22,2020/21,Goal,Barcelona,La Liga,Getafe,H,5–2,W,33,Left Foot,Open Play,Half Volley,,,99.0,59.5,,,0.104,statsbomb
+1085,2021-04-29,2020/21,Goal,Barcelona,La Liga,Granada,H,1–2,L,23,Left Foot,Open Play,,Antoine Griezmann,,93.6,35.1,,,0.081,statsbomb
+1086,2021-05-02,2020/21,Goal,Barcelona,La Liga,Valencia,A,3–2,W,57,Left Foot,Open Play,Half Volley,,,97.7,48.3,,,0.439,statsbomb
+1087,2021-05-02,2020/21,Goal,Barcelona,La Liga,Valencia,A,3–2,W,69,Left Foot,Free Kick,,,,79.2,53.8,,,0.067,statsbomb
+1088,2021-05-11,2020/21,Goal,Barcelona,La Liga,Levante,A,3–3,D,25,Left Foot,Open Play,Volley,,,88.4,56.0,,,0.177,statsbomb
+1089,2021-05-16,2020/21,Goal,Barcelona,La Liga,Celta Vigo,H,1–2,L,28,Head,Open Play,,Sergio Busquets,,93.6,56.4,,,0.165,statsbomb

@@ -1,0 +1,7 @@
+# Saved Transfermarkt pages: never commit or redistribute
+raw/
+# Downloaded sources and intermediate files, rebuilt by run.sh
+work/
+__pycache__/
+*.pyc
+.DS_Store
