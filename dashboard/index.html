@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Messi Goal Contributions 2004–21</title>
+<meta name="description" content="Every goal and assist Lionel Messi recorded for Barcelona and Argentina, October 2004 to May 2021: pitch map, filters and the full table.">
+<style>
+:root{
+  --color-bg:#f6f7f9; --color-panel:#ffffff; --color-fg:#17202b; --color-fg-muted:#5b6673; --color-border-line:#dde2e8;
+  --color-ok:#1f7a4d;
+  --cds-text-secondary:#5b6673; --cds-surface-popover:#ffffff; --cds-border:#cfd6de; --cds-shadow-popover:0 6px 20px rgba(20,30,45,.14);
+  --cds-chart-muted:#a3acb7; --cds-chart-axis:#9aa4af; --cds-chart-grid:#e7ebef;
+  --font-anthropic-sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --font-anthropic-serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --cds-font-size-caption:.8125rem; --cds-font-size-body:.9375rem; --cds-font-size-heading:1.0625rem; --cds-font-size-title:1.75rem;
+  --cds-font-weight-medium:600;
+  --cds-gap-xs:4px; --cds-gap-sm:8px; --cds-gap-md:16px; --cds-gap-lg:24px; --cds-gap-xl:32px;
+  --cds-pad-xs:4px; --cds-pad-sm:8px; --cds-pad-md:14px; --cds-pad-lg:18px;
+  --cds-radius:8px; --cds-dur-slow:.3s;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --color-bg:#0f1419; --color-panel:#171d24; --color-fg:#e6eaef; --color-fg-muted:#9aa5b1; --color-border-line:#2a333d;
+  --color-ok:#5cc28f;
+  --cds-text-secondary:#9aa5b1; --cds-surface-popover:#1e252e; --cds-border:#36404b; --cds-shadow-popover:0 6px 20px rgba(0,0,0,.5);
+  --cds-chart-muted:#5d6874; --cds-chart-axis:#5d6874; --cds-chart-grid:#252d36;
+  color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--color-bg);color:var(--color-fg);font:var(--cds-font-size-body)/1.5 var(--font-anthropic-sans)}
+#dash-root{max-width:1240px;margin-inline:auto;padding-block:28px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.dash-select{font:inherit;font-size:var(--cds-font-size-caption);color:var(--color-fg);background-color:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:6px 10px;max-width:13rem}
+a{color:inherit}
+.site-foot{margin-top:var(--cds-gap-lg);padding-top:var(--cds-gap-md);border-top:1px solid var(--color-border-line);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);display:flex;flex-wrap:wrap;gap:var(--cds-gap-md)}
+.site-links{display:flex;flex-wrap:wrap;gap:var(--cds-gap-md);font-size:var(--cds-font-size-caption);margin-top:var(--cds-gap-sm)}
+.load-error{padding:var(--cds-pad-lg);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);background:var(--color-panel)}
+:focus-visible{outline:2px solid #3b6fd9;outline-offset:2px}
+</style>
+<script src="lib/d3-7.8.5.min.js"></script>
+<script>
+/* Minimal stand-in for the dashboard runtime the page was written against:
+   one dataset loaded from the repo's data folder, filters held in memory,
+   and named draw functions re-run whenever the data, a filter or the width changes. */
+(function(){
+  var DATA_URL='../data/messi_contributions.json';
+  var DEFAULTS={kind:'',team:'',comp:'',season:'',opp:'',partner:'',body:'',gtype:''};
+  var state={status:'loading',data:[]}, params=Object.assign({},DEFAULTS), draws={}, watchers=[];
+  function each(name,fn){document.querySelectorAll('[data-draw="'+name+'"]').forEach(function(el){try{fn(el)}catch(e){console.error(name,e)}})}
+  function runAll(){watchers.forEach(function(f){try{f()}catch(e){console.error(e)}});Object.keys(draws).forEach(function(n){each(n,draws[n])})}
+  window.dash={
+    colors:['#3b6fd9','#e0802f','#2a9d8f','#c4497a','#7b61c9','#8a8f3a','#d64545','#5f7f99'],
+    data:function(){return {status:state.status,data:state.data}},
+    params:function(){return Object.assign({},params)},
+    setParams:function(o){Object.keys(o).forEach(function(k){params[k]=(o[k]==null?'':o[k])});runAll()},
+    resetParams:function(){params=Object.assign({},DEFAULTS);runAll()},
+    onData:function(f){watchers.push(f);try{f()}catch(e){console.error(e)}},
+    draw:function(name,fn){
+      if(fn){draws[name]=fn;if(state.status==='ok')each(name,fn);
+        if(window.ResizeObserver)document.querySelectorAll('[data-draw="'+name+'"]').forEach(function(el){
+          var w=el.clientWidth;new ResizeObserver(function(){if(el.clientWidth!==w){w=el.clientWidth;if(state.status==='ok')fn(el)}}).observe(el)})}
+      else if(draws[name])each(name,draws[name]);
+    }
+  };
+  fetch(DATA_URL).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})
+    .then(function(rows){state={status:'ok',data:rows};runAll()})
+    .catch(function(e){state={status:'error',data:[]};var root=document.getElementById('dash-root');
+      var p=document.createElement('p');p.className='load-error';p.textContent='The data file could not be loaded ('+e.message+'). It lives at data/messi_contributions.json in the repository.';root.prepend(p)});
+})();
+</script>
+</head>
+<body>
+<main id="dash-root">
+<style>
+.mx{display:flex;flex-direction:column;gap:var(--cds-gap-lg);font-family:var(--font-anthropic-sans)}
+.mx-head h1{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0;text-wrap:balance}
+.mx-head p{margin:var(--cds-gap-xs) 0 0;color:var(--color-fg-muted);max-width:70ch}
+.mx b{font-weight:600}
+.mx-filters{display:flex;flex-wrap:wrap;gap:var(--cds-gap-sm);align-items:center}
+.mx-seg{display:inline-flex;border:1px solid var(--color-border-line);border-radius:var(--cds-radius);overflow:hidden}
+.mx-seg button,.mx-reset{font:inherit;font-size:var(--cds-font-size-caption);padding:6px 12px;border:0;background:var(--color-panel);color:var(--color-fg);cursor:pointer}
+.mx-seg button+button{border-left:1px solid var(--color-border-line)}
+.mx-seg button[aria-pressed="true"]{background:var(--color-fg);color:var(--color-bg)}
+.mx-reset{border:1px solid var(--color-border-line);border-radius:var(--cds-radius)}
+.mx-filters select{max-width:13rem;font-size:var(--cds-font-size-caption)}
+.mx-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,9rem),1fr));gap:var(--cds-gap-md)}
+.mx-tile{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md)}
+.mx-tile span{display:block;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.mx-tile strong{display:block;font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums;margin-top:var(--cds-gap-xs)}
+.mx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:var(--cds-gap-md)}
+@media (min-width:760px){#dash-root .mx-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.mx-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);min-width:0}
+.mx-card h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0}
+.mx-card>p{margin:var(--cds-gap-xs) 0 var(--cds-gap-md);color:var(--color-fg-muted);font-size:var(--cds-font-size-caption)}
+.mx-wide{grid-column:1/-1}
+.mx-chart{position:relative;min-height:220px}
+.mx-pitch{position:relative;min-height:360px;max-width:560px;margin-inline:auto}
+.mx-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);border-radius:var(--cds-radius);box-shadow:var(--cds-shadow-popover);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);line-height:1.45;max-width:16rem;z-index:5}
+.mx-tip .d{color:var(--cds-text-secondary)}
+.mx-legend{display:flex;flex-wrap:wrap;gap:var(--cds-gap-md);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:var(--cds-gap-sm)}
+.mx-legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.mx-tablebar{display:flex;flex-wrap:wrap;gap:var(--cds-gap-sm);align-items:center;margin-bottom:var(--cds-gap-sm)}
+.mx-tablebar input{font:inherit;font-size:var(--cds-font-size-caption);padding:6px 10px;border:1px solid var(--color-border-line);border-radius:var(--cds-radius);background:var(--color-bg);color:var(--color-fg);min-width:0;flex:1 1 14rem;max-width:22rem}
+.mx-scroll{max-height:560px;overflow:auto;border:1px solid var(--color-border-line);border-radius:var(--cds-radius)}
+.mx-table{border-collapse:collapse;width:100%;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.mx-table th{position:sticky;top:0;background:var(--color-panel);text-align:left;font-weight:var(--cds-font-weight-medium);padding:0;border-bottom:1px solid var(--color-border-line);white-space:nowrap}
+.mx-table th button{font:inherit;background:none;border:0;color:inherit;padding:8px 10px;cursor:pointer;width:100%;text-align:left}
+.mx-table td{padding:6px 10px;border-bottom:1px solid var(--color-border-line);white-space:nowrap}
+.mx-table td.k-Goal{color:var(--color-ok)}
+.mx-notes summary{cursor:pointer;font-weight:var(--cds-font-weight-medium)}
+.mx-notes{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.mx-notes dt{color:var(--color-fg);font-weight:var(--cds-font-weight-medium);margin-top:var(--cds-gap-sm)}
+.mx-notes dd{margin:2px 0 0;max-width:75ch}
+[data-dash-source-state=refreshing]{opacity:.5;transition:opacity var(--cds-dur-slow)}
+@media (max-width:640px){.mx-hide-sm{display:none}}
+</style>
+
+<div class="mx">
+  <header class="mx-head" id="top">
+    <h1>Lionel Messi goal contributions, Oct 2004 – May 2021</h1>
+    <p>Barcelona (official matches) and Argentina (senior). The current view holds <b data-draw="t-total" data-source="contributions">—</b> contributions: <b data-draw="t-goals" data-source="contributions">—</b> goals and <b data-draw="t-assists" data-source="contributions">—</b> assists.</p>
+    <p class="site-links"><a href="https://github.com/sterlingp2/messi-goal-contributions">Repository and method</a><a href="../data/messi_contributions.csv">Download CSV</a><a href="../data/messi_contributions.json">Download JSON</a></p>
+  </header>
+
+  <div class="mx-filters" id="filters">
+    <div class="mx-seg" role="group" aria-label="Contribution type">
+      <button type="button" data-kind="">All</button>
+      <button type="button" data-kind="Goal">Goals</button>
+      <button type="button" data-kind="Assist">Assists</button>
+    </div>
+    <select class="dash-select mx-f" data-param="team" aria-label="Team">
+      <option value="">Barcelona + Argentina</option>
+      <option value="Barcelona">Barcelona</option>
+      <option value="Argentina">Argentina</option>
+    </select>
+    <select class="dash-select mx-f" data-param="comp" data-draw="opt-comp" aria-label="Competition" data-source="contributions"></select>
+    <select class="dash-select mx-f" data-param="season" data-draw="opt-season" aria-label="Season" data-source="contributions"></select>
+    <select class="dash-select mx-f" data-param="opp" data-draw="opt-opp" aria-label="Opponent" data-source="contributions"></select>
+    <select class="dash-select mx-f" data-param="partner" data-draw="opt-partner" aria-label="Teammate" data-source="contributions"></select>
+    <select class="dash-select mx-f" data-param="body" aria-label="Body part">
+      <option value="">Any body part</option>
+      <option value="Left Foot">Left foot</option>
+      <option value="Right Foot">Right foot</option>
+      <option value="Head">Head</option>
+      <option value="Other">Other</option>
+    </select>
+    <select class="dash-select mx-f" data-param="gtype" aria-label="Situation">
+      <option value="">Any situation</option>
+      <option value="Open Play">Open play</option>
+      <option value="Penalty">Penalty</option>
+      <option value="Free Kick">Free kick</option>
+    </select>
+    <button type="button" class="mx-reset">Reset filters</button>
+  </div>
+
+  <section class="mx-tiles" id="tiles" aria-label="Totals">
+    <div class="mx-tile"><span>Goals</span><strong data-draw="k-goals" data-source="contributions">—</strong></div>
+    <div class="mx-tile"><span>Assists</span><strong data-draw="k-assists" data-source="contributions">—</strong></div>
+    <div class="mx-tile"><span>Matches with a contribution</span><strong data-draw="k-matches" data-source="contributions">—</strong></div>
+    <div class="mx-tile"><span>Goals with left foot</span><strong data-draw="k-left" data-source="contributions">—</strong></div>
+    <div class="mx-tile"><span>Penalty goals</span><strong data-draw="k-pens" data-source="contributions">—</strong></div>
+    <div class="mx-tile"><span>Direct free-kick goals</span><strong data-draw="k-fk" data-source="contributions">—</strong></div>
+  </section>
+
+  <div class="mx-grid">
+    <section class="mx-card" id="pitch">
+      <h2>Where on the pitch</h2>
+      <p>Goals are plotted where Messi struck the ball. Assists are plotted where the teammate finished, with a line back to where Messi's pass started. Hover any dot for the match. Only goals and La Liga assists have tracked locations, so assists in other competitions are counted below the map but not drawn.</p>
+      <div class="mx-pitch" data-draw="pitch" data-source="contributions"></div>
+      <div class="mx-legend" data-draw="pitch-legend" data-source="contributions"></div>
+    </section>
+    <div class="mx-grid" style="grid-template-columns:1fr;align-content:start">
+      <section class="mx-card" id="zones">
+        <h2>Shot zone</h2>
+        <p>Where the ball was struck: six-yard box, rest of the penalty area, or outside the box.</p>
+        <div class="mx-chart" style="min-height:120px" data-draw="zones" data-source="contributions"></div>
+      </section>
+      <section class="mx-card" id="bodies">
+        <h2>Body part</h2>
+        <p>For assists, this is the body part the teammate finished with.</p>
+        <div class="mx-chart" style="min-height:150px" data-draw="bodies" data-source="contributions"></div>
+      </section>
+    </div>
+
+    <section class="mx-card mx-wide" id="seasons">
+      <h2>By season</h2>
+      <p>Goals and assists per season (July to June). Click a bar to filter the page to that season.</p>
+      <div class="mx-chart" style="min-height:260px" data-draw="seasons" data-source="contributions"></div>
+    </section>
+
+    <section class="mx-card" id="minutes">
+      <h2>By match minute</h2>
+      <p>Contributions in 15-minute blocks; stoppage time counts in the block it follows.</p>
+      <div class="mx-chart" data-draw="minutes" data-source="contributions"></div>
+    </section>
+    <section class="mx-card" id="opponents">
+      <h2>Top opponents</h2>
+      <p>The ten teams Messi contributed most against in this view. Click one to filter.</p>
+      <div class="mx-chart" data-draw="opps" data-source="contributions"></div>
+    </section>
+
+    <section class="mx-card" id="assisted-by">
+      <h2>Who assisted Messi</h2>
+      <p>Teammates credited with the assist on Messi's goals. Click a name to filter.</p>
+      <div class="mx-chart" data-draw="p-in" data-source="contributions"></div>
+    </section>
+    <section class="mx-card" id="assisted-to">
+      <h2>Who Messi assisted</h2>
+      <p>Teammates who scored from a Messi assist, as Transfermarkt credits them. Click a name to filter.</p>
+      <div class="mx-chart" data-draw="p-out" data-source="contributions"></div>
+    </section>
+
+    <section class="mx-card mx-wide" id="log">
+      <h2>Every contribution</h2>
+      <p>One row per goal or assist. Sort by any column; the search box matches any text in the row.</p>
+      <div class="mx-tablebar">
+        <input id="mx-search" type="search" placeholder="Search opponent, teammate, competition…" aria-label="Search the table">
+        <span class="mx-notes" data-draw="rowcount" data-source="contributions">—</span>
+      </div>
+      <div class="mx-scroll">
+        <table class="mx-table" data-source="contributions" data-row-key="id">
+          <thead><tr>
+            <th data-field="id" class="mx-hide-sm"><button type="button" data-sort="id">#</button></th>
+            <th data-field="date"><button type="button" data-sort="date">Date</button></th>
+            <th data-field="kind"><button type="button" data-sort="kind">Type</button></th>
+            <th data-field="team"><button type="button" data-sort="team">Team</button></th>
+            <th data-field="comp"><button type="button" data-sort="comp">Competition</button></th>
+            <th data-field="opp"><button type="button" data-sort="opp">Opponent</button></th>
+            <th data-field="venue" class="mx-hide-sm"><button type="button" data-sort="venue">H/A</button></th>
+            <th data-field="score"><button type="button" data-sort="score">Final score</button></th>
+            <th data-field="minute"><button type="button" data-sort="minute">Minute</button></th>
+            <th data-field="body"><button type="button" data-sort="body">Body part</button></th>
+            <th data-field="gtype"><button type="button" data-sort="gtype">Situation</button></th>
+            <th data-field="partner"><button type="button" data-sort="partner">Assisted by / Assist to</button></th>
+            <th data-field="assist_type"><button type="button" data-sort="assist_type">Assist type</button></th>
+            <th data-field="xg" class="mx-hide-sm"><button type="button" data-sort="xg">xG</button></th>
+            <th data-field="locsrc" class="mx-hide-sm"><button type="button" data-sort="locsrc">Location source</button></th>
+          </tr></thead>
+          <tbody data-draw="rows" data-source="contributions"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <details class="mx-notes" id="notes">
+    <summary>Sources, definitions and what is missing</summary>
+    <dl>
+      <dt>Sources</dt>
+      <dd>Transfermarkt: every assist outside StatsBomb's tracking (Champions League, cups, Argentina) with scorer, minute and assist type, taken from match reports, and per-match assist counts for every season. Transfermarkt's goal list: the minute of each Argentina friendly goal. Wikipedia: final score, score at the time, venue and penalty flag for every Argentina goal, and the minute of every competitive Argentina goal (from the tournament match records). StatsBomb open data (every La Liga match Messi played 2004/05 to 2020/21, plus the 2009, 2011 and 2015 Champions League finals and the 2018 World Cup): exact shot and pass coordinates, minute, body part, xG and assists. Club goal log derived from Transfermarkt (all official Barcelona goals with minute, final score and assister). A hand-transcribed log of Messi's goals from video (shot location and body part for every goal, including Argentina).</dd>
+      <dt>Score and H/A</dt>
+      <dd>Final score is always Messi's team first. H/A is home or away; N is a neutral venue where the source says so.</dd>
+      <dt>Assist</dt>
+      <dd>Transfermarkt's definition, used everywhere so totals match public figures. It counts a pass, cross or set piece that led directly to a goal, a rebound from a Messi shot (assist type "Shot on goal"), and a penalty Messi won but a teammate scored ("Won penalty"). Every match's assist count agrees with Transfermarkt. In La Liga, where StatsBomb is stricter, the extra assists were located in StatsBomb's event data or settled from the match report.</dd>
+      <dt>Location</dt>
+      <dd>The pitch is drawn as the attacking half, goal at the top. StatsBomb locations come from tracked event data. Video locations are hand-placed and match StatsBomb to within about one percent of the pitch where both exist.</dd>
+      <dt>Not included yet</dt>
+      <dd>Pitch locations for assists outside La Liga, since no tracking data exists for those matches. Club friendlies such as the Joan Gamper Trophy, which are not official matches. Youth matches (2005 U-20 World Cup, 2008 Olympics), which are not senior caps.</dd>
+      <dt>Corrections made while merging</dt>
+      <dd>Argentina match dates follow Wikipedia's local date; the video log often had the next day's date. Penalty goals carry no assister. Teammate and opponent names are unified across sources. A penalty Messi won and scored himself is not an assist.</dd>
+    </dl>
+  </details>
+</div>
+
+<script>
+(() => {
+  const ID = 'contributions';
+  const KEYS = ['kind', 'team', 'comp', 'season', 'opp', 'partner', 'body', 'gtype'];
+  const all = () => { const d = dash.data(ID); return d.status === 'ok' ? d.data : null; };
+  const filtered = () => {
+    const rows = all(); if (!rows) return null;
+    const p = dash.params();
+    return rows.filter((r) => KEYS.every((k) => !p[k] || r[k] === p[k]));
+  };
+  window.mxFiltered = filtered;
+  window.mxSort = {key: 'date', dir: 1};
+  window.mxQuery = '';
+  const fmt = d3.format(',');
+  window.mxFmt = fmt;
+  window.mxZone = (r) => r.x == null ? null : (r.x >= 95 && r.y >= 37.5 && r.y <= 62.5) ? 'Six-yard box' : (r.x >= 85 && r.y >= 22.5 && r.y <= 77.5) ? 'Rest of penalty area' : 'Outside the box';
+  window.mxMin = (m) => { if (!m) return null; const [a, b] = String(m).split('+'); return +a + (b ? +b / 100 : 0); };
+  window.mxColor = {Goal: dash.colors[0], Assist: dash.colors[1]};
+  window.mxBody = {'Left Foot': dash.colors[0], 'Right Foot': dash.colors[2], 'Head': dash.colors[3], 'Other': 'var(--cds-chart-muted)'};
+
+  // filters
+  document.querySelectorAll('.mx-seg button').forEach((b) => b.addEventListener('click', () => dash.setParams({kind: b.dataset.kind || null})));
+  document.querySelectorAll('select.mx-f').forEach((s) => s.addEventListener('change', () => dash.setParams({[s.dataset.param]: s.value || null})));
+  document.querySelectorAll('.mx-reset').forEach((b) => b.addEventListener('click', () => dash.resetParams()));
+  document.querySelectorAll('#mx-search').forEach((i) => i.addEventListener('input', () => { window.mxQuery = i.value.trim().toLowerCase(); dash.draw('rows'); dash.draw('rowcount'); }));
+  document.querySelectorAll('.mx-table th button').forEach((b) => b.addEventListener('click', () => {
+    const k = b.dataset.sort; const s = window.mxSort;
+    window.mxSort = {key: k, dir: s.key === k ? -s.dir : 1};
+    document.querySelectorAll('.mx-table th').forEach((th) => th.setAttribute('aria-sort', th.dataset.field === k ? (window.mxSort.dir > 0 ? 'ascending' : 'descending') : 'none'));
+    dash.draw('rows');
+  }));
+  dash.onData(() => {
+    const p = dash.params();
+    document.querySelectorAll('.mx-seg button').forEach((b) => b.setAttribute('aria-pressed', String((p.kind || '') === b.dataset.kind)));
+    document.querySelectorAll('select.mx-f:not([data-draw])').forEach((s) => { s.value = p[s.dataset.param] || ''; });
+  });
+
+  // option lists that come from the data
+  const opt = (name, key, label, sorter) => dash.draw(name, (sel) => {
+    const rows = all() || [];
+    const vals = [...new Set(rows.map((r) => r[key]).filter(Boolean))].sort(sorter);
+    sel.replaceChildren(new Option(label, ''), ...vals.map((v) => new Option(v, v)));
+    sel.value = dash.params()[key] || '';
+  });
+  opt('opt-comp', 'comp', 'All competitions');
+  opt('opt-season', 'season', 'All seasons');
+  opt('opt-opp', 'opp', 'All opponents', (a, b) => a.localeCompare(b));
+  opt('opt-partner', 'partner', 'Any teammate', (a, b) => a.localeCompare(b));
+
+  // headline numbers
+  const num = (name, f) => dash.draw(name, (el) => { const r = filtered(); el.textContent = r ? f(r) : '—'; });
+  const goals = (r) => r.filter((x) => x.kind === 'Goal');
+  num('t-total', (r) => fmt(r.length));
+  num('t-goals', (r) => fmt(goals(r).length));
+  num('t-assists', (r) => fmt(r.length - goals(r).length));
+  num('k-goals', (r) => fmt(goals(r).length));
+  num('k-assists', (r) => fmt(r.length - goals(r).length));
+  num('k-matches', (r) => fmt(new Set(r.map((x) => x.date + x.team)).size));
+  num('k-left', (r) => { const g = goals(r); return g.length ? d3.format('.0%')(g.filter((x) => x.body === 'Left Foot').length / g.length) : '–'; });
+  num('k-pens', (r) => fmt(goals(r).filter((x) => x.gtype === 'Penalty').length));
+  num('k-fk', (r) => fmt(goals(r).filter((x) => x.gtype === 'Free Kick').length));
+})();
+</script>
+
+<script>
+(() => {
+  const tipHtml = (tip, r) => {
+    tip.replaceChildren();
+    const line = (t, cls) => { const d = document.createElement('div'); if (cls) d.className = cls; d.textContent = t; tip.append(d); };
+    line(`${r.date} · ${r.comp}`, 'd');
+    line(`${r.team} ${r.score ? r.score + ' ' : ''}vs ${r.opp}${r.venue ? ' (' + r.venue + ')' : ''}`);
+    line(`${r.kind === 'Goal' ? 'Goal' : 'Assist'}${r.minute ? " · " + r.minute + "'" : ''} · ${r.body || 'body part unknown'}${r.gtype && r.gtype !== 'Open Play' ? ' · ' + r.gtype : ''}`);
+    if (r.partner) line(r.kind === 'Goal' ? `Assisted by ${r.partner}` : `Scored by ${r.partner}${r.assist_type ? ' · Messi assist: ' + r.assist_type.toLowerCase() : ''}`);
+    if (r.xg != null) line(`xG ${r.xg.toFixed(2)}`, 'd');
+  };
+  window.mxTip = tipHtml;
+  const place = (el, tip, ev) => {
+    const b = el.getBoundingClientRect();
+    let x = ev.clientX - b.left + 12, y = ev.clientY - b.top + 12;
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    if (x + w > b.width) x = Math.max(0, ev.clientX - b.left - w - 12);
+    if (y + h > b.height) y = Math.max(0, ev.clientY - b.top - h - 12);
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  };
+  window.mxPlace = place;
+
+  // pitch: data x 0..100 toward goal, y 0..100 across (attacker's left = 0)
+  dash.draw('pitch', (el) => {
+    el.replaceChildren();
+    const rows = window.mxFiltered();
+    if (!rows) { el.textContent = '—'; return; }
+    const W = 80, H = 60;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `-3 -5 ${W + 6} ${H + 8}`).attr('role', 'img').attr('aria-label', 'Pitch map of goal contributions');
+    const line = 'var(--cds-chart-axis)';
+    const g = svg.append('g').attr('fill', 'none').attr('stroke', line).attr('stroke-width', 0.3);
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', H);
+    g.append('rect').attr('x', 18).attr('y', 0).attr('width', 44).attr('height', 18);
+    g.append('rect').attr('x', 30).attr('y', 0).attr('width', 20).attr('height', 6);
+    g.append('rect').attr('x', 36).attr('y', -2.2).attr('width', 8).attr('height', 2.2);
+    g.append('path').attr('d', d3.arc()({innerRadius: 10, outerRadius: 10, startAngle: Math.PI - 0.93, endAngle: Math.PI + 0.93})).attr('transform', 'translate(40,12)');
+    g.append('path').attr('d', d3.arc()({innerRadius: 10, outerRadius: 10, startAngle: -Math.PI / 2, endAngle: Math.PI / 2})).attr('transform', 'translate(40,60)');
+    g.append('circle').attr('cx', 40).attr('cy', 12).attr('r', 0.35).attr('fill', line);
+    const sx = (y) => y * 0.8, sy = (x) => (100 - x) * 1.2;
+    const pts = rows.filter((r) => r.x != null && r.x >= 50);
+    const asst = pts.filter((r) => r.kind === 'Assist' && r.px != null);
+    svg.append('g').selectAll('line').data(asst).join('line')
+      .attr('x1', (r) => sx(r.py)).attr('y1', (r) => sy(Math.max(r.px, 50))).attr('x2', (r) => sx(r.y)).attr('y2', (r) => sy(r.x))
+      .attr('stroke', dash.colors[1]).attr('stroke-opacity', 0.25).attr('stroke-width', 0.25);
+    const tip = document.createElement('div'); tip.className = 'mx-tip'; tip.hidden = true; el.append(tip);
+    svg.append('g').selectAll('circle').data(pts).join('circle')
+      .attr('cx', (r) => sx(r.y)).attr('cy', (r) => sy(r.x)).attr('r', 0.85)
+      .attr('fill', (r) => r.kind === 'Assist' ? dash.colors[1] : (window.mxBody[r.body] || 'var(--cds-chart-muted)'))
+      .attr('fill-opacity', 0.75).attr('stroke', 'var(--color-panel)').attr('stroke-width', 0.15)
+      .on('mouseenter', function (ev, r) { d3.select(this).attr('r', 1.6).attr('fill-opacity', 1).raise(); window.mxTip(tip, r); tip.hidden = false; place(el, tip, ev); })
+      .on('mousemove', (ev) => place(el, tip, ev))
+      .on('mouseleave', function () { d3.select(this).attr('r', 0.85).attr('fill-opacity', 0.75); tip.hidden = true; });
+  });
+  dash.draw('pitch-legend', (el) => {
+    el.replaceChildren();
+    const rows = window.mxFiltered(); if (!rows) { el.textContent = '—'; return; }
+    const items = [['Left Foot', 'Goal, left foot'], ['Right Foot', 'Goal, right foot'], ['Head', 'Goal, header'], ['Other', 'Goal, other']]
+      .map(([k, l]) => [window.mxBody[k], l, rows.filter((r) => r.kind === 'Goal' && (r.body || 'Other') === k && r.x != null).length])
+      .concat([[dash.colors[1], 'Assist (teammate’s finish)', rows.filter((r) => r.kind === 'Assist' && r.x != null).length]]);
+    items.filter((i) => i[2]).forEach(([c, l, n]) => { const s = document.createElement('span'); const i = document.createElement('i'); i.style.background = c; s.append(i, `${l} · ${window.mxFmt(n)}`); el.append(s); });
+    const off = rows.filter((r) => r.x == null || r.x < 50).length;
+    if (off) { const s = document.createElement('span'); s.textContent = `${off} not shown (own half or no location)`; el.append(s); }
+  });
+
+  // horizontal bar helper
+  const hbars = (el, data, color, onClick) => {
+    el.replaceChildren();
+    if (!data.length) { el.textContent = '—'; return; }
+    const w = el.clientWidth || 300, rowH = 24;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${data.length * rowH + 4}`);
+    const tmp = svg.append('text').attr('font-size', 12);
+    const labW = Math.min(w * 0.45, d3.max(data, (d) => { tmp.text(d.label); return tmp.node().getComputedTextLength(); }) + 8);
+    const numW = 40; tmp.remove();
+    const x = d3.scaleLinear([0, d3.max(data, (d) => d.value)], [0, Math.max(10, w - labW - numW)]);
+    const g = svg.selectAll('g').data(data).join('g').attr('transform', (d, i) => `translate(0,${i * rowH + 2})`)
+      .style('cursor', onClick ? 'pointer' : null).on('click', onClick ? (ev, d) => onClick(d) : null);
+    g.append('text').attr('x', labW - 8).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end').attr('font-size', 12).attr('fill', 'var(--color-fg)').text((d) => d.label);
+    g.append('rect').attr('x', labW).attr('y', 4).attr('height', rowH - 8).attr('rx', 3).attr('width', (d) => Math.max(1, x(d.value))).attr('fill', (d) => d.color || color);
+    g.append('text').attr('x', (d) => labW + x(d.value) + 6).attr('y', rowH / 2).attr('dy', '0.35em').attr('font-size', 12).attr('fill', 'var(--color-fg-muted)').text((d) => window.mxFmt(d.value));
+  };
+  window.mxHbars = hbars;
+  const count = (rows, f) => d3.rollups(rows, (v) => v.length, f).filter((d) => d[0]).sort((a, b) => b[1] - a[1]);
+
+  dash.draw('zones', (el) => {
+    const r = window.mxFiltered(); if (!r) { el.replaceChildren(); el.textContent = '—'; return; }
+    const order = ['Six-yard box', 'Rest of penalty area', 'Outside the box'];
+    const c = new Map(count(r, window.mxZone));
+    hbars(el, order.map((k) => ({label: k, value: c.get(k) || 0})), dash.colors[4]);
+  });
+  dash.draw('bodies', (el) => {
+    const r = window.mxFiltered(); if (!r) { el.replaceChildren(); el.textContent = '—'; return; }
+    const labels = {'Left Foot': 'Left foot', 'Right Foot': 'Right foot', 'Head': 'Head', 'Other': 'Other'};
+    const c = new Map(count(r, (x) => x.body || 'Other'));
+    hbars(el, Object.keys(labels).map((k) => ({label: labels[k], value: c.get(k) || 0, color: window.mxBody[k]})).filter((d) => d.value));
+  });
+  dash.draw('opps', (el) => {
+    const r = window.mxFiltered(); if (!r) { el.replaceChildren(); el.textContent = '—'; return; }
+    hbars(el, count(r, (x) => x.opp).slice(0, 10).map(([k, v]) => ({label: k, value: v})), dash.colors[5], (d) => dash.setParams({opp: d.label}));
+  });
+  dash.draw('p-in', (el) => {
+    const r = window.mxFiltered(); if (!r) { el.replaceChildren(); el.textContent = '—'; return; }
+    hbars(el, count(r.filter((x) => x.kind === 'Goal'), (x) => x.partner).slice(0, 10).map(([k, v]) => ({label: k, value: v})), dash.colors[0], (d) => dash.setParams({partner: d.label}));
+  });
+  dash.draw('p-out', (el) => {
+    const r = window.mxFiltered(); if (!r) { el.replaceChildren(); el.textContent = '—'; return; }
+    hbars(el, count(r.filter((x) => x.kind === 'Assist'), (x) => x.partner).slice(0, 10).map(([k, v]) => ({label: k, value: v})), dash.colors[1], (d) => dash.setParams({partner: d.label}));
+  });
+})();
+</script>
+
+<script>
+(() => {
+  // per-season stacked bars
+  dash.draw('seasons', (el) => {
+    el.replaceChildren();
+    const r = window.mxFiltered(); if (!r) { el.textContent = '—'; return; }
+    const seasons = [...new Set((dash.data('contributions').data || []).map((x) => x.season))].sort();
+    const data = seasons.map((s) => ({season: s, Goal: r.filter((x) => x.season === s && x.kind === 'Goal').length, Assist: r.filter((x) => x.season === s && x.kind === 'Assist').length}));
+    const w = el.clientWidth || 600, h = 250, m = {t: 10, r: 8, b: 46, l: 34};
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`);
+    const x = d3.scaleBand(seasons, [m.l, w - m.r]).padding(0.25);
+    const y = d3.scaleLinear([0, d3.max(data, (d) => d.Goal + d.Assist) || 1], [h - m.b, m.t]).nice();
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(-(w - m.l - m.r)).tickFormat(d3.format('d')))
+      .attr('font-size', null).attr('font-family', null).call((g) => { g.select('.domain').remove(); g.selectAll('line').attr('stroke', 'var(--cds-chart-grid)'); g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 11); });
+    const every = Math.ceil(seasons.length / Math.max(1, Math.floor((w - m.l) / 42)));
+    svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickSize(0).tickFormat((d, i) => i % every ? '' : d))
+      .attr('font-size', null).attr('font-family', null).call((g) => { g.select('.domain').attr('stroke', 'var(--cds-chart-axis)'); g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 11).attr('transform', 'translate(-6,8) rotate(-40)').attr('text-anchor', 'end'); });
+    const tip = document.createElement('div'); tip.className = 'mx-tip'; tip.hidden = true; el.append(tip);
+    const sel = dash.params().season;
+    const col = svg.append('g').selectAll('g').data(data).join('g').style('cursor', 'pointer')
+      .attr('opacity', (d) => !sel || d.season === sel ? 1 : 0.35)
+      .on('click', (ev, d) => dash.setParams({season: sel === d.season ? null : d.season}))
+      .on('mousemove', (ev, d) => {
+        tip.replaceChildren(); const a = document.createElement('div'); a.className = 'd'; a.textContent = d.season;
+        const b = document.createElement('div'); b.textContent = `${d.Goal} goals · ${d.Assist} assists`; tip.append(a, b); tip.hidden = false; window.mxPlace(el, tip, ev);
+      })
+      .on('mouseleave', () => { tip.hidden = true; });
+    col.append('rect').attr('x', (d) => x(d.season)).attr('width', x.bandwidth()).attr('y', (d) => y(d.Goal)).attr('height', (d) => y(0) - y(d.Goal)).attr('fill', dash.colors[0]).attr('rx', 2);
+    col.append('rect').attr('x', (d) => x(d.season)).attr('width', x.bandwidth()).attr('y', (d) => y(d.Goal + d.Assist)).attr('height', (d) => y(d.Goal) - y(d.Goal + d.Assist)).attr('fill', dash.colors[1]).attr('rx', 2);
+    const lg = d3.select(el).append('div').attr('class', 'mx-legend');
+    [['Goals', dash.colors[0]], ['Assists', dash.colors[1]]].forEach(([l, c]) => { const s = lg.append('span'); s.append('i').style('background', c); s.append('span').text(l); });
+  });
+
+  dash.draw('minutes', (el) => {
+    const r = window.mxFiltered(); if (!r) { el.replaceChildren(); el.textContent = '—'; return; }
+    const labels = ['1–15', '16–30', '31–45+', '46–60', '61–75', '76–90+', 'Extra time'];
+    const bucket = (x) => { const m = window.mxMin(x.minute); if (m == null) return null; const b = Math.floor(m); if (b > 90) return 6; if (b > 45 && b < 46) return 2; return Math.min(5, Math.max(0, Math.ceil(b / 15) - 1)); };
+    const n = labels.map(() => 0); let none = 0;
+    r.forEach((x) => { const b = bucket(x); if (b == null) none++; else n[b]++; });
+    window.mxHbars(el, labels.map((l, i) => ({label: l, value: n[i]})).filter((d, i) => i < 6 || d.value), dash.colors[2]);
+    if (none) { const p = document.createElement('div'); p.className = 'mx-legend'; p.textContent = `${none} without a recorded minute`; el.append(p); }
+  });
+
+  // table
+  const COLS = ['id', 'date', 'kind', 'team', 'comp', 'opp', 'venue', 'score', 'minute', 'body', 'gtype', 'partner', 'assist_type', 'xg', 'locsrc'];
+  const HIDE = new Set(['id', 'venue', 'xg', 'locsrc']);
+  const visible = () => {
+    const r = window.mxFiltered(); if (!r) return null;
+    const q = window.mxQuery;
+    let out = q ? r.filter((x) => COLS.some((c) => x[c] != null && String(x[c]).toLowerCase().includes(q))) : r.slice();
+    const {key, dir} = window.mxSort;
+    const val = (x) => key === 'minute' ? window.mxMin(x.minute) : x[key];
+    out.sort((a, b) => { const va = val(a), vb = val(b); if (va == null) return 1; if (vb == null) return -1; return (va < vb ? -1 : va > vb ? 1 : a.id - b.id) * dir; });
+    return out;
+  };
+  dash.draw('rows', (tb) => {
+    const r = visible(); tb.replaceChildren(); if (!r) return;
+    const frag = document.createDocumentFragment();
+    r.forEach((x) => {
+      const tr = document.createElement('tr');
+      COLS.forEach((c) => {
+        const td = document.createElement('td');
+        if (HIDE.has(c)) td.className = 'mx-hide-sm';
+        if (c === 'kind') td.className = 'k-' + x.kind;
+        td.textContent = x[c] == null ? '' : String(x[c]);
+        tr.append(td);
+      });
+      frag.append(tr);
+    });
+    tb.append(frag);
+  });
+  dash.draw('rowcount', (el) => { const r = visible(); el.textContent = r ? `${window.mxFmt(r.length)} rows` : '—'; });
+})();
+</script>
+
+<footer class="site-foot">
+  <span>Data: StatsBomb open data, Transfermarkt, Wikipedia, and public goal logs. See the repository README for sources and method.</span>
+  <span>Not affiliated with StatsBomb, Transfermarkt or FC Barcelona.</span>
+</footer>
+</main>
+</body>
+</html>

@@ -11,7 +11,7 @@ Every goal and assist Lionel Messi recorded in official matches for FC Barcelona
 
 Every match's goal and assist count agrees with Transfermarkt.
 
-**Interactive dashboard:** https://claude.ai/artifact/RRWasdybTgoi88fiqQ3m9h — filter by competition, season, opponent, teammate, body part or situation; see every goal and every La Liga assist on a pitch map; and browse the full table.
+**Interactive dashboard:** https://sterlingp2.github.io/messi-goal-contributions/dashboard/ — filter by competition, season, opponent, teammate, body part or situation; see every goal and every La Liga assist on a pitch map; and browse the full table. No account needed. It reads `data/messi_contributions.json` from this repository, so it always shows the published data; its source is in [`dashboard/`](dashboard/).
 
 Files: [`data/messi_contributions.csv`](data/messi_contributions.csv) and [`data/messi_contributions.json`](data/messi_contributions.json) hold the same rows.
 
@@ -63,7 +63,7 @@ Files: [`data/messi_contributions.csv`](data/messi_contributions.csv) and [`data
 
 ## Data and licensing
 
-**The MIT license in [`LICENSE`](LICENSE) covers the code only** (`src/`, `run.sh`). The files in `data/` are not licensed by this repository: they are facts compiled from the sources above, and any reuse is subject to those sources' own terms, including StatsBomb's attribution requirement. If you publish work built on `data/`, credit StatsBomb and Transfermarkt.
+**The MIT license in [`LICENSE`](LICENSE) covers the code only** (`src/`, `run.sh`, and `dashboard/` apart from `dashboard/lib/`, which holds d3 under its own ISC license). The files in `data/` are not licensed by this repository: they are facts compiled from the sources above, and any reuse is subject to those sources' own terms, including StatsBomb's attribution requirement. If you publish work built on `data/`, credit StatsBomb and Transfermarkt.
 
 ## Rebuilding the data
 

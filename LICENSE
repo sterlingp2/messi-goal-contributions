@@ -3,7 +3,8 @@ MIT License
 Copyright (c) 2026 sterlingp2
 
 This license covers the source code in this repository only (the files under
-src/ and run.sh). It does not cover the files under data/, which are derived
+src/, run.sh, and dashboard/ except dashboard/lib/, which contains d3 under
+its own ISC license, see dashboard/lib/d3-LICENSE.txt). It does not cover the files under data/, which are derived
 from third-party sources; see "Data and licensing" in README.md.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
