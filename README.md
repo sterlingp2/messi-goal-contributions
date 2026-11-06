@@ -69,13 +69,14 @@ Files: [`data/messi_contributions.csv`](data/messi_contributions.csv) and [`data
 
 Requires Python 3.9+ and git; no third-party Python packages.
 
-1. Save the Transfermarkt pages listed below from a browser (**Save Page As → Webpage, HTML only**) into `raw/transfermarkt/`. That folder is git-ignored and must never be committed.
-   - Messi's detailed stats page for each season, 2004/05 to 2020/21: `https://www.transfermarkt.com/lionel-messi/leistungsdatendetails/spieler/28003/saison/YEAR/plus/1` with `YEAR` = 2004 … 2020.
-   - Messi's national-team page, detailed view: `https://www.transfermarkt.com/lionel-messi/nationalmannschaft/spieler/28003/verein/3437/plus/1`.
-   - The match report of every match outside La Liga in which he has an assist, and of the La Liga matches the build reports as unresolved. Report links are on the stats pages (click the score).
+1. Save the Transfermarkt pages listed below from a browser into `raw/transfermarkt/`. That folder is git-ignored and must never be committed. File names don't matter.
+   - **Stats pages** (one per season, plus the national-team page). The table of matches on these pages loads only when you scroll to it, so a page saved straight away holds an empty frame. For each page: open it, **scroll down until the table of matches appears**, then **Save Page As → Webpage, Complete**. The browser also writes a `_files` folder next to each page; it can stay in `raw/transfermarkt/` or be deleted, as the build reads only the `.html` file.
+     - Messi's detailed stats page for each season, 2004/05 to 2020/21: `https://www.transfermarkt.com/lionel-messi/leistungsdatendetails/spieler/28003/saison/YEAR/plus/1` with `YEAR` = 2004 … 2020.
+     - Messi's national-team page, detailed view: `https://www.transfermarkt.com/lionel-messi/nationalmannschaft/spieler/28003/verein/3437/plus/1`.
+   - **Match reports** load fully without scrolling, so **Save Page As → Webpage, HTML only** is enough. You need the report of every match outside La Liga in which he has an assist, and of the La Liga matches the build reports as unresolved. Report links are on the stats pages (click the score).
 2. Run `./run.sh`. It downloads StatsBomb data, the pinned Wikipedia revisions and the two goal logs into `work/` (also git-ignored), then writes `data/`.
 
-The build prints a reconciliation summary; any La Liga match it cannot settle from StatsBomb's events is listed as unresolved and needs its match report.
+The build stops with an error naming the file if a stats page has no table of matches (saved before the table loaded) or if a season's page is missing. It then prints a reconciliation summary; any La Liga match it cannot settle from StatsBomb's events is listed as unresolved and needs its match report.
 
 ## Known gaps
 

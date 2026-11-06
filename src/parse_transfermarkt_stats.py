@@ -59,7 +59,18 @@ def parse(f, national):
 
     return out
 
-done = 0
+SEASONS = range(2004, 2021)  # 2004/05 to 2020/21
+SAVE_HELP = ('Open the page in a browser, scroll down until the table of matches appears, '
+             'then save it with "Save Page As > Webpage, Complete".')
+
+def fail(lines):
+    print('\nERROR: Transfermarkt stats pages are unusable:', file=sys.stderr)
+    for line in lines:
+        print('  - ' + line, file=sys.stderr)
+    print('\n' + SAVE_HELP, file=sys.stderr)
+    sys.exit(1)
+
+found, empty, empty_keys = {}, [], set()
 for f in sorted(glob.glob(RAW + '*.html')):
     head = open(f, encoding='utf-8', errors='replace').read(20000)
     url = re.search(r'og:url" content="([^"]*)"', head)
@@ -67,12 +78,29 @@ for f in sorted(glob.glob(RAW + '*.html')):
         continue
     url = url.group(1)
     if '/nationalmannschaft/' in url:
-        rows, name = parse(f, True), 'tm_arg.json'
+        key, name, national = 'national team', 'tm_arg.json', True
     elif '/leistungsdatendetails/' in url and re.search(r'/saison/(\d{4})', url):
-        rows, name = parse(f, False), 'club_%s.json' % re.search(r'/saison/(\d{4})', url).group(1)
+        year = int(re.search(r'/saison/(\d{4})', url).group(1))
+        key, name, national = year, 'club_%d.json' % year, False
     else:
         continue
+    rows = parse(f, national)
+    if not rows:
+        # The stats table is filled in by the page's scripts only after scrolling;
+        # a page saved before that holds the page frame and no match rows.
+        empty.append('%s (%s): the stats table has no match rows; the page was saved before the table loaded'
+                     % (os.path.basename(f), url))
+        empty_keys.add(key)
+        continue
+    found[key] = (name, rows)
+
+missing = ['season %d/%02d: no saved stats page' % (y, (y + 1) % 100) for y in SEASONS if y not in found and y not in empty_keys]
+if 'national team' not in found and 'national team' not in empty_keys:
+    missing.append('national team page: not found')
+if empty or missing:
+    fail(empty + missing)
+
+for key, (name, rows) in found.items():
     json.dump(rows, open(WORK + 'tm/' + name, 'w'), indent=0, ensure_ascii=False)
-    done += 1
     print(name, len(rows), 'matches')
-print(done, 'stats pages parsed')
+print(len(found), 'stats pages parsed')
